@@ -13,6 +13,7 @@ $light-primary-color: #7986CB;
 $lighter-primary-color: #9FA8DA;
 $lightest-primary-color: #C5CAE9;
 $white-primary-color: #E8EAF6;
+$white: lighten($white-primary-color, 50%);
 
 //HEADER + PROFILE PICTURE
 $header-cover-url: '../images/bg.jpg';
@@ -56,7 +57,7 @@ header {
 $social-button-size: 48px;
 $social-font-size: 21pt;
 $foreground-color:$primary-color;//black;
-$background-color:$white-primary-color;//white
+$background-color:$white;//white
 $shadow-color:$lighter-primary-color;//$foreground-color;
 $distance:6px;
 $cut-distance:3px;//$distance/4;
@@ -68,9 +69,10 @@ $strips-angle:45deg;//90deg;
 $animate:false;//true
 $fixed:false;//true
 
-.biography {
+section.biography {
   text-align: center;
   margin-top: 80px;
+  min-height: 100%;
 }
 .dashed-shadow{
   position:relative;
@@ -153,22 +155,95 @@ div.social {
     margin: 5px;
     border-radius: 50%;
     background-color: $primary-color;
-    color: $white-primary-color;
+    color: $white;
     font-size: $social-font-size;
   }
   div:hover {
     background-color: $dark-primary-color;
   }
-  div:last-child {
-    clear:both;
+}
+
+//timeline
+$timeline-width: 2px;
+$circle-size: 25px;
+$circle-year-size:60px;
+$offset-top: 30px;
+
+section.timeline {
+  position: relative;
+  background-color: $white-primary-color;
+  text-align: center;
+  h3 {
+    color: $light-primary-color;
+  }
+  hr.vertical-line {
+    position: absolute;
+    top: $offset-top;
+    bottom: 0;
+    left: 50%;
+    margin-left: -0.5*$timeline-width;
+    width: $timeline-width;
+    height: 100%;
+    background: $primary-color;
+  }
+  ul {
+    position: relative;
+    padding: 0;
+    color: $dark-primary-color;
+    margin: $offset-top 15% 0 15%;
+    list-style: none;
+    li {
+      width: 50%;
+      position: relative;
+      .circle{
+        border: 2px solid $white-primary-color;
+        position: absolute;
+        color: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        top:0;
+        height: $circle-size;
+        width: $circle-size;
+        border-radius: 50%;
+        background-color: $primary-color;
+      }
+      &.year {
+        width: $circle-year-size;
+        margin-left: auto;
+        margin-right: auto;
+        height: $circle-year-size;
+        .circle {
+          right: 0;
+          height: $circle-year-size;
+          width: $circle-year-size;
+        }
+      }
+      &.odd {
+        margin-left:0;
+        text-align:right;
+        padding-right: 2*$circle-size;
+        .circle{
+          right: 0;
+          margin-right: -0.5*$circle-size;
+        }
+      }
+      &.even {
+        .circle{
+          left: 0;
+          margin-left: -0.5*$circle-size;
+        }
+        padding-left: 2*$circle-size;
+        text-align: left;
+        margin-left:50%;
+      }
+    }
   }
 }
 
-
-
-
 body {
-  background-color: $white-primary-color;
+  background-color: $white;
 }
 
 nav {
