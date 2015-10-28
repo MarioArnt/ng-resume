@@ -12,6 +12,16 @@ body {
   background-color: $white;
 }
 
+$title-padding: 20px;
+$title-size: 60pt;
+
+h1 {
+  color: $primary-color;
+  padding: $title-padding 0;
+  font-family:'Cookie',cursive;
+  font-size: $title-size;
+}
+
 nav {
   position: fixed;
   top:0;

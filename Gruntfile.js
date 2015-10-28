@@ -31,11 +31,7 @@ module.exports = function(grunt) {
           pretty: true
         },
         files: {
-          'dist/index.html': 'app/index.jade',
-          'dist/templates/biography.html': 'app/views/biography.jade',
-          'dist/templates/header.html': 'app/views/header.jade',
-          'dist/templates/navbar.html': 'app/views/navbar.jade',
-          'dist/templates/timeline.html': 'app/views/timeline.jade'
+          'dist/index.html': 'app/index.jade'
         }
       }
     },
@@ -176,12 +172,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-bower-task');
 
   grunt.registerTask('default', [
-    'jshint:all',
-    'clean:dist',
-    'compass:prod',
-    'jade:templates',
-    'html2js:dist',
-    'uglify:dist'
+    'build'
   ]);
 
   grunt.registerTask('build', [
@@ -194,5 +185,4 @@ module.exports = function(grunt) {
     'copy:vendors',
     'concat:dist'
   ]);
-
 };

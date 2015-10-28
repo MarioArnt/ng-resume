@@ -1,5 +1,9 @@
 $social-button-size: 48px;
 $social-font-size: 21pt;
+$biography-offset: 180px;
+$full-name-text-size: 80pt;
+$social-offset: 30px;
+$social-button-margin: 5px;
 $foreground-color:$primary-color;
 $background-color:$white;
 $shadow-color:$lighter-primary-color;
@@ -14,8 +18,8 @@ $fixed:false;
 
 section.biography {
   text-align: center;
-  margin-top: $header-height + 80px;
-  min-height: 100%;
+  margin-top: $header-height;
+  min-height: calc(100vh);
 }
 .dashed-shadow{
   position:relative;
@@ -68,9 +72,10 @@ section.biography {
   color:$foreground-color;
   text-shadow:$cut-distance $cut-distance $background-color;
 }
+
 h1.name{
-  font-family:'Cookie',cursive;
-  font-size:80pt;
+  margin-top: $biography-offset;
+  font-size: $full-name-text-size;
 }
 
 h2.job {
@@ -83,7 +88,7 @@ color: $light-primary-color;
 }
 
 div.social {
-  margin-top: 30px;
+  margin-top: $social-offset;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -95,7 +100,7 @@ div.social {
     align-items: center;
     height: $social-button-size;
     width: $social-button-size;
-    margin: 5px;
+    margin: $social-button-margin;
     border-radius: 50%;
     background-color: $primary-color;
     color: $white;

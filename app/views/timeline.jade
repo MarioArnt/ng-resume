@@ -1,19 +1,23 @@
-section.timeline
-  h3 Timeline
+section.timeline(ng-controller="TimelineCtrl")
+  h1 Timeline
   hr.vertical-line
-  ul(ng-repeat="event in me.events")
-    li(ng-class="{even: $even, odd:$odd}")
-      div.circle(ng-switch="event.type")
+  ul
+    li(ng-repeat="event in me.events | orderBy:'(12*year)+month'" ng-class="{even: $even, odd:$odd}")
+      div.circle.circle-year(ng-if="me.events[$index-1].year !== event.year || $first")
+        | {{event.year}}
+      div.circle(ng-switch="event.type" ng-class="{newyear: (me.events[$index-1].year !== event.year || $first)}")
         i.mdi.mdi-certificate(ng-switch-when="diploma")
         i.mdi.mdi-bank(ng-switch-when="university")
         i.mdi.mdi-package-variant(ng-switch-when="project")
         i.mdi.mdi-briefcase(ng-switch-when="job")
-      h4 {{event.title}}
-      i(ng-if="event.period")
-        | {{event.period}}
-      p(ng-if="event.location")
-        i.mdi.mdi-map-marker
-        | {{event.location}}
-      p(ng-if="!event.location")
-      p(ng-if="event.details")
-        | {{event.details}}
+      div.event(ng-class="{newyear: (me.events[$index-1].year !== event.year || $first)}")
+        h4 {{event.title}}
+        i(ng-if="event.period")
+          | {{event.period}}
+        p(ng-if="event.location")
+          i.mdi.mdi-map-marker(ng-if="$even")
+          | {{event.location}}
+          i.mdi.mdi-map-marker(ng-if="$odd")
+        p(ng-if="!event.location")
+        p(ng-if="event.details")
+          | {{event.details}}
