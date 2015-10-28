@@ -1,0 +1,107 @@
+$social-button-size: 48px;
+$social-font-size: 21pt;
+$foreground-color:$primary-color;
+$background-color:$white;
+$shadow-color:$lighter-primary-color;
+$distance:6px;
+$cut-distance:3px;
+$strips-size:5px;
+$strips-ratio:50%;
+$strips-angle:45deg;
+
+$animate:false;
+$fixed:false;
+
+section.biography {
+  text-align: center;
+  margin-top: $header-height + 80px;
+  min-height: 100%;
+}
+.dashed-shadow{
+  position:relative;
+  top:$distance;
+  left:$distance;
+  display:inline-block;
+  color:$shadow-color;
+}
+@keyframes dash-animation{
+  0% {background-position:0 0};
+  100% {background-position:100% 0};
+}
+.dashed-shadow:before{
+  content:" ";
+  display:block;
+  position:absolute;
+  $bleeding-horizontal:10px;
+  $bleeding-vertical:0px;
+  top:-$bleeding-vertical - $distance;
+  left:-$bleeding-vertical - $distance;
+  bottom:-$bleeding-horizontal + $distance;
+  right:-$bleeding-horizontal + $distance;
+  z-index:1;
+  $color:$background-color;
+  $size:$strips-ratio/2;
+  $halfSize:$size/2;
+  $p1:$halfSize;
+  $p2:50%-$halfSize;
+  $p3:50%+$halfSize;
+  $p4:100%-$halfSize;
+  $transparent:transparentize($color,1);
+  @include background-image(linear-gradient($strips-angle,$color $p1, $transparent $p1, $transparent $p2,$color $p2, $color $p3, $transparent $p3, $transparent $p4, $color $p4));
+  background-size:$strips-size $strips-size;
+  @if($animate){
+    animation:dash-animation 30s infinite linear;
+  }
+  @if($fixed){
+    background-attachment:fixed;
+  }
+}
+.dashed-shadow:hover:before{
+  animation:dash-animation 30s infinite linear;
+}
+.dashed-shadow:after{
+  z-index:2;
+  content:attr(data-text);
+  position:absolute;
+  left:-$distance;
+  top:-$distance;
+  color:$foreground-color;
+  text-shadow:$cut-distance $cut-distance $background-color;
+}
+h1.name{
+  font-family:'Cookie',cursive;
+  font-size:80pt;
+}
+
+h2.job {
+margin-top: 0;
+color: $light-primary-color;
+}
+
+h3.location {
+color: $light-primary-color;
+}
+
+div.social {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  div {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: $social-button-size;
+    width: $social-button-size;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: $primary-color;
+    color: $white;
+    font-size: $social-font-size;
+  }
+  div:hover {
+    background-color: $dark-primary-color;
+  }
+}

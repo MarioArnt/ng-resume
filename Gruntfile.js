@@ -95,6 +95,7 @@ module.exports = function(grunt) {
       options: {
         sassDir: 'app/styles',
         cssDir: 'dist/css',
+        specify: 'app/styles/main.scss',
         generatedImagesDir: 'dist/img/generated',
         imagesDir: 'app/images',
         javascriptsDir: 'app/scripts',

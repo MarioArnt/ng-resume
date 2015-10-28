@@ -1,0 +1,36 @@
+$header-cover-url: '../images/bg.jpg';
+$profile-picture-url: '../images/pic.jpg';
+$header-height: 380px;
+$picture-height: 200px;
+$picture-offset: $header-height - $picture-height*0.5;
+header {
+  .overlay{
+    background-color: $primary-color;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: $header-height;
+  }
+  position: absolute;
+  top:0;
+  background-image: url($header-cover-url);
+  background-size: cover;
+  height: $header-height;
+  width: 100%;
+  border-bottom: 1px solid $primary-color;
+}
+
+.profile-picture{
+  background-image: url($profile-picture-url);
+  background-size: cover;
+  position: absolute;
+  top: $picture-offset;
+  left: 50%;
+  margin-left: -0.5*$picture-height;
+  border-radius: 50%;
+  height: $picture-height;
+  width: $picture-height;
+  border: 4px solid white;
+}
