@@ -1,4 +1,4 @@
-angular.module('marioCvApp')
+angular.module('ngResume')
 .controller('MainCtrl', function ($scope, $http) {
   'use strict';
   $scope.me = null;

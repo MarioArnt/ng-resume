@@ -1,4 +1,4 @@
-angular.module('marioCvApp', [
+angular.module('ngResume', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
