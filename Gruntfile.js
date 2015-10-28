@@ -121,12 +121,28 @@ module.exports = function(grunt) {
     },
 
     copy: {
-      main: {
+      images: {
         files: [{
           expand: true,
           cwd: 'app/images',
           src: ['**'],
           dest: 'dist/images'
+        }]
+      },
+      data: {
+        files: [{
+          expand: true,
+          cwd: 'app/data',
+          src: ['**'],
+          dest: 'dist/data'
+        }]
+      },
+      vendors: {
+        files: [{
+          expand: true,
+          cwd: 'bower_components',
+          src: ['**'],
+          dest: 'dist/vendors'
         }]
       }
     },
@@ -173,7 +189,9 @@ module.exports = function(grunt) {
     'clean:dist',
     'compass:dist',
     'jade:templates',
-    'copy:main',
+    'copy:images',
+    'copy:data',
+    'copy:vendors',
     'concat:dist'
   ]);
 

@@ -1,39 +1,25 @@
 doctype html
-html.no-js(lang="en")
+html.no-js(lang="en" ng-app="marioCvApp" ng-controller="MainCtrl")
   head
     meta(charset="utf-8")
-    title {{full-name}} | Interactive résumé
+    title {{me.fullName}} | Interactive résumé
     meta(name="description" content="")
     meta(name="viewport" content="width=device-width")
-    // Place favicon.ico and apple-touch-icon.png in the root directory
-    // build:css(.) styles/vendor.css
-    // bower:css 
-    // endbower 
-    // endbuild 
-    // build:css(.tmp) styles/main.css 
     link(rel="stylesheet" href="css/main.css")
-    // endbuild 
-    link(href="bower_components/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css")
+    link(href="vendors/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css")
     link(href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css')
-  body(ng-app="marioCvApp")
+  body
     <!--[if lt IE 7]>
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-   include ./views/header.jade
-   include ./views/biography.jade
-   include ./views/timeline.jade
-   // build:js(.) scripts/vendor.js 
-   // bower:js 
-   script(src="bower_components/angular/angular.js")
-   script(src="bower_components/angular-animate/angular-animate.js")
-   script(src="bower_components/angular-cookies/angular-cookies.js")
-   script(src="bower_components/angular-resource/angular-resource.js")
-   script(src="bower_components/angular-route/angular-route.js")
-   script(src="bower_components/angular-sanitize/angular-sanitize.js")
-   script(src="bower_components/angular-touch/angular-touch.js")
-   script(src="bower_components/paper/dist/paper-full.min.js")
-   // endbower 
-   // endbuild 
-   // build:js({.tmp,app}) scripts/scripts.js 
-   script(src="js/app.js")
-   // endbuild 
+    include ./views/header.jade
+    include ./views/biography.jade
+    include ./views/timeline.jade
+    script(src="vendors/angular/angular.js")
+    script(src="vendors/angular-animate/angular-animate.js")
+    script(src="vendors/angular-cookies/angular-cookies.js")
+    script(src="vendors/angular-resource/angular-resource.js")
+    script(src="vendors/angular-route/angular-route.js")
+    script(src="vendors/angular-sanitize/angular-sanitize.js")
+    script(src="vendors/angular-touch/angular-touch.js")
+    script(src="js/app.js")

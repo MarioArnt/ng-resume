@@ -1,7 +1,7 @@
 section.timeline
   h3 Timeline
   hr.vertical-line
-  ul(ng-repeat="event in events")
+  ul(ng-repeat="event in me.events")
     li(ng-class="{even: $even, odd:$odd}")
       div.circle(ng-switch="event.type")
         i.mdi.mdi-certificate(ng-switch-when="diploma")
@@ -13,6 +13,7 @@ section.timeline
         | {{event.period}}
       p(ng-if="event.location")
         i.mdi.mdi-map-marker
+        | {{event.location}}
       p(ng-if="!event.location")
       p(ng-if="event.details")
         | {{event.details}}
