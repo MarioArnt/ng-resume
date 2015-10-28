@@ -1,0 +1,18 @@
+section.timeline
+  h3 Timeline
+  hr.vertical-line
+  ul(ng-repeat="event in events")
+    li(ng-class="{even: $even, odd:$odd}")
+      div.circle(ng-switch="event.type")
+        i.mdi.mdi-certificate(ng-switch-when="diploma")
+        i.mdi.mdi-bank(ng-switch-when="university")
+        i.mdi.mdi-package-variant(ng-switch-when="project")
+        i.mdi.mdi-briefcase(ng-switch-when="job")
+      h4 {{event.title}}
+      i(ng-if="event.period")
+        | {{event.period}}
+      p(ng-if="event.location")
+        i.mdi.mdi-map-marker
+      p(ng-if="!event.location")
+      p(ng-if="event.details")
+        | {{event.details}}

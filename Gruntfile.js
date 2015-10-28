@@ -412,7 +412,35 @@ module.exports = function (grunt) {
         'svgmin'
       ]
     },
-
+    /*compile jade files into html
+    jade: {
+          compile: {
+              options: {
+                  client: false,
+                  pretty: true
+              },
+              files: [ {
+                cwd: "app",
+                src: "**//*.jade",
+                dest: "app/views",
+                expand: true,
+                ext: ".html"
+              } ]
+          },
+          index: {
+              options: {
+                  client: false,
+                  pretty: true
+              },
+              files: [ {
+                cwd: "app",
+                src: "app/index.jade",
+                dest: "app/index",
+                expand: true,
+                ext: ".html"
+              } ]
+          }
+      }, */
     // Test settings
     karma: {
       unit: {
@@ -422,6 +450,7 @@ module.exports = function (grunt) {
     }
   });
 
+  //grunt.loadNpmTasks('grunt-contrib-jade');
 
   grunt.registerTask('serve', 'Compile then start a connect web server', function (target) {
     if (target === 'dist') {
@@ -454,6 +483,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('build', [
     'clean:dist',
+    'jade:compile',
     'wiredep',
     'useminPrepare',
     'concurrent:dist',
