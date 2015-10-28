@@ -1,7 +1,4 @@
-'use strict';
-
-angular
-  .module('marioCvApp', [
+angular.module('marioCvApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
@@ -10,6 +7,7 @@ angular
     'ngTouch'
   ])
   .config(function ($routeProvider) {
+    'use strict';
     $routeProvider
       .when('/', {
         templateUrl: '/app/views/index',
