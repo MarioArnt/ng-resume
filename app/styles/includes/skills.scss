@@ -1,5 +1,17 @@
+$margin-skills: 15%;
+$circle-skill-size: 50px;
 section.skills {
-  h1 {
-    text-align: center;
+  margin: 0 $margin-skills;
+
+  li {
+    .circle-skill {
+      height: $circle-skill-size;
+      width: $circle-skill-size;
+      float: left;
+      border-radius: 50%;
+      margin-right: 20px;
+      background-color: $primary-color;
+    }
+
   }
 }

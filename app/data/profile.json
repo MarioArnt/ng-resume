@@ -125,12 +125,212 @@
       "details": "Data-science competition which aim to predict crimes category in San Francisco based on a 12 years dataset"
   }
 ],
-  "skills": [{
-    "id": 1,
-    "name": "Adobe Photoshop",
-    "category": "design",
-    "stars": 4
-    }],
+  "skills": [
+    {
+      "id": 1,
+      "title": "Web Development",
+      "skills": [
+        {
+        "id": 1,
+        "name": "HTML5",
+        "stars": 4
+        },
+        {
+        "id": 2,
+        "name": "CSS3",
+        "stars": 4
+        },
+        {
+        "id": 3,
+        "name": "Javascript",
+        "stars": 4
+        },
+        {
+        "id": 4,
+        "name": "PHP",
+        "stars": 3
+        },
+        {
+        "id": 5,
+        "name": "AngularJS",
+        "stars": 3
+        },
+        {
+        "id": 6,
+        "name": "ExpressJS",
+        "stars": 3
+        },
+        {
+        "id": 7,
+        "name": "Symfony",
+        "stars": 2
+        },
+        {
+        "id": 8,
+        "name": "Twitter Bootstrap",
+        "category": "frameworks",
+        "stars": 4
+        },
+        {
+        "id": 9,
+        "name": "Web Scrapping",
+        "stars": 3
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Software Develoment",
+      "skills": [
+        {
+        "id": 1,
+        "name": "C/C++",
+        "stars": 2
+        },
+        {
+        "id": 2,
+        "name": "Java",
+        "stars": 2
+        },
+        {
+        "id": 41,
+        "name": "Python",
+        "stars": 2
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Databases",
+      "skills": [
+        {
+        "id": 31,
+        "name": "MongoDB",
+        "stars": 2
+        },
+        {
+        "id": 32,
+        "name": "SQL",
+        "stars": 3
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Data Analytics",
+      "skills": [
+        {
+        "id": 1,
+        "name": "R",
+        "stars": 2
+        },
+        {
+        "id": 3,
+        "name": "Machine Learning",
+        "stars": 3
+        },
+        {
+        "id": 2,
+        "name": "Matlab/Octave",
+        "stars": 2
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Workflow",
+      "skills": [
+        {
+        "id": 2,
+        "name": "JIRA/Scrum Method",
+        "stars": 3
+        },
+        {
+        "id": 3,
+        "name": "Jenkins",
+        "stars": 2
+        },
+        {
+        "id": 1,
+        "name": "Git",
+        "stars": 4
+        },
+        {
+        "id": 4,
+        "name": "UML",
+        "category": "workflow",
+        "stars": 3
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Design",
+      "skills": [
+        {
+        "id": 1,
+        "name": "Adobe Photoshop",
+        "stars": 4
+        },
+        {
+        "id": 2,
+        "name": "Adobe Illustrator",
+        "stars": 2
+        },
+        {
+        "id": 3,
+        "name": "Adobe InDesign",
+        "stars": 2
+        },
+        {
+        "id": 4,
+        "name": "Adobe After Effects",
+        "stars": 2
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Systems Administration",
+      "skills": [
+        {
+        "id": 3,
+        "name": "TCP/IP Networks",
+        "category": "systems adminsitration",
+        "stars": 2
+        },
+        {
+        "id": 2,
+        "name": "Servers Adminstration",
+        "category": "systems adminsitration",
+        "stars": 3
+        },
+        {
+        "id": 1,
+        "name": "Unix",
+        "category": "systems adminsitration",
+        "stars": 4
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Miscellaneous",
+      "skills": [
+        {
+        "id": 1,
+        "name": "LaTeX",
+        "category": "other",
+        "stars": 4
+        },
+        {
+        "id": 2,
+        "name": "PCRE Regex",
+        "stars": 4
+        }
+      ]
+    }
+  ],
   "projects": [{
     "title": "San Francisco Crime Classification",
     "skills": [1, 4, 8],

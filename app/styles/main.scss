@@ -2,30 +2,11 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 
 @import "../bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 @import "compass/css3/";
+
 @import "palettes/indigo.scss";
+
+@import "common.scss";
 @import "includes/header.scss";
 @import "includes/biography.scss";
 @import "includes/timeline.scss";
-
-body {
-  padding: 0;
-  background-color: $white;
-}
-
-$title-padding: 20px;
-$title-size: 60pt;
-
-h1 {
-  color: $primary-color;
-  padding: $title-padding 0;
-  font-family:'Cookie',cursive;
-  font-size: $title-size;
-}
-
-nav {
-  position: fixed;
-  top:0;
-  left:0;
-  width: 15%;
-  border: 1px solid black;
-}
+@import "includes/skills.scss";

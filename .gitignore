@@ -1,7 +1,5 @@
 node_modules
 dist
-app/*.html
-app/views/*.html
 .tmp
 .sass-cache
 bower_components
