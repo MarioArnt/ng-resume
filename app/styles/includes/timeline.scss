@@ -2,7 +2,9 @@ $timeline-width: 2px;
 $circle-size: 25px;
 $circle-year-size:60px;
 $circle-year-offset: 5px;
-$offset-top: 90px;
+$offset-timeline: 90px;
+$offset-events: 20px;
+$margin-events: 15%;
 
 section.timeline {
   position: relative;
@@ -13,25 +15,25 @@ section.timeline {
   }
   hr.vertical-line {
     position: absolute;
-    top: $offset-top;
-    bottom: 0;
+    top: $offset-timeline;
+    bottom: $offset-timeline;
     left: 50%;
     margin-left: -0.5*$timeline-width;
     width: $timeline-width;
-    height: 100%;
+    height: auto;
     background: $primary-color;
   }
   ul {
     position: relative;
-    padding: 0;
+    padding: 0 0 $offset-timeline 0;
     color: $dark-primary-color;
-    margin: $offset-top 15% 0 15%;
+    margin: $offset-events $margin-events 0 $margin-events;
     list-style: none;
     li {
       width: 50%;
       position: relative;
       .circle{
-        border: 2px solid $white-primary-color;
+        border: $timeline-width solid $white-primary-color;
         position: absolute;
         color: $white;
         display: flex;

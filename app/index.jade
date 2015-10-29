@@ -1,20 +1,14 @@
 doctype html
-html.no-js(lang="en" ng-app="ngResume" ng-controller="MainCtrl")
+html.no-js(lang="en" ng-app="ngResume")
   head
     meta(charset="utf-8")
-    title {{me.fullName}} | Interactive résumé
     meta(name="description" content="")
     meta(name="viewport" content="width=device-width")
+    title(ng-if="!title") Loading...
+    title(ng-if="title" ng-bind="title")
     link(rel="stylesheet" href="css/main.css")
     link(href="vendors/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css")
     link(href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css')
-  body
-    <!--[if lt IE 7]>
-    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    include ./views/header.jade
-    include ./views/biography.jade
-    include ./views/timeline.jade
     script(src="vendors/angular/angular.js")
     script(src="vendors/angular-animate/angular-animate.js")
     script(src="vendors/angular-cookies/angular-cookies.js")
@@ -23,3 +17,10 @@ html.no-js(lang="en" ng-app="ngResume" ng-controller="MainCtrl")
     script(src="vendors/angular-sanitize/angular-sanitize.js")
     script(src="vendors/angular-touch/angular-touch.js")
     script(src="js/app.js")
+  body
+    <!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    ng-view
+    div(ng-show="loadingView")
+      h1 Loading
