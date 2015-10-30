@@ -133,47 +133,61 @@
         {
         "id": 1,
         "name": "HTML5",
+        "icon": "tech-html5-text",
         "stars": 4
         },
         {
         "id": 2,
         "name": "CSS3",
+        "icon": "tech-css3",
         "stars": 4
         },
         {
         "id": 3,
         "name": "Javascript",
+        "icon": "tech-javascript",
         "stars": 4
         },
         {
         "id": 4,
         "name": "PHP",
+        "icon": "tech-php-elephant",
         "stars": 3
         },
         {
         "id": 5,
         "name": "AngularJS",
+        "icon": "tech-angular-outline",
         "stars": 3
         },
         {
         "id": 6,
         "name": "ExpressJS",
+        "icon": "tech-express",
+        "stars": 3
+        },
+        {
+        "id": 7,
+        "name": "NodeJS",
+        "icon": "tech-node-js",
         "stars": 3
         },
         {
         "id": 7,
         "name": "Symfony",
+        "icon": "tech-symfony",
         "stars": 2
         },
         {
         "id": 8,
         "name": "Twitter Bootstrap",
-        "category": "frameworks",
+        "icon": "tech-bootstrap",
         "stars": 4
         },
         {
         "id": 9,
         "name": "Web Scrapping",
+        "icon": "tech-tag-search",
         "stars": 3
         }
       ]
@@ -185,16 +199,19 @@
         {
         "id": 1,
         "name": "C/C++",
+        "icon": "tech-c-cpp",
         "stars": 2
         },
         {
         "id": 2,
         "name": "Java",
+        "icon": "tech-java",
         "stars": 2
         },
         {
         "id": 41,
         "name": "Python",
+        "icon": "tech-python",
         "stars": 2
         }
       ]
@@ -206,11 +223,13 @@
         {
         "id": 31,
         "name": "MongoDB",
+        "icon": "tech-mongo",
         "stars": 2
         },
         {
         "id": 32,
         "name": "SQL",
+        "icon": "tech-db",
         "stars": 3
         }
       ]
@@ -222,16 +241,19 @@
         {
         "id": 1,
         "name": "R",
+        "icon": "tech-r",
         "stars": 2
         },
         {
         "id": 3,
         "name": "Machine Learning",
+        "icon": "tech-brain",
         "stars": 3
         },
         {
         "id": 2,
         "name": "Matlab/Octave",
+        "icon": "tech-maths-function",
         "stars": 2
         }
       ]
@@ -243,22 +265,25 @@
         {
         "id": 2,
         "name": "JIRA/Scrum Method",
+        "icon": "tech-jira",
         "stars": 3
         },
         {
         "id": 3,
         "name": "Jenkins",
+        "icon": "tech-jenkins",
         "stars": 2
         },
         {
         "id": 1,
         "name": "Git",
+        "icon": "tech-git",
         "stars": 4
         },
         {
         "id": 4,
         "name": "UML",
-        "category": "workflow",
+        "icon": "tech-compas",
         "stars": 3
         }
       ]
@@ -270,21 +295,25 @@
         {
         "id": 1,
         "name": "Adobe Photoshop",
+        "icon": "tech-photoshop",
         "stars": 4
         },
         {
         "id": 2,
         "name": "Adobe Illustrator",
+        "icon": "tech-illustrator",
         "stars": 2
         },
         {
         "id": 3,
         "name": "Adobe InDesign",
+        "icon": "tech-indesign",
         "stars": 2
         },
         {
         "id": 4,
-        "name": "Adobe After Effects",
+        "name": "Adobe After Effect",
+        "icon": "tech-after-effect",
         "stars": 2
         }
       ]
@@ -296,19 +325,19 @@
         {
         "id": 3,
         "name": "TCP/IP Networks",
-        "category": "systems adminsitration",
+        "icon": "mdi mdi-earth",
         "stars": 2
         },
         {
         "id": 2,
         "name": "Servers Adminstration",
-        "category": "systems adminsitration",
+        "icon": "tech-server",
         "stars": 3
         },
         {
         "id": 1,
         "name": "Unix",
-        "category": "systems adminsitration",
+        "icon": "tech-linux",
         "stars": 4
         }
       ]
@@ -320,12 +349,13 @@
         {
         "id": 1,
         "name": "LaTeX",
-        "category": "other",
+        "icon": "tech-tex",
         "stars": 4
         },
         {
         "id": 2,
         "name": "PCRE Regex",
+        "icon": "tech-regex-alt",
         "stars": 4
         }
       ]

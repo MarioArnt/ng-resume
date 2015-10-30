@@ -5,5 +5,7 @@ section.skills
     ul
       li(ng-repeat="skill in category.skills") 
         div.circle-skill
-        h4 {{skill.name}}
-        i {{skill.stars}}
+          i(class="{{skill.icon}}")
+        h5 {{skill.name}}
+        div.stars
+          div.unit(ng-repeat="i in [1, 2, 3, 4]" ng-class="{active: $index + 1 <= skill.stars}")

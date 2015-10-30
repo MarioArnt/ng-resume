@@ -6,7 +6,7 @@ section.timeline(ng-controller="TimelineCtrl")
       div.circle.circle-year(ng-if="me.events[$index-1].year !== event.year || $first")
         | {{event.year}}
       div.circle(ng-switch="event.type" ng-class="{newyear: (me.events[$index-1].year !== event.year || $first)}")
-        i.mdi.mdi-certificate(ng-switch-when="diploma")
+        i.tech-diploma(ng-switch-when="diploma")
         i.mdi.mdi-bank(ng-switch-when="university")
         i.mdi.mdi-package-variant(ng-switch-when="project")
         i.mdi.mdi-briefcase(ng-switch-when="job")
