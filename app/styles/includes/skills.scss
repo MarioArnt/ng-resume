@@ -6,39 +6,42 @@ section.skills {
     margin-bottom: 30px;
   }
   margin: 0 $margin-skills;
-  li {
-    width: 50%;
-    position: relative;
-    min-height: $circle-skill-size;
-    .circle-skill {
-      position: absolute;
-      top: 0;
-      left: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      align-content: center;
-      font-size: 21pt;
-      color: $white;
-      height: $circle-skill-size;
-      width: $circle-skill-size;
-      border-radius: 50%;
-      background-color: $primary-color;
-    }
-    h5 {
-      margin-left: $circle-skill-size + 10px;
-    }
-    .stars {
-      margin-left: $circle-skill-size + 10px;
-      .unit {
-        height:6px;
-        width:calc(25% - 6px);
-        margin-right: 6px;
-        float:left;
-        background-color: $lighter-primary-color;
-      }
-      .active {
+  ul {
+    padding: 0;
+    padding-right: 30px;
+    li {
+      position: relative;
+      min-height: $circle-skill-size;
+      .circle-skill {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        font-size: 21pt;
+        color: $white;
+        height: $circle-skill-size;
+        width: $circle-skill-size;
+        border-radius: 50%;
         background-color: $primary-color;
+      }
+      h5 {
+        margin-left: $circle-skill-size + 10px;
+      }
+      .stars {
+        margin-left: $circle-skill-size + 10px;
+        .unit {
+          height:6px;
+          width:calc(25% - 6px);
+          margin-right: 6px;
+          float:left;
+          background-color: $lighter-primary-color;
+        }
+        .active {
+          background-color: $primary-color;
+        }
       }
     }
   }

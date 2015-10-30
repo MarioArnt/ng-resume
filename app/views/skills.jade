@@ -1,11 +1,12 @@
 section.skills
   h1 Skills 
-  div(ng-repeat="category in me.skills")
-    h3  {{category.title}}
-    ul
-      li(ng-repeat="skill in category.skills") 
-        div.circle-skill
-          i(class="{{skill.icon}}")
-        h5 {{skill.name}}
-        div.stars
-          div.unit(ng-repeat="i in [1, 2, 3, 4]" ng-class="{active: $index + 1 <= skill.stars}")
+  div.skills-list
+    div.dontsplit(ng-repeat="category in me.skills" on-last-repeat)
+      h3  {{category.title}}
+      ul
+        li(ng-repeat="skill in category.skills") 
+          div.circle-skill
+            i(class="{{skill.icon}}")
+          h5 {{skill.name}}
+          div.stars
+            div.unit(ng-repeat="i in [1, 2, 3, 4]" ng-class="{active: $index + 1 <= skill.stars}")

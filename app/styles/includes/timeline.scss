@@ -1,6 +1,6 @@
 $timeline-width: 2px;
-$circle-size: 25px;
-$circle-year-size:60px;
+$circle-size: 50px;
+$circle-year-size:70px;
 $circle-year-offset: 5px;
 $offset-timeline: 90px;
 $offset-events: 20px;
@@ -43,6 +43,7 @@ section.timeline {
         top:0;
         height: $circle-size;
         width: $circle-size;
+        font-size: 16pt;
         border-radius: 50%;
         background-color: $primary-color;
         &.newyear {
