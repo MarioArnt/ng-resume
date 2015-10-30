@@ -126,6 +126,14 @@ module.exports = function(grunt) {
           dest: 'dist/images'
         }]
       },
+      fonts: {
+        files: [{
+          expand: true,
+          cwd: 'app/fonts',
+          src: ['./*'],
+          dest: 'dist/fonts'
+        }]
+      },
       data: {
         files: [{
           expand: true,
@@ -184,6 +192,7 @@ module.exports = function(grunt) {
     'copy:images',
     'copy:data',
     'copy:vendors',
+    'copy:fonts',
     'concat:dist'
   ]);
 };

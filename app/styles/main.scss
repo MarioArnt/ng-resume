@@ -5,7 +5,9 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 
 @import "palettes/indigo.scss";
 
-@import "common.scss";
+@import "includes/common.scss";
+@import "includes/fonts.scss";
+
 @import "includes/header.scss";
 @import "includes/biography.scss";
 @import "includes/timeline.scss";
