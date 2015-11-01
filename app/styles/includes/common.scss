@@ -1,13 +1,20 @@
+$title-padding: 20px;
+$title-size: 60pt;
+$section-border-width: 1px;
+
+
 body {
   padding: 0;
   background-color: $white;
+  color: darken($darkest-primary-color, 5);
 }
-
-$title-padding: 20px;
-$title-size: 60pt;
 
 ul {
   list-style: none;
+}
+
+section:not(.biography) {
+  border-top: $section-border-width dotted $lighter-primary-color;
 }
 
 h1 {
@@ -16,4 +23,8 @@ h1 {
   font-family:'Cookie',cursive;
   font-size: $title-size;
   text-align: center;
+}
+
+h3 {
+  color: $light-primary-color;
 }

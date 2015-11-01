@@ -1,8 +1,10 @@
 $margin-skills: 15%;
 $circle-skill-size: 50px;
+
+
 section.skills {
+  padding-bottom: 30px;
   h3 {
-    color: $light-primary-color;
     margin-bottom: 30px;
   }
   margin: 0 $margin-skills;

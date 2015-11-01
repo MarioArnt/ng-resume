@@ -2,7 +2,7 @@ section.timeline(ng-controller="TimelineCtrl")
   h1 Timeline
   hr.vertical-line
   ul
-    li(ng-repeat="event in me.events | orderBy:'(12*year)+month'" ng-class="{even: $even, odd:$odd}")
+    li.wow(ng-repeat="event in me.events | orderBy:'(12*year)+month'" ng-class="{even: $even, odd:$odd, slideInLeft:$even, slideInRight: $odd}")
       div.circle.circle-year(ng-if="me.events[$index-1].year !== event.year || $first")
         | {{event.year}}
       div.circle(ng-switch="event.type" ng-class="{newyear: (me.events[$index-1].year !== event.year || $first)}")

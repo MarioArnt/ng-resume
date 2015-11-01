@@ -247,7 +247,7 @@
         {
         "id": 3,
         "name": "Machine Learning",
-        "icon": "tech-brain",
+        "icon": "tech-brain-outline",
         "stars": 3
         },
         {
@@ -255,6 +255,36 @@
         "name": "Matlab/Octave",
         "icon": "tech-maths-function",
         "stars": 2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Embedded Systems",
+      "skills": [
+        {
+          "id": 1,
+          "name": "A51 Assembly Language",
+          "icon": "",
+          "stars": 2
+        },
+        {
+          "id": 2,
+          "name": "Raspberry",
+          "icon": "",
+          "stars": 2
+        },
+        {
+          "id": 1,
+          "name": "VHDL",
+          "icon": "",
+          "stars": 1
+        },
+        {
+          "id": 1,
+          "name": "Real-Time Computing",
+          "icon": "",
+          "stars": 2
         }
       ]
     },
@@ -281,10 +311,16 @@
         "stars": 4
         },
         {
-        "id": 4,
+        "id": 5,
         "name": "UML",
         "icon": "tech-compas",
         "stars": 3
+        },
+        {
+          "id": 4,
+          "name": "Grunt",
+          "icon": "tech-grunt",
+          "stars": 3
         }
       ]
     },

@@ -9,6 +9,7 @@ html.no-js(lang="en" ng-app="ngResume")
     link(rel="stylesheet" href="css/main.css")
     link(href="vendors/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css")
     link(href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css')
+    link(rel="stylesheet" href="vendors/wow/css/libs/animate.css")
     script(src="vendors/angular/angular.js")
     script(src="vendors/angular-animate/angular-animate.js")
     script(src="vendors/angular-cookies/angular-cookies.js")
@@ -18,6 +19,8 @@ html.no-js(lang="en" ng-app="ngResume")
     script(src="vendors/angular-touch/angular-touch.js")
     script(src="vendors/jquery/dist/jquery.min.js")
     script(src="vendors/jquery-columnizer/src/jquery.columnizer.min.js")
+    script(src="vendors/wow/dist/wow.min.js")
+    script new WOW().init();
     script(src="js/app.js")
   body
     <!--[if lt IE 7]>
