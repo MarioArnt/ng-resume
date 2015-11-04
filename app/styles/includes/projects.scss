@@ -1,4 +1,29 @@
 section.projects {
   background-color: $white-primary-color;
   padding: 0 15%;
+  ul {
+    padding: 0;
+    li {
+      float: left;
+      margin-left: 5px;
+      .circle-project {
+        height: 25px;
+        cursor: pointer;
+        width: 25px;
+        border-radius: 50%;
+        background-color: $primary-color;
+        color: $white-primary-color;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+      }
+      .circle-project:hover {
+        background-color: $darker-primary-color;
+      }
+    }
+  }
+  p.details {
+    clear: left;
+  }
 }

@@ -2,6 +2,7 @@ $header-cover-url: '../images/bg.jpg';
 $profile-picture-url: '../images/pic.jpg';
 $header-height: 380px;
 $picture-height: 200px;
+$download-button-offset: 10px;
 $picture-offset: $header-height - $picture-height*0.5;
 header {
   .overlay{
@@ -13,8 +14,20 @@ header {
     right: 0;
     height: $header-height;
   }
-  position: absolute;
-  top:0;
+  .btn-group {
+    z-index: 3;
+    position: absolute;
+    bottom: $download-button-offset;
+    right: $download-button-offset;
+    button.btn.btn-default {
+      border-radius: 0;
+      color: $darker-primary-color;
+      &:hover {
+        background-color: $white-primary-color;
+      }
+    }
+  }
+  position: relative;
   background-image: url($header-cover-url);
   background-size: cover;
   height: $header-height;

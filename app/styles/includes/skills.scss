@@ -14,6 +14,7 @@ section.skills {
     li {
       position: relative;
       min-height: $circle-skill-size;
+      cursor: pointer;
       .circle-skill {
         position: absolute;
         top: 0;
@@ -39,10 +40,18 @@ section.skills {
           width:calc(25% - 6px);
           margin-right: 6px;
           float:left;
-          background-color: $lighter-primary-color;
+          background-color: $lightest-primary-color;
         }
         .active {
           background-color: $primary-color;
+        }
+      }
+      &:hover {
+        .active {
+          background-color: $darker-primary-color;
+        }
+        .circle-skill {
+          background-color: $darker-primary-color;
         }
       }
     }

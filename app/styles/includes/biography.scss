@@ -18,8 +18,6 @@ $fixed:false;
 
 section.biography {
   text-align: center;
-  margin-top: $header-height;
-  min-height: calc(100vh);
 }
 .dashed-shadow{
   position:relative;
@@ -107,6 +105,6 @@ div.social {
     font-size: $social-font-size;
   }
   div:hover {
-    background-color: $dark-primary-color;
+    background-color: $darker-primary-color;
   }
 }

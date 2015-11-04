@@ -6,7 +6,8 @@ var app = angular.module('ngResume', [
   'ngResource',
   'ngRoute',
   'ngSanitize',
-  'ngTouch'
+  'ngTouch',
+  'mgcrea.ngStrap'
 ]);
 
 app.config(['$routeProvider', function($routeProvider) {

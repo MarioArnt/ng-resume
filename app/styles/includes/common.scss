@@ -7,14 +7,18 @@ body {
   padding: 0;
   background-color: $white;
   color: darken($darkest-primary-color, 5);
+  overflow-x: hidden;
 }
 
 ul {
   list-style: none;
 }
 
-section:not(.biography) {
-  border-top: $section-border-width dotted $lighter-primary-color;
+section {
+  min-height: calc(100vh);
+  &:not(.biography) {
+    border-top: $section-border-width dotted $lighter-primary-color;
+  }
 }
 
 h1 {
