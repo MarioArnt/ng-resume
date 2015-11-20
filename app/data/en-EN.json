@@ -1,7 +1,22 @@
 {
+  "lang": "en",
   "fullName": "Mario Arnautou-Pages",
   "job": "IT Engineering Student",
   "location": "Evry, France",
+  "cv": [
+    {
+      "text": "English",
+      "href": "download/cv/en"
+    },
+    {
+      "text": "French",
+      "href": "download/cv/fr"
+    },
+    {
+      "text": "Spanish",
+      "href": "download/cv/es"
+    }
+  ],
   "social": [
   {
     "name": "github",

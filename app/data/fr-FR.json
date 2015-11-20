@@ -1,7 +1,22 @@
 {
+  "lang": "fr",
   "fullName": "Mario Arnautou-Pages",
   "job": "Etudiant en génie des télécommunication",
   "location": "Evry, France",
+  "cv": [
+    {
+      "text": "Français",
+      "href": "download/cv/fr"
+    },
+    {
+      "text": "Anglais",
+      "href": "download/cv/en"
+    },
+    {
+      "text": "Espagnol",
+      "href": "download/cv/es"
+    }
+  ],
   "social": [
   {
     "name": "github",
@@ -31,98 +46,119 @@
 "events": [
   {
       "type": "diploma",
-      "title": "Baccalauréat",
+      "title": "Obtention du Baccalauréat Scientifique.",
       "month": 7,
       "year": 2010,
-      "period": "July 2010",
+      "period": "Juillet 2010",
       "location": "Pontcharra-sur-Bréda, France",
-      "details": "I obtained sciences baccalauréat speciality Biology and Geology with highest honors"
+      "details": "Option Science et Vie de la Terre, mention Très bien"
   },
   {
       "type": "university",
-      "title": "Champollion High School Entrance",
+      "title": "Entrée en classe préparatoire",
       "month": 9,
       "year": 2010,
-      "period": "September 2010",
+      "period": "Septembre 2010",
       "location": "Grenoble, France",
-      "details": "Intensive preparation for entrance exams to leading engineering schools. Provides a general scientific knowledge. Mathematics : Linear Algebra, Differential Analysis, Geometry Physics : Electromagnetism, Fluid Mechanics, Optics, Electronics, Thermodynamics, Mechanics Chemistry: Thermochemistry, Organic chemistry"
+      "details": "Option Physique et Chimie en deuxième année (PCSI/PC)",
+      "more": "Formation scientifique générale et intensive pour la préparation au concours des grandes écoles d’ingénieurs. Donne de solides bases en mathématiques, physique, chimie et sciences de l’ingénieur dans des domaines variés."
   },
   {
       "type": "diploma",
       "title": "Concours grandes écoles",
       "month": 4,
       "year": 2012,
-      "period": "April 2012 - August 2012",
-      "details": "Bachelor of Science (B.Sc.) equivalent. I was admissible at Centrale-Supelec, Mines-Telecom and CCP concourses, and I finally chose Telecom SudParis as my engineering school."
+      "period": "Avril 2012 - Août 2012",
+      "details": "Admissibilité aux concours Mines-Télécoms, Concours Commun Polytechniques et Centrale-Supéléc"
   },
   {
       "type": "university",
-      "title": "Telecom SudParis Entrance",
+      "title": "Entrée à Télécom SudParis",
       "month": 9,
       "year": 2012,
-      "period": "September 2012 - February 2016",
+      "period": "Septembre 2012 - Fevrier 2016",
       "location": "Evry, France",
-      "details": "Master of Engineering (M.Eng.) Telecom SudParis is a leading engineering school member of Mines-Telecom institute and Paris-Saclay University. The engineer's grade cursus is divided in four parts: Core courses (3 semestres), where general knowledge is provided in the following fields: - Mathematics, statistics and data analytics - Software Programmation (Java, C/C++) - Electronic, low-level programming - TCP/IP Networks - Electromagnetism, radiofrequency transmissions Optional courses (chosen by students) to discover new fields (1/2 semestre). I chose the following courses: - Low-level programming of autonomous systems - A.I., formal methods and genetic algorithms Specialised courses in Embedded Systems, and Internet of Things (3/2 semestres): - Real time programming - Radio Frequency Identification - Sensors micro-electronics A final 6-month internship"
+      "details": "Grande école d’ingénieur IT généraliste, membre de l’institut Mines-Télécoms et de l’Université Paris-Saclay",
+      "more": "<p>Déroulement du cursus :</p><ul><li>Tronc Commun (3 semestres) : Formation générale aux différents domaines utiles (Probabilités, Statistiques, Traitement de signal, Algorithmique, Programmation orienté objets, Analyse de données, Théorie de l’information, Electronique, Communications hyperfréquences)</li><li>Cours électifs (1 semestre) : Cours d’ouverture aux choix de l’étudiant. En ce qui me concerne, j’ai choisi les cours suivants : Algorithmique génétique, Méthodes formelles, Programmation bas niveau (langage assemblage) de systèmes autonomes, Principes physiques des capteurs électroniques, Identification radiofréquence. </li><li>Voie d’approfondissement (1 semestre) : Cours de spécialisation dans les domaines des systèmes embarqués, des objets communicants et de l’internet des objets : Conception de systèmes temps réel, ordonnancement, bus de communication (CAN, FlexRay, SPI, I2C), langage de description matériel (VHDL).</li><li>Stage de fin d’étude  (1 semestre)</li></ul>"
   },
   {
       "type": "project",
       "title": "Student Office Website Development",
       "month": 11,
       "year": 2012,
-      "period": "November 2012 - February 2013",
-      "details": "I developped the website of my team during the student office campaign. I used a Symfony-based PHP backend with a PostGreSQL database. For the front-end, I only used HTML5/CSS3 and Ajax request with jQuery"
+      "period": "Novembre 2012 - Fevrier 2013",
+      "details": "Lors de la campagne pour l’élection du nouveau Bureau des Elèves de Télécom SudParis, j’ai développé un site internet vitrine pour ma liste",
+      "more": "<a href=\"#\">Voir le projet</a>"
   },
   {
       "type": "job",
-      "title": "IT Teacher @ Centro de Formacion Integral para el Trabajo",
+      "title": "Enseignement de l’informatique",
       "month": 6,
       "year": 2013,
-      "period": "June 2013",
+      "period": "Juin 2013",
       "location": "Envigado, Colombia",
-      "details": "We organized IT workshop in a secondary school in Medellin suburbs. We taught class of web development (HTML/CSS and PHP/SQL) and Unix-based operating systems (Debian based linux distributions) in Spanish."
+      "details": "Dans le cadre du projet Gate, nous avons, avec trois camarades de Télécom SudParis, préparé et dispensé des cours de développement web et d’utilisation de Linux à des élèves du secondaire, en langue espagnole"
   },
   {
       "type": "job",
-      "title": "IT Technician @ Escuela de Ingeneria de Antioquia",
+      "title": "Stage de technicien informatique",
       "month": 7,
       "year": 2013,
-      "period": "July 2013 - August 2013",
+      "period": "Juillet 2013 - Août 2013",
       "location": "Medellin, Colombia",
-      "details": "Maintenance of the University Intranet with the IT department. Organization of conferences and classes about open source technologies."
+      "details": "Stage d’été au sein du département informatique de l’Ecole d’ingénieur d’Antioquia. Organisation de conférence et de cours sur le logiciel libre et maintenance du parc informatique"
   },
   {
       "type": "diploma",
-      "title": "Machine Learning MOOC - Stanford University",
+      "title": "Cours en ligne de Machine Learning",
       "month": 11,
       "year": 2014,
-      "period": "November 2014",
-      "details": "I followed a course of Machine learning on coursera. We learnt several technics of supervised and unsupervised machine learning, including Support Vector Machines, Neural Networks, Logistic and Linear regression K-Means, and Random Forests"
-  },
-  {
-      "type": "project",
-      "title": "Entrepreneurship Competition",
-      "month": 4,
-      "year": 2015,
-      "period": "April 2015",
-      "location": "Evry, France",
-      "details": "With two students in management and two other students in IT engineering, we particpate to a start-up creation challenge. We had a week to imagine a innovating company and work on the technical and financial aspects. We have done a 8-minutes thats explain the need that the company fills, the business model, and sell our project to investors. Our idea was to create a meta search engine of carpooling, train, bus and plane tickets to find the better price and recollect massive datasets on consumer preferences for analytics. Our project was qualified in semi finals (16 projects on 116)."
+      "period": "Novembre 2014",
+      "details": "Obtention d’un certificat de Machine Learning délivré par Stanford University après avoir suivi des cours en ligne et réalisé des projets de programmation. Apprentissage des techniques courantes de Machine Learning (SVM, K-Mean, Réseaux de Neurones)"
   },
   {
       "type": "job",
-      "title": "Full stack developer @ Linagora",
-      "month": 6,
+      "title": "Construction d’une voiture radiocommandé autonome",
+      "month": 1,
       "year": 2015,
-      "period": "June 2015 - Spetember 2015",
-      "location": "Paris, France",
-      "details": "Internship in Web Development. We built an open source enterprise social network OpenPaas using a MEAN stack (Mongodb, ExpressJS, AngularJS, NodeJS). I learnt a lot about team development and professional Agile workflow, using JIRA for bug tracking, STASH for code management and JENKINS for continuous integration. View project source code on github: https://github.com/linagora/openpaas-esn"
+      "period": "Janvier 2015",
+      "location": "Evry, France",
+      "details": "Asservissement en vitesse et en direction d’une voiture miniature à l’aide d’un microcontrôleur 8 bits, de capteurs et d’actionneurs"
   },
   {
       "type": "project",
-      "title": "Kaggle SF crime classification",
+      "title": "Projet Challenge d’entreprendre",
+      "month": 4,
+      "year": 2015,
+      "period": "Avril 2015",
+      "location": "Evry, France",
+      "details": "Projet de création de start-up dans le cadre d’une compétition d’entreprenariat de Telecom SudParis, Telecom Ecole de Management et l’ENSII. Définition d’un business model et écriture d’un executive summary. Qualification en demi-finale (16 projets sur 116)"
+  },
+  {
+      "type": "job",
+      "title": "Développeur Full-Stack @ Linagora",
+      "month": 6,
+      "year": 2015,
+      "period": "Juin 2015 - Spetembre 2015",
+      "location": "Paris, France",
+      "details": "Stage d’été en développement web. J’ai rejoint une équipe travaillant sur un réseau social d’entreprise utilisant une pile de développement full-JS (MEAN stack). Utilisation de méthodes agiles et d’outils d’intégration continue.",
+      "more": "There is more to say...."
+  },
+  {
+      "type": "project",
+      "title": "Projet de Recherche Cassiopée",
       "month": 10,
       "year": 2015,
-      "period": "October 2015 - January 2016",
-      "details": "Data-science competition which aim to predict crimes category in San Francisco based on a 12 years dataset"
+      "period": "Octobre 2015 - Janvier 2016",
+      "details": "Participation à une compétition de data science sur la plateforme Kaggle. Prédiction de la nature d’un délit commis à un San Francisco en s’appuyant sur 12 ans d’archive de la police"
+  },
+  {
+      "type": "project",
+      "title": "Projet de Fin d’Étude",
+      "month": 10,
+      "year": 2015,
+      "period": "Octobre 2015 - Janvier 2016",
+      "details": "Implémentation sur une Raspberry Pi d’un protocole de chiffrement asymétrique pour les systèmes contraints basé sur les codes correcteurs d’erreurs."
   }
 ],
   "skills": [

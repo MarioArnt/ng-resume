@@ -1,27 +1,42 @@
 {
+  "lang": "es",
   "fullName": "Mario Arnautou-Pages",
-  "job": "IT Engineering Student",
-  "location": "Evry, France",
+  "job": "Estudiante Ingeniero",
+  "location": "Evry, Francia",
+  "cv": [
+    {
+      "text": "Español",
+      "href": "download/cv/es"
+    },
+    {
+      "text": "Inglés",
+      "href": "download/cv/en"
+    },
+    {
+      "text": "Francés",
+      "href": "download/cv/fr"
+    }
+  ],
   "social": [
   {
     "name": "github",
-    "url": ""
+    "url": "https://github.com/MarioArnt"
   },
   {
     "name": "linkedin",
-    "url": ""
+    "url": "https://fr.linkedin.com/in/mario-arnautou-pages-722a51108"
   },
   {
     "name": "twitter",
-    "url": ""
+    "url": "https://twitter.com/marioarnt"
   },
   {
     "name": "google-plus",
-    "url": ""
+    "url": "https://plus.google.com/101220274442441634495"
   },
   {
     "name": "email",
-    "url": ""
+    "url": "#contact"
   },
   {
     "name": "phone",
@@ -31,98 +46,111 @@
 "events": [
   {
       "type": "diploma",
-      "title": "Baccalauréat",
+      "title": "Bachillerato científico",
       "month": 7,
       "year": 2010,
-      "period": "July 2010",
+      "period": "Julio 2010",
       "location": "Pontcharra-sur-Bréda, France",
-      "details": "I obtained sciences baccalauréat speciality Biology and Geology with highest honors"
+      "details": "Especialidad biología y geología. Obtenido con las máximas cualificaciones"
   },
   {
       "type": "university",
-      "title": "Champollion High School Entrance",
+      "title": "Entrada en clase preparatoria",
       "month": 9,
       "year": 2010,
-      "period": "September 2010",
+      "period": "Septiembre 2010",
       "location": "Grenoble, France",
-      "details": "Intensive preparation for entrance exams to leading engineering schools. Provides a general scientific knowledge. Mathematics : Linear Algebra, Differential Analysis, Geometry Physics : Electromagnetism, Fluid Mechanics, Optics, Electronics, Thermodynamics, Mechanics Chemistry: Thermochemistry, Organic chemistry"
-  },
-  {
-      "type": "diploma",
-      "title": "Concours grandes écoles",
-      "month": 4,
-      "year": 2012,
-      "period": "April 2012 - August 2012",
-      "details": "Bachelor of Science (B.Sc.) equivalent. I was admissible at Centrale-Supelec, Mines-Telecom and CCP concourses, and I finally chose Telecom SudParis as my engineering school."
+      "details": "Especialidad física y química. Las clases preparatorias científica son clases intensivas para preparar los concursos de admisión en las grandes escuelas de ingeniería francesas. Equivalente a una licencia de ciencias",
+      "more": "<p>Ofrece conocimientos científicos generales en los ámbitos siguientes:</p><ul><li>Matemáticas: algebra lineal, análisis diferencial, geometría</li><li>Física: Electromagnetismo, mecánica de fluidos, óptica, electrónica, termodinámica</li><li>Química: química orgánica, termoquímica</li></ul>"
   },
   {
       "type": "university",
-      "title": "Telecom SudParis Entrance",
+      "title": "Entrée à Télécom SudParis",
       "month": 9,
       "year": 2012,
-      "period": "September 2012 - February 2016",
+      "period": "Septiembre 2012 - Febrero 2016",
       "location": "Evry, France",
-      "details": "Master of Engineering (M.Eng.) Telecom SudParis is a leading engineering school member of Mines-Telecom institute and Paris-Saclay University. The engineer's grade cursus is divided in four parts: Core courses (3 semestres), where general knowledge is provided in the following fields: - Mathematics, statistics and data analytics - Software Programmation (Java, C/C++) - Electronic, low-level programming - TCP/IP Networks - Electromagnetism, radiofrequency transmissions Optional courses (chosen by students) to discover new fields (1/2 semestre). I chose the following courses: - Low-level programming of autonomous systems - A.I., formal methods and genetic algorithms Specialised courses in Embedded Systems, and Internet of Things (3/2 semestres): - Real time programming - Radio Frequency Identification - Sensors micro-electronics A final 6-month internship"
+      "details": "Grande escuela de ingeniería especializada en las tecnologías de las informaciones, miembro del instituto Mines-Télécom y de la Universidad Paris-Saclay",
+      "more": "<p>El plan de estudio académico se compone de 4 partes:</p><ul><li>El tronco común (3 semestres). Las bases técnicas están enseñadas a los estudiantes en numerosos ámbitos (Probabilidad, estadística, análisis de datos, procesamiento de señal, algorítmica, programación orientada a objetos, teoría de la información, electrónica, comunicaciones, redes TCP/IP, redes para los móviles)</li><li>Cursos opcionales de apertura, elegidos por los estudiantes (1/2 semestre). Elegí los cursos siguientes: programación bajo nivel en lenguaje ensamblador, método formal y algoritmos genéticos</li><li>Cursos de especialización. Elegí una especialidad en sistemas embebidos con los curos siguientes: programación en tiempo real, identificación por radio-frecuencia (RFID), principios físico de los sensores, lenguajes de descripción de circuitos (VHDL), buses de comunicación (CAN, FlexRay)</li><li>Una pasantilla de seis meses</li></ul>"
   },
   {
       "type": "project",
-      "title": "Student Office Website Development",
+      "title": "Desarrollo del sitio web de la oficina de los estudiantes",
       "month": 11,
       "year": 2012,
-      "period": "November 2012 - February 2013",
-      "details": "I developped the website of my team during the student office campaign. I used a Symfony-based PHP backend with a PostGreSQL database. For the front-end, I only used HTML5/CSS3 and Ajax request with jQuery"
+      "period": "Noviembre 2012 - Febrero 2013",
+      "details": "Durante las elecciones de la oficina de los estudiantes, desarrollé el sitio web escaparate de mi equipo",
+      "more": "<a href=\"#\">Voir le projet</a>"
   },
   {
       "type": "job",
-      "title": "IT Teacher @ Centro de Formacion Integral para el Trabajo",
+      "title": "Enseñanza de la informática",
       "month": 6,
       "year": 2013,
-      "period": "June 2013",
+      "period": "Junio 2013",
       "location": "Envigado, Colombia",
-      "details": "We organized IT workshop in a secondary school in Medellin suburbs. We taught class of web development (HTML/CSS and PHP/SQL) and Unix-based operating systems (Debian based linux distributions) in Spanish."
+      "details": "Con tres compañeros estudiantes, preparemos y enseñamos cursos en español sobre el desarrollo web y el uso de los sistemas operativo Linux en una escuela secundaria."
   },
   {
       "type": "job",
-      "title": "IT Technician @ Escuela de Ingeneria de Antioquia",
+      "title": "Técnico en informática",
       "month": 7,
       "year": 2013,
-      "period": "July 2013 - August 2013",
+      "period": "Julio 2013 - Agosto 2013",
       "location": "Medellin, Colombia",
-      "details": "Maintenance of the University Intranet with the IT department. Organization of conferences and classes about open source technologies."
+      "details": "Práctica de verano dentro del departamento de tecnologías de la información en la Escuela de Ingeniería de Antioquia. Las tareas principales fueron de organizar charlas y curos sobre las tecnologías libres (i.e. de código abierto) y el mantenimiento del parque informático."
   },
   {
       "type": "diploma",
-      "title": "Machine Learning MOOC - Stanford University",
+      "title": "Cursos en-línea de aprendizaje automático",
       "month": 11,
       "year": 2014,
-      "period": "November 2014",
-      "details": "I followed a course of Machine learning on coursera. We learnt several technics of supervised and unsupervised machine learning, including Support Vector Machines, Neural Networks, Logistic and Linear regression K-Means, and Random Forests"
-  },
-  {
-      "type": "project",
-      "title": "Entrepreneurship Competition",
-      "month": 4,
-      "year": 2015,
-      "period": "April 2015",
-      "location": "Evry, France",
-      "details": "With two students in management and two other students in IT engineering, we particpate to a start-up creation challenge. We had a week to imagine a innovating company and work on the technical and financial aspects. We have done a 8-minutes thats explain the need that the company fills, the business model, and sell our project to investors. Our idea was to create a meta search engine of carpooling, train, bus and plane tickets to find the better price and recollect massive datasets on consumer preferences for analytics. Our project was qualified in semi finals (16 projects on 116)."
+      "period": "Noviembre 2014",
+      "details": "Obtuve una certificación en aprendizaje automático entregado por la universidad de Stanford después de haber seguido cursos y hecho proyectos de programación. Aprendí numerosos algoritmos de aprendizaje automático supervisados y sin supervisión incluyendo las máquinas de vectores de soporte, algoritmos de agrupamiento y redes neurales artificiales."
   },
   {
       "type": "job",
-      "title": "Full stack developer @ Linagora",
-      "month": 6,
+      "title": "Desarrollo de un coche miniatura autónomo",
+      "month": 1,
       "year": 2015,
-      "period": "June 2015 - Spetember 2015",
-      "location": "Paris, France",
-      "details": "Internship in Web Development. We built an open source enterprise social network OpenPaas using a MEAN stack (Mongodb, ExpressJS, AngularJS, NodeJS). I learnt a lot about team development and professional Agile workflow, using JIRA for bug tracking, STASH for code management and JENKINS for continuous integration. View project source code on github: https://github.com/linagora/openpaas-esn"
+      "period": "Enero 2015",
+      "location": "Evry, France",
+      "details": "Ingeniería de control para un coche teledirigido gracias a un micro-controlador de 8 bits y numerosos sensores y actuadores. Hicimos un control de velocidad y de dirección para que el coche sigua de manera autónoma la pista de carrera."
   },
   {
       "type": "project",
-      "title": "Kaggle SF crime classification",
+      "title": "Proyecto de creación de empresa",
+      "month": 4,
+      "year": 2015,
+      "period": "Abril 2015",
+      "location": "Evry, France",
+      "details": "Participación a una competición de creación de empresa con dos otros estudiantes en ingeniería y dos estudiantes en administración. Tenemos una semana para imaginar una empresa innovadora y trabajar sobre los aspectos técnicos y financieros. Nuestro proyecto fue cualificado para las semifinales (16 proyectos sobre 116)"
+  },
+  {
+      "type": "job",
+      "title": "",
+      "month": 6,
+      "year": 2015,
+      "period": "Junio 2015 - Septiembre 2015",
+      "location": "Paris, France",
+      "details": "Practica de verano como desarrollador web. Con un equipo internacional, trabajamos sobre una red social de código abierto especialmente designado por las empresas. Utilizamos una pila de desarrollo MEAN (MongoDB, ExpressJS, AngularJS y NodeJS) y herramientas de trabajo en equipo, de integración continua y de desarrollo ágil. Fue una experiencia de programación en un contexto profesional muy enriquecedora",
+      "more": "There is more to say...."
+  },
+  {
+      "type": "project",
+      "title": "Projet de Recherche Cassiopée",
       "month": 10,
       "year": 2015,
-      "period": "October 2015 - January 2016",
-      "details": "Data-science competition which aim to predict crimes category in San Francisco based on a 12 years dataset"
+      "period": "Octobre 2015 - Janvier 2016",
+      "details": "Participation à une compétition de data science sur la plateforme Kaggle. Prédiction de la nature d’un délit commis à un San Francisco en s’appuyant sur 12 ans d’archive de la police"
+  },
+  {
+      "type": "project",
+      "title": "Projet de Fin d’Étude",
+      "month": 10,
+      "year": 2015,
+      "period": "Octobre 2015 - Janvier 2016",
+      "details": "Implémentation sur une Raspberry Pi d’un protocole de chiffrement asymétrique pour les systèmes contraints basé sur les codes correcteurs d’erreurs."
   }
 ],
   "skills": [
