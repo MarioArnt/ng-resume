@@ -9,7 +9,17 @@ app.get('/', function(req, res) {
 
 app.get('/download/cv/en', function(req, res){
   var file = __dirname + '/dl/CV-en.pdf';
-  res.download(file); // Set disposition and send it.
+  res.download(file);
+});
+
+app.get('/download/cv/fr', function(req, res){
+  var file = __dirname + '/dl/CV-fr.pdf';
+  res.download(file);
+});
+
+app.get('/download/cv/es', function(req, res){
+  var file = __dirname + '/dl/CV-es.pdf';
+  res.download(file);
 });
 
 app.listen(8080);
