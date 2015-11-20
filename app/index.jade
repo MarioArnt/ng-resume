@@ -8,7 +8,9 @@ html.no-js(lang="en" ng-app="ngResume")
     title(ng-if="title" ng-bind="title")
     link(href="vendors/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css")
     link(href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css')
+    link(rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons")
     link(rel="stylesheet" href="vendors/wow/css/libs/animate.css")
+    link(rel="stylesheet" href="vendors/material-design-lite/material.min.css")
     link(rel="stylesheet" href="css/main.css")
     script(src="vendors/angular/angular.js")
     script(src="vendors/angular-animate/angular-animate.js")
@@ -20,15 +22,17 @@ html.no-js(lang="en" ng-app="ngResume")
     script(src="vendors/jquery/dist/jquery.min.js")
     script(src="vendors/jquery-columnizer/src/jquery.columnizer.min.js")
     script(src="vendors/wow/dist/wow.min.js")
-    //script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js")
     script new WOW().init();
     script(src="vendors/angular-strap/dist/angular-strap.min.js")
     script(src="vendors/angular-strap/dist/angular-strap.tpl.min.js")
+    script(src="vendors/material-design-lite/material.min.js")
     script(src="js/app.js")
   body
     <!--[if lt IE 7]>
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     ng-view
-    div(ng-show="loadingView")
+    div(ng-hide="loadingFinished")
       h1 Loading
+      .horizontal-center
+        .mdl-progress.mdl-js-progress.mdl-progress__indeterminate
