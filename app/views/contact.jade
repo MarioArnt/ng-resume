@@ -1,0 +1,16 @@
+section.contact
+  h1 Contact
+  .form-group
+    .input-group
+      .input-group-addon
+        i.mdi.mdi-email
+      input.form-control(ng-model="mail.from" name="from" placeholder="yourmail@example.tld")
+  .form-group
+    .input-group
+      .input-group-addon
+        i.mdi.mdi-clipboard-outline
+      input.form-control(ng-model="mail.object" name="obj" placeholder="Object")
+  .form-group
+    textarea.form-control(ng-model="mail.body")
+  button.mdl-button.mdl-js-button.mdl-button--fab.mdl-js-ripple-effect(ng-click="sendMail()")
+    i.mdi.mdi-send

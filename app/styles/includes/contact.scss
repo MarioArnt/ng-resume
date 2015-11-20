@@ -1,0 +1,27 @@
+section.contact {
+  background-color: $primary-color;
+  padding: 0 15%;
+  h1 {
+    color: $white-primary-color;
+  }
+  .form-group {
+    .input-group {
+      .input-group-addon {
+        color:$darkest-primary-color;
+      }
+      input.form-control {
+        color:$darkest-primary-color;
+      }
+    }
+    textarea.form-control {
+      color:$darkest-primary-color;
+    }
+  }
+  .mdl-button.mdl-js-button.mdl-button--fab.mdl-js-ripple-effect {
+    background-color: $white-primary-color;
+    color: $darker-primary-color;
+    &:hover {
+      background-color: $lightest-primary-color;
+    }
+  }
+}
