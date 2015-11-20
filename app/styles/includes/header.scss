@@ -17,13 +17,25 @@ header {
   .btn-group {
     z-index: 3;
     position: absolute;
-    bottom: $download-button-offset;
-    right: $download-button-offset;
-    button.btn.btn-default {
-      border-radius: 0;
+    button {
+      background-color: $white;
       color: $darker-primary-color;
       &:hover {
         background-color: $white-primary-color;
+      }
+    }
+    &.cv {
+      bottom: $download-button-offset;
+      right: $download-button-offset;
+    }
+    &.lang {
+      bottom: $download-button-offset;
+      left: $download-button-offset;
+      button {
+        font-size: 10pt;
+        &.active {
+          background-color: $lightest-primary-color;
+        }
       }
     }
   }
