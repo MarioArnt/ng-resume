@@ -3,8 +3,9 @@
 angular.module('ngResume')
 .factory('profileService', ['$http', function($http) {
   var api = {
-    getProfile: function() {
-      var promise = $http({ method: 'GET', url: '../../data/profile.json' })
+    getProfile: function(profilePath) {
+
+      var promise = $http({ method: 'GET', url: '../../' + profilePath })
       .success(function(data) {
         return data;
       })

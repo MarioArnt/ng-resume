@@ -7,7 +7,8 @@ section.biography
     | {{me.location}}
   p.resume {{me.resume}}
   div.social
-      div(ng-repeat="network in me.social" ng-switch="network.name")
+    a(ng-repeat="network in me.social" href="{{network.url}}" target="_blank")
+      div(ng-switch="network.name")
         i.mdi.mdi-github-circle(ng-switch-when="github")
         i.mdi.mdi-linkedin(ng-switch-when="linkedin")
         i.mdi.mdi-twitter(ng-switch-when="twitter")
