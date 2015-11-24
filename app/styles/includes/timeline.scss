@@ -17,7 +17,6 @@ section.timeline {
     position: absolute;
     top: $offset-timeline;
     bottom: $offset-timeline;
-    left: 50%;
     margin-left: -0.5*$timeline-width;
     width: $timeline-width;
     height: auto;
@@ -29,8 +28,19 @@ section.timeline {
     margin: $offset-events $margin-events 0 $margin-events;
     list-style: none;
     li {
-      width: 50%;
       position: relative;
+      a.more {
+        cursor: pointer;
+        color: $primary-color;
+        i {
+          padding-right: 5px;
+        }
+      }
+      p.more-details {
+        ul, ol {
+          padding:0;
+        }
+      }
       .circle{
         border: $timeline-width solid $white-primary-color;
         position: absolute;
@@ -57,35 +67,68 @@ section.timeline {
         height: $circle-year-size;
         width: $circle-year-size;
       }
-      &.even {
-        margin-left:0;
-        text-align:right;
-        padding-right: 2*$circle-size;
-        .circle{
-          right: 0;
-          margin-right: -0.5*$circle-size;
-        }
-        .circle-year {
-          right: 0;
-          margin-right: -0.5*$circle-year-size;
-        }
-      }
-      &.odd {
-        .circle{
-          left: 0;
-          margin-left: -0.5*$circle-size;
-        }
-        .circle-year{
-          left: 0;
-          margin-left: -0.5*$circle-year-size;
-        }
-        padding-left: 2*$circle-size;
-        text-align: left;
-        margin-left:50%;
-      }
       .event{
         &.newyear {
           padding-top: $circle-year-size + $circle-year-offset;
+        }
+      }
+    }
+  }
+  @media (max-width: 992px) {
+    hr.vertical-line {
+      left: 15%;
+    }
+    ul {
+      li {
+        width: 100%;
+        &.odd, &.even {
+          .circle{
+            left: 0;
+            margin-left: -0.5*$circle-size;
+          }
+          .circle-year{
+            left: 0;
+            margin-left: -0.5*$circle-year-size;
+          }
+          padding-left: 2*$circle-size;
+          text-align: left;
+          margin-left:0;
+        }
+      }
+    }
+  }
+  @media (min-width: 993px) {
+    hr.vertical-line {
+      left: 50%;
+    }
+    ul {
+      li {
+        width: 50%;
+        &.even {
+          margin-left:0;
+          text-align:right;
+          padding-right: 2*$circle-size;
+          .circle{
+            right: 0;
+            margin-right: -0.5*$circle-size;
+          }
+          .circle-year {
+            right: 0;
+            margin-right: -0.5*$circle-year-size;
+          }
+        }
+        &.odd {
+          .circle{
+            left: 0;
+            margin-left: -0.5*$circle-size;
+          }
+          .circle-year{
+            left: 0;
+            margin-left: -0.5*$circle-year-size;
+          }
+          padding-left: 2*$circle-size;
+          text-align: left;
+          margin-left:50%;
         }
       }
     }

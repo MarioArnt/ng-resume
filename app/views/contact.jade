@@ -1,16 +1,20 @@
 section.contact
   h1 Contact
-  .form-group
-    .input-group
-      .input-group-addon
-        i.mdi.mdi-email
-      input.form-control(ng-model="mail.from" name="from" placeholder="yourmail@example.tld")
-  .form-group
-    .input-group
-      .input-group-addon
-        i.mdi.mdi-clipboard-outline
-      input.form-control(ng-model="mail.object" name="obj" placeholder="Object")
-  .form-group
-    textarea.form-control(ng-model="mail.body")
-  button.mdl-button.mdl-js-button.mdl-button--fab.mdl-js-ripple-effect(ng-click="sendMail()")
-    i.mdi.mdi-send
+  form(name="contactForm" ng-submit="sendMail(contactForm.$valid)" novalidate)
+    .form-group(ng-class="{ 'has-error' : contactForm.from.$invalid && !contactForm.from.$pristine, 'has-success': contactForm.from.$valid && !contactForm.from.$pristine}")
+      .input-group
+        .input-group-addon
+          i.mdi.mdi-email
+        input.form-control(ng-model="mail.from" type="email" name="from" required placeholder="yourmail@example.tld")
+      p(ng-show="contactForm.from.$invalid && !contactForm.from.$pristine" class="help-block") Please give a valid email
+    .form-group(ng-class="{'has-warning': emptyOptionalFields}")
+      .input-group
+        .input-group-addon
+          i.mdi.mdi-clipboard-outline
+        input.form-control(ng-model="mail.object" type="text" name="obj" placeholder="Object")
+      p(ng-show="emptyOptionalFields" class="help-block") Empty object, send anyway ?
+    .form-group(ng-class="{'has-warning': emptyOptionalFields}")
+      textarea.form-control(ng-model="mail.body")
+      p(ng-show="emptyOptionalFields" class="help-block") Empty content, send anyway ?
+    button.mdl-button.mdl-js-button.mdl-button--fab.mdl-js-ripple-effect(type="submit" ng-disabled="userForm.$invalid")
+      i.mdi.mdi-send

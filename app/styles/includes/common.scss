@@ -19,6 +19,7 @@ section {
   &:not(.biography) {
     border-top: $section-border-width dotted $lighter-primary-color;
   }
+  padding-bottom: 30px;
 }
 
 h1 {

@@ -21,3 +21,12 @@ section.timeline
         p(ng-if="!event.location")
         p(ng-if="event.details")
           | {{event.details}}
+        p(ng-if="event.more")
+          a(ng-if="!event.showMore" ng-click="event.showMore=true") 
+            i.mdi.mdi-plus-circle
+            | More details
+          a.more(ng-if="event.showMore" ng-click="event.showMore=false")
+            i.mdi.mdi-minus-circle
+            | Hide details
+        p.more-details(ng-if="event.showMore" ng-bind-html="event.more")
+            
