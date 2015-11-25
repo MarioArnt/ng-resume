@@ -12,12 +12,14 @@ angular.module('ngResume')
   angular.element($window).bind('resize', function () {
     if($('.dontsplit').parent().is('.column')) {
       $('.dontsplit').unwrap();
+      $('.profile-picture').css('top', $('header').height()-0.5*$('.profile-picture').height());
       columnizeSkills();
     }
   });
 
+  $('.profile-picture').css('top', $('header').height()-0.5*$('.profile-picture').height());
+
   function columnizeSkills() {
-    console.log($window.innerWidth);
     if($window.innerWidth < 768) {
       $('.skills-list').columnize({columns: 1, lastNeverTallest:true});
       return;

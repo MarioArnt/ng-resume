@@ -1,17 +1,19 @@
 $social-button-size: 48px;
 $social-font-size: 21pt;
-$biography-offset: 180px;
+$biography-offset: 15vmax;
 $full-name-text-size: 80pt;
 $social-offset: 30px;
 $social-button-margin: 5px;
 $foreground-color:$primary-color;
 $background-color:$white;
 $shadow-color:$lighter-primary-color;
-$distance:6px;
-$cut-distance:3px;
+$distance:1vmax;
+$cut-distance:0.5vmax;
 $strips-size:5px;
 $strips-ratio:50%;
 $strips-angle:45deg;
+$s-devices: 630px;
+$xxs-devices: 359px;
 
 $animate:false;
 $fixed:false;
@@ -34,8 +36,8 @@ section.biography {
   content:" ";
   display:block;
   position:absolute;
-  $bleeding-horizontal:10px;
-  $bleeding-vertical:0px;
+  $bleeding-horizontal:1vmax;
+  $bleeding-vertical:0vmax;
   top:-$bleeding-vertical - $distance;
   left:-$bleeding-vertical - $distance;
   bottom:-$bleeding-horizontal + $distance;
@@ -73,16 +75,21 @@ section.biography {
 
 h1.name{
   margin-top: $biography-offset;
-  font-size: $full-name-text-size;
+  font-size: 10vmax;
+  @media (max-width: $xxs-devices) {
+    font-size: 9.5vmax;
+  }
 }
 
 h2.job {
 margin-top: 0;
 color: $light-primary-color;
+font-size: 4vmax;
 }
 
 h3.location {
 color: $light-primary-color;
+font-size: 3vmax;
 }
 
 div.social {
@@ -103,6 +110,11 @@ div.social {
     background-color: $primary-color;
     color: $white;
     font-size: $social-font-size;
+    @media (max-width: $xxs-devices) {
+      font-size: 17pt;
+      height: 40px;
+      width: 40px;
+    }
   }
   div:hover {
     background-color: $darker-primary-color;

@@ -4,7 +4,6 @@ $circle-year-size:70px;
 $circle-year-offset: 5px;
 $offset-timeline: 90px;
 $offset-events: 20px;
-$margin-events: 15%;
 
 section.timeline {
   position: relative;
@@ -17,6 +16,7 @@ section.timeline {
     position: absolute;
     top: $offset-timeline;
     bottom: $offset-timeline;
+    margin-top: $offset-timeline;
     margin-left: -0.5*$timeline-width;
     width: $timeline-width;
     height: auto;
@@ -25,10 +25,11 @@ section.timeline {
   ul {
     position: relative;
     padding: 0 0 $offset-timeline 0;
-    margin: $offset-events $margin-events 0 $margin-events;
+    margin: $offset-events 0 0 0;
     list-style: none;
-    li {
+    & > li {
       position: relative;
+      padding-top: 20px;
       a.more {
         cursor: pointer;
         color: $primary-color;
@@ -38,7 +39,7 @@ section.timeline {
       }
       p.more-details {
         ul, ol {
-          padding:0;
+          margin:0;
         }
       }
       .circle{
@@ -56,16 +57,17 @@ section.timeline {
         border-radius: 50%;
         background-color: $primary-color;
         &.newyear {
-          top: $circle-year-size + $circle-year-offset + 0.25*$circle-size;
+          top: $circle-year-size + $circle-year-offset + 0.5*$circle-size - 5px;
           padding:0;
         }
         &:not(.newyear){
-          top: -5px;
+          top: 20px;
         }
       }
       .circle-year {
         height: $circle-year-size;
         width: $circle-year-size;
+        margin-top: -15px;
       }
       .event{
         &.newyear {
@@ -79,7 +81,7 @@ section.timeline {
       left: 15%;
     }
     ul {
-      li {
+      & > li {
         width: 100%;
         &.odd, &.even {
           .circle{
@@ -90,7 +92,7 @@ section.timeline {
             left: 0;
             margin-left: -0.5*$circle-year-size;
           }
-          padding-left: 2*$circle-size;
+          padding-left: $circle-size;
           text-align: left;
           margin-left:0;
         }
@@ -102,7 +104,7 @@ section.timeline {
       left: 50%;
     }
     ul {
-      li {
+      & > li {
         width: 50%;
         &.even {
           margin-left:0;

@@ -8,6 +8,7 @@ var app = angular.module('ngResume', [
   'ngSanitize',
   'ngTouch',
   'mgcrea.ngStrap'
+  //'angular-nicescroll'
 ]);
 
 app.config(['$routeProvider', function($routeProvider) {

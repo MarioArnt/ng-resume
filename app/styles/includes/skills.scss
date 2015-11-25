@@ -1,13 +1,15 @@
-$margin-skills: 15%;
 $circle-skill-size: 50px;
 
 
 section.skills {
-  padding-bottom: 30px;
   h3 {
     margin-bottom: 30px;
   }
-  margin: 0 $margin-skills;
+  margin: 0;
+  .skills-list {
+    width: 100%;
+    display: inline-block;
+  }
   ul {
     padding: 0;
     padding-right: 30px;
@@ -37,8 +39,8 @@ section.skills {
         margin-left: $circle-skill-size + 10px;
         .unit {
           height:6px;
-          width:calc(25% - 6px);
-          margin-right: 6px;
+          width:25%;
+          margin-right: 0;
           float:left;
           background-color: $lightest-primary-color;
         }

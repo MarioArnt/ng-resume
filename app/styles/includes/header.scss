@@ -1,9 +1,10 @@
 $header-cover-url: '../images/bg.jpg';
 $profile-picture-url: '../images/pic.jpg';
-$header-height: 380px;
-$picture-height: 200px;
+$header-height: 40vh;
+$picture-height: 25vmax;
 $download-button-offset: 10px;
-$picture-offset: $header-height - $picture-height*0.5;
+$xs-devices: 450px;
+
 header {
   .overlay{
     background-color: $primary-color;
@@ -24,17 +25,35 @@ header {
         background-color: $white-primary-color;
       }
     }
-    &.cv {
-      bottom: $download-button-offset;
-      right: $download-button-offset;
+    @media (max-width: $xs-devices) {
+      &.cv {
+        top: $download-button-offset;
+        right: $download-button-offset;
+      }
+      &.lang {
+        top: $download-button-offset;
+        left: $download-button-offset;
+        button {
+          font-size: 10pt;
+          &.active {
+            background-color: $lightest-primary-color;
+          }
+        }
+      }
     }
-    &.lang {
-      bottom: $download-button-offset;
-      left: $download-button-offset;
-      button {
-        font-size: 10pt;
-        &.active {
-          background-color: $lightest-primary-color;
+    @media (min-width: $xs-devices + 1px) {
+      &.cv {
+        bottom: $download-button-offset;
+        right: $download-button-offset;
+      }
+      &.lang {
+        bottom: $download-button-offset;
+        left: $download-button-offset;
+        button {
+          font-size: 10pt;
+          &.active {
+            background-color: $lightest-primary-color;
+          }
         }
       }
     }
@@ -51,7 +70,6 @@ header {
   background-image: url($profile-picture-url);
   background-size: cover;
   position: absolute;
-  top: $picture-offset;
   left: 50%;
   margin-left: -0.5*$picture-height;
   border-radius: 50%;

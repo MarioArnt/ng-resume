@@ -2,7 +2,9 @@ $title-padding: 20px;
 $title-size: 60pt;
 $section-border-width: 1px;
 
-
+html {
+  overflow-x: hidden;
+}
 body {
   padding: 0;
   background-color: $white;
@@ -14,12 +16,20 @@ ul {
   list-style: none;
 }
 
+a {
+  color: $primary-color;
+  cursor: pointer;
+}
+
 section {
   min-height: calc(100vh);
   &:not(.biography) {
     border-top: $section-border-width dotted $lighter-primary-color;
+    padding: 0 15% 30px 15%;
   }
-  padding-bottom: 30px;
+  &.biography{
+    padding-bottom: 30px;
+  }
 }
 
 h1 {
