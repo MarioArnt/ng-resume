@@ -10,6 +10,8 @@ var SECRET = "6Lcj0gATAAAAADGOzCmp3-W8wpcarZRueKoQERrs";
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(__dirname + '/dist'));
+app.set('trust proxy', true);
+app.use(express.logger('default'));
 
 app.get('/', function(req, res) {
     res.sendFile('./dist/index.html');
