@@ -51,6 +51,7 @@ app.post('/mail', function(req, res){
           res.json({"success": false, "error": "Internal server error"});
         }
         else{
+          console.log('Message sent: ' + info.response);
           res.status(200);
           res.json({"success": true});
         }
