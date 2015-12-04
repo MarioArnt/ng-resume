@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-section.biography
-  h1.dashed-shadow.name(data-text="{{full-name}}") {{full-name}}
-  h2.job {{job}}
-  h3.location
-    i.mdi.mdi-map-marker
-    | {{location}}
-  p.resume {{resume}}
-  div.social(ng-repeat="network in social")
-    div(ng-switch="network.name")
-      i.mdi.mdi-github-circle(ng-switch-when="github")
-      i.mdi.mdi-linkedin(ng-switch-when="linkedin")
-      i.mdi.mdi-twitter(ng-switch-when="twitter")
-      i.mdi.mdi-google-plus(ng-switch-when="google-plus")
-      i.mdi.mdi-email(ng-switch-when="email")
-      i.mdi.mdi-cellphone(ng-switch-when="phone")
-=======
 div.profile-picture
 section.biography
   h1.dashed-shadow.name(data-text="{{me.fullName}}") {{me.fullName}}
@@ -37,4 +20,3 @@ section.biography
           i.mdi.mdi-linkedin(ng-switch-when="linkedin")
           i.mdi.mdi-twitter(ng-switch-when="twitter")
           i.mdi.mdi-google-plus(ng-switch-when="google-plus")
->>>>>>> Gruntfile
