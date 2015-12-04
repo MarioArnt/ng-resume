@@ -6,6 +6,8 @@ var https = require('https');
 
 var app  = express();
 
+var SECRET = "6Lcj0gATAAAAADGOzCmp3-W8wpcarZRueKoQERrs";
+
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(__dirname + '/dist'));
 
@@ -43,19 +45,20 @@ app.post('/mail', function(req, res){
       }, function(error, info){
         if(error){
           console.log(error);
-          //error 2: Internal server error mail could not been sent, try again later
+          res.status(500);
+          res.json({"success": false, "error": "Internal server error"});
         }
         else{
-          console.log('Message sent: ' + info.response);
-          //success
+          res.status(200);
+          res.json({"success": true});
         }
       });
     } else {
-      //error 1: bad captcha
+      res.status(500);
+      res.json({"success": false, "error": "Bad captcha"});
     }
   });
 });
-var SECRET = "6Lcj0gATAAAAADGOzCmp3-W8wpcarZRueKoQERrs";
 
 function verifyRecaptcha(key, callback) {
   https.get("https://www.google.com/recaptcha/api/siteverify?secret=" + SECRET + "&response=" + key, function(res) {
@@ -75,4 +78,3 @@ function verifyRecaptcha(key, callback) {
   });
 }
 app.listen(8080);
-console.log('Magic happens on 8080');

@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('ngResume')
-.controller('MainCtrl', function ($scope, $anchorScroll, $location, $http, vcRecaptchaService, profile, $window, $rootScope) {
+.controller('MainCtrl', function ($scope, $anchorScroll, Notification, $location, $http, vcRecaptchaService, profile, $window, $rootScope) {
   $rootScope.loadingFinished = true;
   $scope.me = profile.data;
   $rootScope.title = $scope.me.fullName + ' | Interactive résumé';
@@ -79,9 +79,17 @@ angular.module('ngResume')
          }),
          headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
       }).then(function() {
-        console.log('success');
+        Notification.success({
+          message: 'Your email have been successfully sent',
+          title: 'Success',
+          positionX: 'center'
+        });
       }, function(){
-        console.log('failure');
+        Notification.error({
+          message: 'Your email could not be delivered',
+          title: 'Error while sending email',
+          positionX: 'center'
+        });
       });
     }
   };

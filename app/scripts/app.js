@@ -8,7 +8,8 @@ var app = angular.module('ngResume', [
   'ngSanitize',
   'ngTouch',
   'mgcrea.ngStrap',
-  'vcRecaptcha'
+  'vcRecaptcha',
+  'ui-notification'
 ]);
 
 app.config(['$routeProvider', function($routeProvider) {
