@@ -1,0 +1,13 @@
+section.skills
+  h1 Skills 
+  div.skills-list
+    div.dontsplit(ng-repeat="category in me.skills" on-last-repeat)
+      h3  {{category.title}}
+      ul
+        li(ng-repeat="skill in category.skills") 
+          div.circle-skill
+            i(ng-if="skill.icon" class="{{skill.icon}}")
+            i.mdi.mdi-star(ng-if="!skill.icon")
+          h5 {{skill.name}}
+          div.stars
+            div.unit.wow.fadeIn(ng-repeat="i in [0.2, 0.4, 0.6, 0.8]" ng-class="{active: $index + 1 <= skill.stars}" data-wow-delay="{{i}}s")

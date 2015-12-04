@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 section.biography
   h1.dashed-shadow.name(data-text="{{full-name}}") {{full-name}}
   h2.job {{job}}
@@ -13,3 +14,27 @@ section.biography
       i.mdi.mdi-google-plus(ng-switch-when="google-plus")
       i.mdi.mdi-email(ng-switch-when="email")
       i.mdi.mdi-cellphone(ng-switch-when="phone")
+=======
+div.profile-picture
+section.biography
+  h1.dashed-shadow.name(data-text="{{me.fullName}}") {{me.fullName}}
+  h2.job {{me.job}}
+  h3.location
+    i.mdi.mdi-map-marker
+    | {{me.location}}
+  p.resume {{me.resume}}
+  div.social
+    div.social-element(ng-repeat="network in me.social")
+      a(ng-if="network.anchor" ng-click="scrollTo(network.anchor)")
+        div.social-element
+          i.mdi.mdi-email
+      a(ng-if="network.modal" bs-modal="network.modal" data-html="true" data-placement="center")
+        div.social-element
+          i.mdi.mdi-cellphone
+      a(ng-if="network.url" href="{{network.url}}" target="_blank")
+        div.social-element(ng-switch="network.name")
+          i.mdi.mdi-github-circle(ng-switch-when="github")
+          i.mdi.mdi-linkedin(ng-switch-when="linkedin")
+          i.mdi.mdi-twitter(ng-switch-when="twitter")
+          i.mdi.mdi-google-plus(ng-switch-when="google-plus")
+>>>>>>> Gruntfile

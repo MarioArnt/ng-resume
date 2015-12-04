@@ -1,0 +1,61 @@
+$circle-skill-size: 50px;
+
+
+section.skills {
+  h3 {
+    margin-bottom: 30px;
+  }
+  margin: 0;
+  .skills-list {
+    width: 100%;
+    display: inline-block;
+  }
+  ul {
+    padding: 0;
+    padding-right: 30px;
+    li {
+      position: relative;
+      min-height: $circle-skill-size;
+      cursor: pointer;
+      .circle-skill {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        font-size: 21pt;
+        color: $white;
+        height: $circle-skill-size;
+        width: $circle-skill-size;
+        border-radius: 50%;
+        background-color: $primary-color;
+      }
+      h5 {
+        margin-left: $circle-skill-size + 10px;
+      }
+      .stars {
+        margin-left: $circle-skill-size + 10px;
+        .unit {
+          height:6px;
+          width:25%;
+          margin-right: 0;
+          float:left;
+          background-color: $lightest-primary-color;
+        }
+        .active {
+          background-color: $primary-color;
+        }
+      }
+      &:hover {
+        .active {
+          background-color: $darker-primary-color;
+        }
+        .circle-skill {
+          background-color: $darker-primary-color;
+        }
+      }
+    }
+  }
+}

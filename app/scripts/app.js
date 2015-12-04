@@ -1,21 +1,43 @@
 'use strict';
 
-angular
-  .module('marioCvApp', [
-    'ngAnimate',
-    'ngCookies',
-    'ngResource',
-    'ngRoute',
-    'ngSanitize',
-    'ngTouch'
-  ])
-  .config(function ($routeProvider) {
-    $routeProvider
-      .when('/', {
-        templateUrl: '/app/views/index',
-        controller: 'MainCtrl'
-      })
-      .otherwise({
-        redirectTo: '/'
-      });
+var app = angular.module('ngResume', [
+  'ngAnimate',
+  'ngCookies',
+  'ngResource',
+  'ngRoute',
+  'ngSanitize',
+  'ngTouch',
+  'mgcrea.ngStrap',
+  'vcRecaptcha'
+]);
+
+app.config(['$routeProvider', function($routeProvider) {
+  $routeProvider.when('/en', {
+    templateUrl: '../main.html',
+    controller: 'MainCtrl',
+    resolve: {
+      profile: function(profileService) {
+        return profileService.getProfile('data/en-EN.json');
+      }
+    }
   });
+  $routeProvider.when('/fr', {
+    templateUrl: '../main.html',
+    controller: 'MainCtrl',
+    resolve: {
+      profile: function(profileService) {
+        return profileService.getProfile('data/fr-FR.json');
+      }
+    }
+  });
+  $routeProvider.when('/es', {
+    templateUrl: '../main.html',
+    controller: 'MainCtrl',
+    resolve: {
+      profile: function(profileService) {
+        return profileService.getProfile('data/es-ES.json');
+      }
+    }
+  });
+  $routeProvider.otherwise({redirectTo: '/en'});
+}]);

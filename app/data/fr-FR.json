@@ -1,0 +1,590 @@
+{
+  "lang": "fr",
+  "fullName": "Mario Arnautou-Pages",
+  "job": "Etudiant en génie des télécommunication",
+  "location": "Evry, France",
+  "cv": [
+    {
+      "text": "Français",
+      "href": "download/cv/fr"
+    },
+    {
+      "text": "Anglais",
+      "href": "download/cv/en"
+    },
+    {
+      "text": "Espagnol",
+      "href": "download/cv/es"
+    }
+  ],
+  "social": [
+  {
+    "name": "github",
+    "url": "https://github.com/MarioArnt"
+  },
+  {
+    "name": "linkedin",
+    "url": "https://fr.linkedin.com/in/mario-arnautou-pages-722a51108"
+  },
+  {
+    "name": "twitter",
+    "url": "https://twitter.com/marioarnt"
+  },
+  {
+    "name": "google-plus",
+    "url": "https://plus.google.com/101220274442441634495"
+  },
+  {
+    "name": "email",
+    "anchor": "contact"
+  },
+  {
+    "name": "phone",
+    "modal": {
+      "title": "Call me",
+      "content": "<img src=\"images/phone.png\" />"
+    }
+  }
+],
+"events": [
+  {
+      "type": "diploma",
+      "title": "Obtention du Baccalauréat Scientifique.",
+      "month": 7,
+      "year": 2010,
+      "period": "Juillet 2010",
+      "location": "Pontcharra-sur-Bréda, France",
+      "details": "Option Science et Vie de la Terre, mention Très bien"
+  },
+  {
+      "type": "university",
+      "title": "Entrée en classe préparatoire",
+      "month": 9,
+      "year": 2010,
+      "period": "Septembre 2010",
+      "location": "Grenoble, France",
+      "details": "Option Physique et Chimie en deuxième année (PCSI/PC)",
+      "more": "Formation scientifique générale et intensive pour la préparation au concours des grandes écoles d’ingénieurs. Donne de solides bases en mathématiques, physique, chimie et sciences de l’ingénieur dans des domaines variés."
+  },
+  {
+      "type": "diploma",
+      "title": "Concours grandes écoles",
+      "month": 4,
+      "year": 2012,
+      "period": "Avril 2012 - Août 2012",
+      "details": "Admissibilité aux concours Mines-Télécoms, Concours Commun Polytechniques et Centrale-Supéléc"
+  },
+  {
+      "type": "university",
+      "title": "Entrée à Télécom SudParis",
+      "month": 9,
+      "year": 2012,
+      "period": "Septembre 2012 - Fevrier 2016",
+      "location": "Evry, France",
+      "details": "Grande école d’ingénieur IT généraliste, membre de l’institut Mines-Télécoms et de l’Université Paris-Saclay",
+      "more": "<p>Déroulement du cursus :</p><ol><li>Tronc Commun (3 semestres) : Formation générale aux différents domaines utiles (Probabilités, Statistiques, Traitement de signal, Algorithmique, Programmation orienté objets, Analyse de données, Théorie de l’information, Electronique, Communications hyperfréquences)</li><li>Cours électifs (1 semestre) : Cours d’ouverture aux choix de l’étudiant. En ce qui me concerne, j’ai choisi les cours suivants : Algorithmique génétique, Méthodes formelles, Programmation bas niveau (langage assemblage) de systèmes autonomes, Principes physiques des capteurs électroniques, Identification radiofréquence. </li><li>Voie d’approfondissement (1 semestre) : Cours de spécialisation dans les domaines des systèmes embarqués, des objets communicants et de l’internet des objets : Conception de systèmes temps réel, ordonnancement, bus de communication (CAN, FlexRay, SPI, I2C), langage de description matériel (VHDL).</li><li>Stage de fin d’étude  (1 semestre)</li></ol>"
+  },
+  {
+      "type": "project",
+      "title": "Student Office Website Development",
+      "month": 11,
+      "year": 2012,
+      "period": "Novembre 2012 - Fevrier 2013",
+      "details": "Lors de la campagne pour l’élection du nouveau Bureau des Elèves de Télécom SudParis, j’ai développé un site internet vitrine pour ma liste",
+      "anchor": "student-office-website"
+  },
+  {
+      "type": "job",
+      "title": "Enseignement de l’informatique",
+      "month": 6,
+      "year": 2013,
+      "period": "Juin 2013",
+      "location": "Envigado, Colombia",
+      "details": "Dans le cadre du projet Gate, nous avons, avec trois camarades de Télécom SudParis, préparé et dispensé des cours de développement web et d’utilisation de Linux à des élèves du secondaire, en langue espagnole"
+  },
+  {
+      "type": "job",
+      "title": "Stage de technicien informatique",
+      "month": 7,
+      "year": 2013,
+      "period": "Juillet 2013 - Août 2013",
+      "location": "Medellin, Colombia",
+      "details": "Stage d’été au sein du département informatique de l’Ecole d’ingénieur d’Antioquia. Organisation de conférence et de cours sur le logiciel libre et maintenance du parc informatique"
+  },
+  {
+      "type": "diploma",
+      "title": "Cours en ligne de Machine Learning",
+      "month": 11,
+      "year": 2014,
+      "period": "Novembre 2014",
+      "details": "Obtention d’un certificat de Machine Learning délivré par Stanford University après avoir suivi des cours en ligne et réalisé des projets de programmation. Apprentissage des techniques courantes de Machine Learning (SVM, K-Mean, Réseaux de Neurones)"
+  },
+  {
+      "type": "job",
+      "title": "Construction d’une voiture radiocommandé autonome",
+      "month": 1,
+      "year": 2015,
+      "period": "Janvier 2015",
+      "location": "Evry, France",
+      "details": "Asservissement en vitesse et en direction d’une voiture miniature à l’aide d’un microcontrôleur 8 bits, de capteurs et d’actionneurs",
+      "anchor": "autonomous-car"
+  },
+  {
+      "type": "project",
+      "title": "Projet Challenge d’entreprendre",
+      "month": 4,
+      "year": 2015,
+      "period": "Avril 2015",
+      "location": "Evry, France",
+      "details": "Projet de création de start-up dans le cadre d’une compétition d’entreprenariat de Telecom SudParis, Telecom Ecole de Management et l’ENSII. Définition d’un business model et écriture d’un executive summary. Qualification en demi-finale (16 projets sur 116)",
+      "anchor": "entrepreneurship-competition"
+  },
+  {
+      "type": "job",
+      "title": "Développeur Full-Stack @ Linagora",
+      "month": 6,
+      "year": 2015,
+      "period": "Juin 2015 - Spetembre 2015",
+      "location": "Paris, France",
+      "details": "Stage d’été en développement web. J’ai rejoint une équipe travaillant sur un réseau social d’entreprise utilisant une pile de développement full-JS (MEAN stack). Utilisation de méthodes agiles et d’outils d’intégration continue.",
+      "anchor": "openpaas-esn"
+  },
+  {
+      "type": "project",
+      "title": "Projet de Recherche Cassiopée",
+      "month": 10,
+      "year": 2015,
+      "period": "Octobre 2015 - Janvier 2016",
+      "details": "Participation à une compétition de data science sur la plateforme Kaggle. Prédiction de la nature d’un délit commis à un San Francisco en s’appuyant sur 12 ans d’archive de la police",
+      "anchor": "san-francisco"
+  },
+  {
+      "type": "project",
+      "title": "Projet de Fin d’Étude",
+      "month": 10,
+      "year": 2015,
+      "period": "Octobre 2015 - Janvier 2016",
+      "details": "Implémentation sur une Raspberry Pi d’un protocole de chiffrement asymétrique pour les systèmes contraints basé sur les codes correcteurs d’erreurs."
+  }
+],
+  "skills": [
+    {
+      "id": 1,
+      "title": "Web Development",
+      "skills": [
+        {
+        "id": 1,
+        "name": "HTML5",
+        "icon": "tech-html5-text",
+        "stars": 4
+        },
+        {
+        "id": 2,
+        "name": "CSS3",
+        "icon": "tech-css3",
+        "stars": 4
+        },
+        {
+        "id": 3,
+        "name": "Javascript",
+        "icon": "tech-javascript",
+        "stars": 4
+        },
+        {
+        "id": 4,
+        "name": "PHP",
+        "icon": "tech-php-elephant",
+        "stars": 3
+        },
+        {
+        "id": 5,
+        "name": "AngularJS",
+        "icon": "tech-angular-outline",
+        "stars": 3
+        },
+        {
+        "id": 6,
+        "name": "ExpressJS",
+        "icon": "tech-express",
+        "stars": 3
+        },
+        {
+        "id": 7,
+        "name": "NodeJS",
+        "icon": "tech-node-js",
+        "stars": 3
+        },
+        {
+        "id": 7,
+        "name": "Symfony",
+        "icon": "tech-symfony",
+        "stars": 2
+        },
+        {
+        "id": 8,
+        "name": "Twitter Bootstrap",
+        "icon": "tech-bootstrap",
+        "stars": 4
+        },
+        {
+        "id": 9,
+        "name": "Web Scrapping",
+        "icon": "tech-tag-search",
+        "stars": 3
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Software Develoment",
+      "skills": [
+        {
+        "id": 1,
+        "name": "C/C++",
+        "icon": "tech-c-cpp",
+        "stars": 2
+        },
+        {
+        "id": 2,
+        "name": "Java",
+        "icon": "tech-java",
+        "stars": 2
+        },
+        {
+        "id": 41,
+        "name": "Python",
+        "icon": "tech-python",
+        "stars": 2
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Databases",
+      "skills": [
+        {
+        "id": 31,
+        "name": "MongoDB",
+        "icon": "tech-mongo",
+        "stars": 2
+        },
+        {
+        "id": 32,
+        "name": "SQL",
+        "icon": "tech-db",
+        "stars": 3
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Data Analytics",
+      "skills": [
+        {
+        "id": 1,
+        "name": "R",
+        "icon": "tech-r",
+        "stars": 2
+        },
+        {
+        "id": 3,
+        "name": "Machine Learning",
+        "icon": "tech-brain-outline",
+        "stars": 3
+        },
+        {
+        "id": 2,
+        "name": "Matlab/Octave",
+        "icon": "tech-maths-function",
+        "stars": 2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Embedded Systems",
+      "skills": [
+        {
+          "id": 1,
+          "name": "A51 Assembly Language",
+          "icon": "",
+          "stars": 2
+        },
+        {
+          "id": 2,
+          "name": "Raspberry",
+          "icon": "",
+          "stars": 2
+        },
+        {
+          "id": 1,
+          "name": "VHDL",
+          "icon": "",
+          "stars": 1
+        },
+        {
+          "id": 1,
+          "name": "Real-Time Computing",
+          "icon": "",
+          "stars": 2
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Workflow",
+      "skills": [
+        {
+        "id": 2,
+        "name": "JIRA/Scrum Method",
+        "icon": "tech-jira",
+        "stars": 3
+        },
+        {
+        "id": 3,
+        "name": "Jenkins",
+        "icon": "tech-jenkins",
+        "stars": 2
+        },
+        {
+        "id": 1,
+        "name": "Git",
+        "icon": "tech-git",
+        "stars": 4
+        },
+        {
+        "id": 5,
+        "name": "UML",
+        "icon": "tech-compas",
+        "stars": 3
+        },
+        {
+          "id": 4,
+          "name": "Grunt",
+          "icon": "tech-grunt",
+          "stars": 3
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Design",
+      "skills": [
+        {
+        "id": 1,
+        "name": "Adobe Photoshop",
+        "icon": "tech-photoshop",
+        "stars": 4
+        },
+        {
+        "id": 2,
+        "name": "Adobe Illustrator",
+        "icon": "tech-illustrator",
+        "stars": 2
+        },
+        {
+        "id": 3,
+        "name": "Adobe InDesign",
+        "icon": "tech-indesign",
+        "stars": 2
+        },
+        {
+        "id": 4,
+        "name": "Adobe After Effect",
+        "icon": "tech-after-effect",
+        "stars": 2
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Systems Administration",
+      "skills": [
+        {
+        "id": 3,
+        "name": "TCP/IP Networks",
+        "icon": "mdi mdi-earth",
+        "stars": 2
+        },
+        {
+        "id": 2,
+        "name": "Servers Adminstration",
+        "icon": "tech-server",
+        "stars": 3
+        },
+        {
+        "id": 1,
+        "name": "Unix",
+        "icon": "tech-linux",
+        "stars": 4
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Miscellaneous",
+      "skills": [
+        {
+        "id": 1,
+        "name": "LaTeX",
+        "icon": "tech-tex",
+        "stars": 4
+        },
+        {
+        "id": 2,
+        "name": "PCRE Regex",
+        "icon": "tech-regex-alt",
+        "stars": 4
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+    "title": "San Francisco Crime Classification",
+    "anchor": "san-francisco",
+    "link": "http://kaggle.com/SF",
+    "skills": [
+      {
+      "name": "R",
+      "icon": "tech-r"
+      },
+      {
+      "name": "Machine Learning",
+      "icon": "tech-brain-outline"
+      },
+      {
+      "name": "Python",
+      "icon": "tech-python"
+      }
+    ],
+    "begin-date": "October 2015",
+    "end-date": "January 2016",
+    "details": "Avec un ami de Télécom SudParis nous partcipons à une compétition de Machine Learning sur la plateforme de data science kaggle. Le but du projet est de prédire la catégorie d'un délit qui a eu lieu à San Francsico en se basant sur 12 ans d'archive de la police. Les données dont nous disposons sont multiples et variées: coordonnées GPS, adresse exacte, date et heure et bien plus. Nous avons développé des scripts de visualisation spatiale et temporelle des données grâce au langage R et nous allons mettre en place, après avoir traité les données en amont, différentes techniques de machine learning supervisé et non-supervisé afin d'effectuer nos prédictions. Plus d'information sur la compétition <a href=\"https://www.kaggle.com/c/sf-crime/\">sur le site internet de Kaggle</a>"
+    },
+    {
+    "title": "Student Office Campaign Website",
+    "anchor": "student-office-website",
+    "link": "",
+    "skills": [
+      {
+      "name": "HTML5",
+      "icon": "tech-html5-text"
+      },
+      {
+      "name": "CSS3",
+      "icon": "tech-css3"
+      },
+      {
+      "name": "Javascript",
+      "icon": "tech-javascript"
+      },
+      {
+      "name": "PHP",
+      "icon": "tech-php-elephant"
+      },
+      {
+      "name": "Symfony",
+      "icon": "tech-symfony"
+      },
+      {
+      "name": "SQL",
+      "icon": "tech-db"
+      }
+    ],
+    "begin-date": "November 2012",
+    "end-date": "January 2013",
+    "details": "Lors de élections du Bureau des Elèves de Télécom SudParis, j'ai réalisé le site internet vitrine de notre liste. Les technologies utilisé sont PHP allié au framwork Symfony pour le backend, PostgreSQL comme SGBD et HTML5/CSS3 pour le frontend avec l'utilisation de la librairie jQuery pour l'interactivité côté client et les communications serveur asynchrones via des requêtes AJAX."
+    },
+    {
+    "title": "Autonomous Remote-Controlled Car",
+    "anchor": "autonomous-car",
+    "link": "",
+    "skills": [
+      {
+        "name": "A51 Assembly language",
+        "icon": ""
+      }
+    ],
+    "begin-date": "Fevrier 2015",
+    "end-date": "",
+    "details": "Dans le cadre d'un projet d'électronique embarquée et de programmation bas-niveau à Télécom SudParis, nous avons mis au point une voiture miniature autonome. La voiture, radiocommandée à la base, disposait d'un moteur et de servo-moteurs commandables par modulation de largeur d'impulsion (PWM). Nous avons asservi en vitesse et en direction la voiture afin qu'elle suive une piste de course. Des capteurs optiques permettaient de determiner la position de la voiture. L'information des capteurs était transmise à un micro-contrôlleur 8 bits calculant en temps rééls les actions à mener sur le moteur et les servomoteurs de direction. La programmation de notre algorithme d'asservissement à été effectué en langage d'assemblage."
+    },
+    {
+    "title": "Entrepreneurship Competition",
+    "link": "",
+    "anchor": "entrepreneurship-competition",
+    "skills": [
+      {
+        "name": "Photoshop",
+        "icon": "tech-photoshop"
+      },
+      {
+        "name": "After Effect",
+        "icon": "tech-after-effect"
+      },
+      {
+        "name": "InDesign",
+        "icon": "tech-indesign"
+      }
+    ],
+    "begin-date": "October 2015",
+    "end-date": "January 2016",
+    "details": "Participation à la compétition de création d'entreprises \"Challenge d'entreprendre\" de Télécom SudParis, Télécom Ecole de Management, et ENSIIE. Avec un équipe mixte, trois ingénieurs et deux managers, nous avons disposé d'une semaine pour imaginer un concept innovant débouchant sur la création d'une start-up économiquement viable. Notre idée à été de creer un comparateur de transport terrestre, regroupant bus, train et covoiturage, à l'instar de ce qui existe déjà pour le transport aérien. Nous avons travaillé sur le business model de l'entreprise et la communication auprès d'éventuels investisseurs en réalisant une vidéo de 8 minutes expliquant le besoin, le concept, l'état du marché, le contexte économique et le business plan. Notre projet à été qualifié pour les demi-finales parmis plus d'une centaine de projets."
+    },
+    {
+    "title": "OpenPaaS - Entreprise Social Network",
+    "anchor": "openpaas-esn",
+    "link": "http://open-paas.org/",
+    "skills": [
+      {
+        "name": "Javascript",
+        "icon": "tech-javascript"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "tech-mongo"
+      },
+      {
+        "name": "ExpressJS",
+        "icon": "tech-express"
+      },
+      {
+        "name": "AngularJS",
+        "icon": "tech-angular-outline"
+      },
+      {
+        "name": "NodeJS",
+        "icon": "tech-node-js"
+      },
+      {
+        "name": "HTML5",
+        "icon": "tech-html5"
+      },
+      {
+        "name": "CSS3",
+        "icon": "tech-css3"
+      },
+      {
+        "name": "Git",
+        "icon": "tech-git"
+      },
+      {
+        "name": "Jira",
+        "icon": "tech-jira"
+      },
+      {
+        "name": "Jenkins",
+        "icon": "tech-jenkins"
+      },
+      {
+        "name": "Server Adminstration",
+        "icon": "tech-server"
+      }
+    ],
+    "begin-date": "June 2015",
+    "end-date": "September 2015",
+    "details": "Le projet open-paas à l'ambition de rivaliser avec les plus grands acteurs commerciaux du réseau social d'entreprise. Entièrement open-source, le but est aussi pour les entreprises et les administrations de remettre la main sur le contrôle de leurs données. En plus des fonctions classique et essentielles pour la productivité en entreprise (calendrier, mail, contact), le produit met en place des concepts sociaux pour la collaboration: communautés, likes, commentaires, partages. De plus un système de recommendation abouti devrait aider la collaborateur à faire le tri des informations pertinentes pour lui. Enfin un service de visio-conférence directement dans le navigateur et sans plugin, <a href=\"http://hubl.in/\">hubl.in</a> lui est associé. Retrouvez le code source du <a href=\"https://github.com/linagora/openpaas-esn\">réseau social d'entreprise</a> et de <a href=\"https://github.com/linagora/hublin\">hubl.in</a> sur Github"
+    }
+    ]
+}

@@ -1,0 +1,12 @@
+section.projects
+  h1 Projects
+  div(ng-repeat="project in me.projects")
+    h3(id="{{project.anchor}}") {{project.title}}
+    ul
+      li(ng-repeat="skill in project.skills") 
+        div.circle-project(bs-tooltip="skill.tooltip")
+          i.mdi.mdi-star(ng-if="!skill.icon")
+          i(ng-class="skill.icon" ng-if="skill.icon")
+    p.details(ng-bind-html="project.details")
+
+  

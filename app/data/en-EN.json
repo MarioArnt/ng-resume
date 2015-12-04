@@ -1,0 +1,582 @@
+{
+  "lang": "en",
+  "fullName": "Mario Arnautou-Pages",
+  "job": "IT Engineering Student",
+  "location": "Evry, France",
+  "cv": [
+    {
+      "text": "English",
+      "href": "download/cv/en"
+    },
+    {
+      "text": "French",
+      "href": "download/cv/fr"
+    },
+    {
+      "text": "Spanish",
+      "href": "download/cv/es"
+    }
+  ],
+  "social": [
+  {
+    "name": "github",
+    "url": "https://github.com/MarioArnt"
+  },
+  {
+    "name": "linkedin",
+    "url": "https://fr.linkedin.com/in/mario-arnautou-pages-722a51108"
+  },
+  {
+    "name": "twitter",
+    "url": "https://twitter.com/marioarnt"
+  },
+  {
+    "name": "google-plus",
+    "url": "https://plus.google.com/101220274442441634495"
+  },
+  {
+    "name": "email",
+    "anchor": "contact"
+  },
+  {
+    "name": "phone",
+    "modal": {
+      "title": "Call me",
+      "content": "<img src=\"images/phone.png\" />"
+    }
+  }
+],
+"events": [
+  {
+      "type": "diploma",
+      "title": "Science Baccalaureate",
+      "month": 7,
+      "year": 2010,
+      "period": "July 2010",
+      "location": "Pontcharra-sur-Bréda, France",
+      "details": "French High School Diploma. Specialty Biology and Geology, obtained with highest honors"
+  },
+  {
+      "type": "university",
+      "title": "Preparatory class entrance",
+      "month": 9,
+      "year": 2010,
+      "period": "September 2010",
+      "location": "Grenoble, France",
+      "details": "Bachelor of Science equivalent. Specialized in Mathematics, Physics and Chemistry. Intensive preparation for entrance exams to French leading engineering schools",
+      "more": "<p>Provides a general scientific knowledge in the following fields:</p><li>- Mathematics : Linear Algebra, Differential Analysis, Geometry</li><li>- Physics : Electromagnetism, Fluid Mechanics, Optics, Electronics, Thermodynamics, Mechanics</li><li>- Chemistry: Thermochemistry, Organic chemistry</li></ul>"
+  },
+  {
+      "type": "university",
+      "title": "Telecom SudParis Entrance",
+      "month": 9,
+      "year": 2012,
+      "period": "September 2012 - February 2016",
+      "location": "Evry, France",
+      "details": "Engineer’s degree equivalent to a Master of Science in Information technologies. Telecom SudParis is leading engineering school member of Mines-Telecom institute and Paris-Saclay University.",
+      "more": "<p>The engineer’s degree academic curriculum is divided in four parts:</p><ol><li>Core courses (3 semesters), where general knowledge is provided in the following fields: Mathematics, statistics and data analytics, Software Programming (Java, C/C++), Electronic, low-level programming, TCP/IP Networks, Electromagnetism, radiofrequency transmissions, Information Theory. </li><li>Optional courses (chosen by students) to discover new fields (1/2 semester). I chose the following courses: Low-level programming of autonomous systems, A.I., formal methods and genetic algorithms</li><li>Specialized courses in Embedded Systems, and Internet of Things (3/2 semesters): Real time programming and scheduling, Radio Frequency Identification, Sensors physics, Hardware Description Language (VHDL), Communication bus (FlexRay, CAN)</li><li>A final 6-month internship</li></ol>"
+  },
+  {
+      "type": "project",
+      "title": "Development of the Student Office website",
+      "month": 11,
+      "year": 2012,
+      "period": "November 2012 - February 2013",
+      "details": "During the student office election campaign, I developed a showcase website for my team.",
+      "anchor": "student-office-website"
+  },
+  {
+      "type": "job",
+      "title": "IT Teaching @ Centro de Formacion Integral para el Trabajo",
+      "month": 6,
+      "year": 2013,
+      "period": "June 2013",
+      "location": "Envigado, Colombia",
+      "details": "As a part of a project for my school, three fellow students and myself have prepared and taught – in Spanish - courses about web development and Unix-based operating systems use for a secondary school."
+  },
+  {
+      "type": "job",
+      "title": "IT Technician @ Escuela de Ingeneria de Antioquia",
+      "month": 7,
+      "year": 2013,
+      "period": "July 2013 - August 2013",
+      "location": "Medellin, Colombia",
+      "details": "Summer internship within the IT department at the Antioquia Engineering School. Our main tasks were the organization of conferences and courses about open-source technologies and the maintenance of the computer park."
+  },
+  {
+      "type": "diploma",
+      "title": "Machine Learning MOOC - Stanford University",
+      "month": 11,
+      "year": 2014,
+      "period": "November 2014",
+      "details": "I obtained a Stanford University Machine learning certificate after having followed training course and done programming projects. I learned several algorithms of supervised and unsupervised machine learning including Support Vector Machines, K-Mean, and Neural Networks."
+  },
+  {
+      "type": "project",
+      "title": "Development of an autonomous miniature car",
+      "month": 4,
+      "year": 2015,
+      "period": "January 2015",
+      "location": "Evry, France",
+      "details": "Control engineering for a remote-controlled car thanks to an 8-bits microprocessor and various sensors and actuators. We performed a speed control and a direction control so that the car could autonomously follow a racing track.",
+      "anchor": "remote-controlled-car"
+  },
+  {
+      "type": "project",
+      "title": "Entrepreneurship Competition",
+      "month": 4,
+      "year": 2015,
+      "period": "April 2015",
+      "location": "Evry, France",
+      "details": "With two students in management and two other students in IT engineering, we participated to a start-up creation challenge. We had a week to imagine an innovating company and work on the technical and financial aspects. Our project was qualified in semifinals (16 projects on 116)",
+      "anchor": "entrepreneurship-competition"
+  },
+  {
+      "type": "job",
+      "title": "Full stack developer @ Linagora",
+      "month": 6,
+      "year": 2015,
+      "period": "June 2015 - Spetember 2015",
+      "location": "Paris, France",
+      "details": "Summer internship in web development. With an international team, we worked on an open-source enterprise social network using a MEAN stack (MongoDB, ExpressJS, AngularJS and NodeJS). Programming experience in professional environment using agile methodology and continuous integration tools.",
+      "anchor": "open-paas"
+  },
+  {
+      "type": "project",
+      "title": "Kaggle SF crime classification",
+      "month": 10,
+      "year": 2015,
+      "period": "October 2015 - January 2016",
+      "details": "With a fellow student, we participate to a data science competition on Kaggle. The aim of the competition is to predict a crime category given numerous parameters (geographic coordinates, date, time and so on). To achieve these predictions we use a 12-years dataset of police records."
+  },
+  {
+      "type": "project",
+      "title": "Engineer’s degree final project",
+      "month": 10,
+      "year": 2015,
+      "period": "October 2015 - January 2016",
+      "details": "Implement an asymmetric cyphering protocol on a Raspberry Pi and realize a benchmark. The algorithm is a Post-quantum cryptography algorithm based on errors detection and correction codes especially designed for constraint environment. "
+  }
+],
+  "skills": [
+    {
+      "id": 1,
+      "title": "Web Development",
+      "skills": [
+        {
+        "id": 1,
+        "name": "HTML5",
+        "icon": "tech-html5-text",
+        "stars": 4
+        },
+        {
+        "id": 2,
+        "name": "CSS3",
+        "icon": "tech-css3",
+        "stars": 4
+        },
+        {
+        "id": 3,
+        "name": "Javascript",
+        "icon": "tech-javascript",
+        "stars": 4
+        },
+        {
+        "id": 4,
+        "name": "PHP",
+        "icon": "tech-php-elephant",
+        "stars": 3
+        },
+        {
+        "id": 5,
+        "name": "AngularJS",
+        "icon": "tech-angular-outline",
+        "stars": 3
+        },
+        {
+        "id": 6,
+        "name": "ExpressJS",
+        "icon": "tech-express",
+        "stars": 3
+        },
+        {
+        "id": 7,
+        "name": "NodeJS",
+        "icon": "tech-node-js",
+        "stars": 3
+        },
+        {
+        "id": 7,
+        "name": "Symfony",
+        "icon": "tech-symfony",
+        "stars": 2
+        },
+        {
+        "id": 8,
+        "name": "Twitter Bootstrap",
+        "icon": "tech-bootstrap",
+        "stars": 4
+        },
+        {
+        "id": 9,
+        "name": "Web Scrapping",
+        "icon": "tech-tag-search",
+        "stars": 3
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Software Develoment",
+      "skills": [
+        {
+        "id": 1,
+        "name": "C/C++",
+        "icon": "tech-c-cpp",
+        "stars": 2
+        },
+        {
+        "id": 2,
+        "name": "Java",
+        "icon": "tech-java",
+        "stars": 2
+        },
+        {
+        "id": 41,
+        "name": "Python",
+        "icon": "tech-python",
+        "stars": 2
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Databases",
+      "skills": [
+        {
+        "id": 31,
+        "name": "MongoDB",
+        "icon": "tech-mongo",
+        "stars": 2
+        },
+        {
+        "id": 32,
+        "name": "SQL",
+        "icon": "tech-db",
+        "stars": 3
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Data Analytics",
+      "skills": [
+        {
+        "id": 1,
+        "name": "R",
+        "icon": "tech-r",
+        "stars": 2
+        },
+        {
+        "id": 3,
+        "name": "Machine Learning",
+        "icon": "tech-brain-outline",
+        "stars": 3
+        },
+        {
+        "id": 2,
+        "name": "Matlab/Octave",
+        "icon": "tech-maths-function",
+        "stars": 2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Embedded Systems",
+      "skills": [
+        {
+          "id": 1,
+          "name": "A51 Assembly Language",
+          "icon": "",
+          "stars": 2
+        },
+        {
+          "id": 2,
+          "name": "Raspberry",
+          "icon": "",
+          "stars": 2
+        },
+        {
+          "id": 2,
+          "name": "Arduino",
+          "icon": "",
+          "stars": 2
+        },
+        {
+          "id": 1,
+          "name": "VHDL",
+          "icon": "",
+          "stars": 1
+        },
+        {
+          "id": 1,
+          "name": "Real-Time Computing",
+          "icon": "",
+          "stars": 2
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Workflow",
+      "skills": [
+        {
+        "id": 2,
+        "name": "JIRA/Scrum Method",
+        "icon": "tech-jira",
+        "stars": 3
+        },
+        {
+        "id": 3,
+        "name": "Jenkins",
+        "icon": "tech-jenkins",
+        "stars": 2
+        },
+        {
+        "id": 1,
+        "name": "Git",
+        "icon": "tech-git",
+        "stars": 4
+        },
+        {
+        "id": 5,
+        "name": "UML",
+        "icon": "tech-compas",
+        "stars": 3
+        },
+        {
+          "id": 4,
+          "name": "Grunt",
+          "icon": "tech-grunt",
+          "stars": 3
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Design",
+      "skills": [
+        {
+        "id": 1,
+        "name": "Adobe Photoshop",
+        "icon": "tech-photoshop",
+        "stars": 4
+        },
+        {
+        "id": 2,
+        "name": "Adobe Illustrator",
+        "icon": "tech-illustrator",
+        "stars": 2
+        },
+        {
+        "id": 3,
+        "name": "Adobe InDesign",
+        "icon": "tech-indesign",
+        "stars": 2
+        },
+        {
+        "id": 4,
+        "name": "Adobe After Effect",
+        "icon": "tech-after-effect",
+        "stars": 2
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Systems Administration",
+      "skills": [
+        {
+        "id": 3,
+        "name": "TCP/IP Networks",
+        "icon": "mdi mdi-earth",
+        "stars": 2
+        },
+        {
+        "id": 2,
+        "name": "Servers Adminstration",
+        "icon": "tech-server",
+        "stars": 3
+        },
+        {
+        "id": 1,
+        "name": "Unix",
+        "icon": "tech-linux",
+        "stars": 4
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Miscellaneous",
+      "skills": [
+        {
+        "id": 1,
+        "name": "LaTeX",
+        "icon": "tech-tex",
+        "stars": 4
+        },
+        {
+        "id": 2,
+        "name": "PCRE Regex",
+        "icon": "tech-regex-alt",
+        "stars": 4
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+    "title": "San Francisco Crime Classification",
+    "link": "http://kaggle.com/SF",
+    "skills": [
+      {
+      "name": "R",
+      "icon": "tech-r"
+      },
+      {
+      "name": "Machine Learning",
+      "icon": "tech-brain-outline"
+      },
+      {
+      "name": "Python",
+      "icon": "tech-python"
+      }
+    ],
+    "begin-date": "October 2015",
+    "end-date": "January 2016",
+    "details": "With a friend from Telecom SudParis, we particpate to a machine learning competition on the data-science website kaggle. The aim of the competition is to predict the category of a crime given several parameters such as the location, the precise datetime or the police station that investigate on it. To feed our machine-learning system we have access to 12 years police records. We have now visualized the data thanks to R language and we will use several unsupervised and supervised machine learning technics to predict the crime category including Support vectors machines, Neural Networks and Random Forrest. Find more information about the competition on the <a href=”https://www.kaggle.com/c/sf-crime/”>Kaggle website<a>."
+    },
+    {
+    "title": "Student Office Campaign Website",
+    "link": "",
+    "skills": [
+      {
+      "name": "HTML5",
+      "icon": "tech-html5-text"
+      },
+      {
+      "name": "CSS3",
+      "icon": "tech-css3"
+      },
+      {
+      "name": "Javascript",
+      "icon": "tech-javascript"
+      },
+      {
+      "name": "PHP",
+      "icon": "tech-php-elephant"
+      },
+      {
+      "name": "Symfony",
+      "icon": "tech-symfony"
+      },
+      {
+      "name": "SQL",
+      "icon": "tech-db"
+      }
+    ],
+    "begin-date": "November 2012",
+    "end-date": "January 2013",
+    "details": "I developed the showcase website for my team during the student office election. I used a symphony-based PHP backend, SQL databases managed with PostgreSQL. The front-end was developed using Twitter Bootstrap CSS framework, HTML5 and the jQuery library for client-side interactivity and asynchronous server communication with AJAX requests. I also integrated Facebook social feature."
+    },
+    {
+    "title": "Autonomous Remote-Controlled Car",
+    "link": "",
+    "skills": [
+      {
+        "name": "A51 Assembly language",
+        "icon": ""
+        }
+    ],
+    "begin-date": "Fevrier 2015",
+    "end-date": "",
+    "details": "As part of Telecom SudParis micro-electronics and low-level programming project, we built an autonomous miniature car. The car, originally radio-controlled, was equipped with an electrical motor for the propulsion and several servomotors for the direction. All of them were controllable with Pulse Width Modulation. We did control engineering for speed and direction so that the car could follow autonomously a racetrack. Optical sensors gave us the possibility to know the position of the car on the track. This information was transmitted to an 8-bits microprocessor that calculated in real-time the actions to perform on the main motor and on the direction servomotors. Our control engineering algorithm was written in assembly language."
+    },
+    {
+    "title": "Entrepreneurship Competition",
+    "link": "",
+    "skills": [
+      {
+        "name": "Photoshop",
+        "icon": "tech-photoshop"
+      },
+      {
+        "name": "After Effect",
+        "icon": "tech-after-effect"
+      },
+      {
+        "name": "InDesign",
+        "icon": "tech-indesign"
+      }
+    ],
+    "begin-date": "October 2015",
+    "end-date": "January 2016",
+    "details": "With a team composed by 2 in engineering school and 2 students in business school, we participate to a start-up creation competition. We had one week to imagine an innovating concept leading to the creation of an economically viable start-up. Our idea was to create a comparator for European land transportation, in other words, bus, train and carpooling. This market is very competitive in Europe and the is an over-abundance of offers. And we think that the final customer is more inclined to buy a ticket when he have an exhaustive information about the offers. We worked on the company business model and the communication to potential investors. We realized an 8-minutes video that explain the need from the costumer, our product, the state of the market and the legal and economical context. Our project was qualified for semi-finals (16 projects on 116)."
+    },
+    {
+    "title": "OpenPaaS - Entreprise Social Network",
+    "link": "http://open-paas.org/",
+    "skills": [
+      {
+        "name": "Javascript",
+        "icon": "tech-javascript"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "tech-mongo"
+      },
+      {
+        "name": "ExpressJS",
+        "icon": "tech-express"
+      },
+      {
+        "name": "AngularJS",
+        "icon": "tech-angular-outline"
+      },
+      {
+        "name": "NodeJS",
+        "icon": "tech-node-js"
+      },
+      {
+        "name": "HTML5",
+        "icon": "tech-html5"
+      },
+      {
+        "name": "CSS3",
+        "icon": "tech-css3"
+      },
+      {
+        "name": "Git",
+        "icon": "tech-git"
+      },
+      {
+        "name": "Jira",
+        "icon": "tech-jira"
+      },
+      {
+        "name": "Jenkins",
+        "icon": "tech-jenkins"
+      },
+      {
+        "name": "Server Adminstration",
+        "icon": "tech-server"
+      }
+    ],
+    "begin-date": "June 2015",
+    "end-date": "September 2015",
+    "details": "OpenPaaS is an open-source Enterprise Social Network with the ambition of competing with the greatest commercial software and becoming a reference on this market. The advantage for the companies is the control of their data. In addition to the classical features – calendar, contacts, email – OpenPaaS implement social features, such as likes, comments, re-post. An innovating recommender system suggest to the employees the relevant information according to their job in the company. Finally OpenPaaS includes a visio-conference service called <a href=”http://hubl.in/”>Hubl.in</a>, that works directly in the web browser without plugin, and that can host conferences for 9 attendees. You can see these projects code on Github : <a href=”https://github.com/linagora/openpaas-esn”>OpenPaaS ESN</a> and <a href=”https://github.com/linagora/hublin”>Hubl.in</a>"
+    }
+    ]
+}

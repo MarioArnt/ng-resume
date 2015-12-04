@@ -1,0 +1,79 @@
+$header-cover-url: '../images/bg.jpg';
+$profile-picture-url: '../images/pic.jpg';
+$header-height: 40vh;
+$picture-height: 25vmax;
+$download-button-offset: 10px;
+$xs-devices: 450px;
+
+header {
+  .overlay{
+    background-color: $primary-color;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: $header-height;
+  }
+  .btn-group {
+    z-index: 3;
+    position: absolute;
+    button {
+      background-color: $white;
+      color: $darker-primary-color;
+      &:hover {
+        background-color: $white-primary-color;
+      }
+    }
+    @media (max-width: $xs-devices) {
+      &.cv {
+        top: $download-button-offset;
+        right: $download-button-offset;
+      }
+      &.lang {
+        top: $download-button-offset;
+        left: $download-button-offset;
+        button {
+          font-size: 10pt;
+          &.active {
+            background-color: $lightest-primary-color;
+          }
+        }
+      }
+    }
+    @media (min-width: $xs-devices + 1px) {
+      &.cv {
+        bottom: $download-button-offset;
+        right: $download-button-offset;
+      }
+      &.lang {
+        bottom: $download-button-offset;
+        left: $download-button-offset;
+        button {
+          font-size: 10pt;
+          &.active {
+            background-color: $lightest-primary-color;
+          }
+        }
+      }
+    }
+  }
+  position: relative;
+  background-image: url($header-cover-url);
+  background-size: cover;
+  height: $header-height;
+  width: 100%;
+  border-bottom: 1px solid $primary-color;
+}
+
+.profile-picture{
+  background-image: url($profile-picture-url);
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  margin-left: -0.5*$picture-height;
+  border-radius: 50%;
+  height: $picture-height;
+  width: $picture-height;
+  border: 4px solid white;
+}

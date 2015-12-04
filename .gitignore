@@ -1,6 +1,8 @@
 node_modules
 dist
 app/views/*.html
+app/fonts/svg
 .tmp
 .sass-cache
 bower_components
+npm-debug.log

@@ -1,0 +1,146 @@
+$social-button-size: 48px;
+$social-font-size: 21pt;
+$biography-offset: 15vmax;
+$full-name-text-size: 80pt;
+$social-offset: 30px;
+$social-button-margin: 5px;
+$foreground-color:$primary-color;
+$background-color:$white;
+$shadow-color:$lighter-primary-color;
+$distance:1vmax;
+$cut-distance:0.5vmax;
+$strips-size:5px;
+$strips-ratio:50%;
+$strips-angle:45deg;
+$s-devices: 630px;
+$xxs-devices: 359px;
+
+$animate:false;
+$fixed:false;
+
+section.biography {
+  text-align: center;
+}
+.dashed-shadow{
+  position:relative;
+  top:$distance;
+  left:$distance;
+  display:inline-block;
+  color:$shadow-color;
+}
+@keyframes dash-animation{
+  0% {background-position:0 0};
+  100% {background-position:100% 0};
+}
+.dashed-shadow:before{
+  content:" ";
+  display:block;
+  position:absolute;
+  $bleeding-horizontal:1vmax;
+  $bleeding-vertical:0vmax;
+  top:-$bleeding-vertical - $distance;
+  left:-$bleeding-vertical - $distance;
+  bottom:-$bleeding-horizontal + $distance;
+  right:-$bleeding-horizontal + $distance;
+  z-index:1;
+  $color:$background-color;
+  $size:$strips-ratio/2;
+  $halfSize:$size/2;
+  $p1:$halfSize;
+  $p2:50%-$halfSize;
+  $p3:50%+$halfSize;
+  $p4:100%-$halfSize;
+  $transparent:transparentize($color,1);
+  @include background-image(linear-gradient($strips-angle,$color $p1, $transparent $p1, $transparent $p2,$color $p2, $color $p3, $transparent $p3, $transparent $p4, $color $p4));
+  background-size:$strips-size $strips-size;
+  @if($animate){
+    animation:dash-animation 30s infinite linear;
+  }
+  @if($fixed){
+    background-attachment:fixed;
+  }
+}
+.dashed-shadow:hover:before{
+  animation:dash-animation 30s infinite linear;
+}
+.dashed-shadow:after{
+  z-index:2;
+  content:attr(data-text);
+  position:absolute;
+  left:-$distance;
+  top:-$distance;
+  color:$foreground-color;
+  text-shadow:$cut-distance $cut-distance $background-color;
+}
+
+h1.name{
+  margin-top: $biography-offset;
+  font-size: 10vmax;
+  @media (max-width: $xxs-devices) {
+    font-size: 9.5vmax;
+  }
+}
+
+h2.job {
+margin-top: 0;
+color: $light-primary-color;
+font-size: 4vmax;
+}
+
+h3.location {
+color: $light-primary-color;
+font-size: 3vmax;
+}
+
+div.social {
+  margin-top: $social-offset;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  div.modal {
+    font-size: 8pt;
+    color: $darkest-primary-color;
+    text-align: center;
+  }
+  .modal-backdrop.am-fade {
+    opacity: .5;
+    transition: opacity .15s linear;
+    &.ng-enter {
+      opacity: 0;
+      &.ng-enter-active {
+        opacity: .5;
+      }
+    }
+    &.ng-leave {
+      opacity: .5;
+      &.ng-leave-active {
+        opacity: 0;
+      }
+    }
+  }
+  div.social-element {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: $social-button-size;
+    width: $social-button-size;
+    margin: $social-button-margin;
+    border-radius: 50%;
+    background-color: $primary-color;
+    color: $white;
+    font-size: $social-font-size;
+    @media (max-width: $xxs-devices) {
+      font-size: 17pt;
+      height: 40px;
+      width: 40px;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+    &:hover {
+      background-color: $darker-primary-color;
+    }
+  }
+}

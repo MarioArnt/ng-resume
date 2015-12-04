@@ -1,0 +1,30 @@
+section.contact {
+  background-color: $primary-color;
+  h1 {
+    color: $white-primary-color;
+  }
+  .captcha {
+    margin-bottom: 10px;
+  }
+  .form-group {
+    .input-group {
+      .input-group-addon {
+        color:$darkest-primary-color;
+      }
+      input.form-control {
+        color:$darkest-primary-color;
+      }
+    }
+    textarea.form-control {
+      color:$darkest-primary-color;
+      height: 40vh;
+    }
+  }
+  .mdl-button.mdl-js-button.mdl-button--fab.mdl-js-ripple-effect {
+    background-color: $white-primary-color;
+    color: $darker-primary-color;
+    &:hover {
+      background-color: $lightest-primary-color;
+    }
+  }
+}
