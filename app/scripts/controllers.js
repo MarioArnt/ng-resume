@@ -1,14 +1,13 @@
 'use strict';
 
 angular.module('ngResume')
-.controller('MainCtrl', function ($scope, $location, $http, profile, $window, $rootScope) {
-  $scope.loadingFinished = true;
+.controller('MainCtrl', function ($scope, $anchorScroll, $location, $http, vcRecaptchaService, profile, $window, $rootScope) {
+  $rootScope.loadingFinished = true;
   $scope.me = profile.data;
   $rootScope.title = $scope.me.fullName + ' | Interactive résumé';
   $scope.$on('onRepeatLast', function(){
     columnizeSkills();
   });
-
   angular.element($window).bind('resize', function () {
     if($('.dontsplit').parent().is('.column')) {
       $('.dontsplit').unwrap();
@@ -16,6 +15,7 @@ angular.module('ngResume')
       columnizeSkills();
     }
   });
+
 
   $('.profile-picture').css('top', $('header').height()-0.5*$('.profile-picture').height());
 
@@ -49,7 +49,14 @@ angular.module('ngResume')
   $scope.changeLang = function(lang) {
     if(lang === $scope.me.lang) {return;}
     $location.path('/'+lang);
+    $location.hash('');
   };
+
+  $scope.scrollTo = function(id) {
+     $location.hash(id);
+     $anchorScroll();
+  };
+
   $scope.emptyOptionalFields = false;
   $scope.sendMail = function(isValid) {
     if (isValid) {
@@ -57,13 +64,18 @@ angular.module('ngResume')
         $scope.emptyOptionalFields = !$scope.emptyOptionalFields;
         return;
       }
+      if(vcRecaptchaService.getResponse() === '') {
+        console.log('please repatcha');
+        return;
+      }
       $http({
          method: 'POST',
          url: '/mail',
          data: $.param({
-             from: $scope.mail.from,
-             object: $scope.mail.object,
-             content: $scope.mail.body
+             'from': $scope.mail.from,
+             'object': $scope.mail.object,
+             'content': $scope.mail.body,
+             'g-recaptcha-response':vcRecaptchaService.getResponse()
          }),
          headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
       }).then(function() {

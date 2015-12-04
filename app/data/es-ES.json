@@ -36,11 +36,14 @@
   },
   {
     "name": "email",
-    "url": "#contact"
+    "anchor": "contact"
   },
   {
     "name": "phone",
-    "url": ""
+    "modal": {
+      "title": "Call me",
+      "content": "<img src=\"images/phone.png\" />"
+    }
   }
 ],
 "events": [
@@ -445,7 +448,7 @@
     ],
     "begin-date": "October 2015",
     "end-date": "January 2016",
-    "details": "With a friend from Telecom SudParis, we particpate to a machine learning competition on the data-science website kaggle. The aim of the competition is to predict the category of a crime given several parameters such as the location, the precise datetime or the police station that investigate on it. To feed our machine-learning system we have access to 12 years police records. We have now visualized the data thanks to R language and we will use several unsupervised and supervised machine learning technics to predict the crime category including Support vectors machines, Neural Networks and Random Forrest"
+    "details": "With a friend from Telecom SudParis, we particpate to a machine learning competition on the data-science website kaggle. The aim of the competition is to predict the category of a crime given several parameters such as the location, the precise datetime or the police station that investigate on it. To feed our machine-learning system we have access to 12 years police records. We have now visualized the data thanks to R language and we will use several unsupervised and supervised machine learning technics to predict the crime category including Support vectors machines, Neural Networks and Random Forrest. Find more information about the competition on the <a href=”https://www.kaggle.com/c/sf-crime/”>Kaggle website<a>."
     },
     {
     "title": "Student Office Campaign Website",
@@ -478,7 +481,7 @@
     ],
     "begin-date": "November 2012",
     "end-date": "January 2013",
-    "details": "During the student office election campaign, I developped the website for my team. I used PHP with the framework Symfony for the backend. In the front-end I used jQuery library to sent AJAX request, do some form validation and integrate a facebook sign-in."
+    "details": "I developed the showcase website for my team during the student office election. I used a symphony-based PHP backend, SQL databases managed with PostgreSQL. The front-end was developed using Twitter Bootstrap CSS framework, HTML5 and the jQuery library for client-side interactivity and asynchronous server communication with AJAX requests. I also integrated Facebook social feature."
     },
     {
     "title": "Autonomous Remote-Controlled Car",
@@ -486,12 +489,12 @@
     "skills": [
       {
         "name": "A51 Assembly language",
-        "icon": "tech-processor"
+        "icon": ""
         }
     ],
     "begin-date": "Fevrier 2015",
     "end-date": "",
-    "details": ""
+    "details": "As part of Telecom SudParis micro-electronics and low-level programming project, we built an autonomous miniature car. The car, originally radio-controlled, was equipped with an electrical motor for the propulsion and several servomotors for the direction. All of them were controllable with Pulse Width Modulation. We did control engineering for speed and direction so that the car could follow autonomously a racetrack. Optical sensors gave us the possibility to know the position of the car on the track. This information was transmitted to an 8-bits microprocessor that calculated in real-time the actions to perform on the main motor and on the direction servomotors. Our control engineering algorithm was written in assembly language."
     },
     {
     "title": "Entrepreneurship Competition",
@@ -512,7 +515,7 @@
     ],
     "begin-date": "October 2015",
     "end-date": "January 2016",
-    "details": ""
+    "details": "With a team composed by 2 in engineering school and 2 students in business school, we participate to a start-up creation competition. We had one week to imagine an innovating concept leading to the creation of an economically viable start-up. Our idea was to create a comparator for European land transportation, in other words, bus, train and carpooling. This market is very competitive in Europe and the is an over-abundance of offers. And we think that the final customer is more inclined to buy a ticket when he have an exhaustive information about the offers. We worked on the company business model and the communication to potential investors. We realized an 8-minutes video that explain the need from the costumer, our product, the state of the market and the legal and economical context. Our project was qualified for semi-finals (16 projects on 116)."
     },
     {
     "title": "OpenPaaS - Entreprise Social Network",
@@ -565,7 +568,7 @@
     ],
     "begin-date": "June 2015",
     "end-date": "September 2015",
-    "details": ""
+    "details": "OpenPaaS is an open-source Enterprise Social Network with the ambition of competing with the greatest commercial software and becoming a reference on this market. The advantage for the companies is the control of their data. In addition to the classical features – calendar, contacts, email – OpenPaaS implement social features, such as likes, comments, re-post. An innovating recommender system suggest to the employees the relevant information according to their job in the company. Finally OpenPaaS includes a visio-conference service called <a href=”http://hubl.in/”>Hubl.in</a>, that works directly in the web browser without plugin, and that can host conferences for 9 attendees. You can see these projects code on Github : <a href=”https://github.com/linagora/openpaas-esn”>OpenPaaS ESN</a> and <a href=”https://github.com/linagora/hublin”>Hubl.in</a>"
     }
     ]
 }

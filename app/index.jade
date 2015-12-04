@@ -22,12 +22,12 @@ html.no-js(lang="en" ng-app="ngResume")
     script(src="vendors/jquery/dist/jquery.min.js")
     script(src="vendors/jquery-columnizer/src/jquery.columnizer.min.js")
     script(src="vendors/wow/dist/wow.min.js")
-    script new WOW().init();
+    script $(document).ready(function(){new WOW().init();});
     script(src="vendors/angular-strap/dist/angular-strap.min.js")
     script(src="vendors/angular-strap/dist/angular-strap.tpl.min.js")
-    //script(src="vendors/jquery.nicescroll/jquery.nicescroll.min.js")
-    //script(src="vendors/angular-nicescroll/angular-nicescroll.js")
     script(src="vendors/material-design-lite/material.min.js")
+    script(src="https://www.google.com/recaptcha/api.js?onload=vcRecaptchaApiLoaded&render=explicit" async defer) 
+    script(src="vendors/angular-recaptcha/release/angular-recaptcha.min.js")
     script(src="js/app.js")
   body
     <!--[if lt IE 7]>

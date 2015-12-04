@@ -5,7 +5,7 @@ section.timeline
     li.wow.fadeIn(ng-repeat="event in me.events | orderBy:'(12*year)+month'" ng-class="{even: $even, odd:$odd}")
       div.circle.circle-year(ng-if="me.events[$index-1].year !== event.year || $first")
         | {{event.year}}
-      div.circle(ng-switch="event.type" ng-class="{newyear: (me.events[$index-1].year !== event.year || $first)}")
+      div.circle(ng-switch="event.type" bs-tooltip="event.type" ng-class="{newyear: (me.events[$index-1].year !== event.year || $first)}")
         i.tech-diploma(ng-switch-when="diploma")
         i.mdi.mdi-bank(ng-switch-when="university")
         i.mdi.mdi-package-variant(ng-switch-when="project")
@@ -28,4 +28,7 @@ section.timeline
           a.more(ng-if="event.showMore" ng-click="event.showMore=false")
             i.mdi.mdi-minus-circle
             | Hide details
+        a.anchor(ng-if="event.anchor" ng-click="scrollTo(event.anchor)") 
+            i.mdi.mdi-arrow-right-bold-circle
+            | See project details
         p.more-details(ng-if="event.showMore" ng-bind-html="event.more")

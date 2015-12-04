@@ -1,38 +1,20 @@
-# mario-cv
+# ng-résumé
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.11.1.
-
-## Build & development
-
-Run `grunt` for building and `grunt serve` for preview.
-
-## Testing
-
-Running `grunt test` will run the unit tests with karma.
+##Build
 
 ##todo
-Implement language buttons
 Add Links for social medias
 Finish translation
 Project description
-Mail
-
-
 ###Timeline
-add autonomous car
-add ranksign
-rewrite details
+anchor
 ###Skills
-add emebdedd skills (assembly, vhdl, real time programming, raspberry pi, arduino)
-add skills description
-
-projects
-contact
-cv download
-i18n
+add arduino
+new icons
+###contact
+Better warning design
+succes/failure notification
+###i18n
 write doc
-mobile Design
-scroll effects
 refactor for mongo
 publish on github

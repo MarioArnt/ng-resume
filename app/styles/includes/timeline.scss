@@ -30,9 +30,7 @@ section.timeline {
     & > li {
       position: relative;
       padding-top: 20px;
-      a.more {
-        cursor: pointer;
-        color: $primary-color;
+      a.more, a.anchor {
         i {
           padding-right: 5px;
         }
@@ -50,12 +48,16 @@ section.timeline {
         justify-content: center;
         align-items: center;
         align-content: center;
+        cursor: pointer;
         top:0;
         height: $circle-size;
         width: $circle-size;
         font-size: 16pt;
         border-radius: 50%;
         background-color: $primary-color;
+        &:hover {
+          background-color: $darker-primary-color;
+        }
         &.newyear {
           top: $circle-year-size + $circle-year-offset + 0.5*$circle-size - 5px;
           padding:0;
