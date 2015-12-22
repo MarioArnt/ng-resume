@@ -11,17 +11,14 @@ var SECRET = "6Lcj0gATAAAAADGOzCmp3-W8wpcarZRueKoQERrs";
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(__dirname + '/dist'));
-app.set('trust proxy', true);
-app.use(logger);
 
 app.get('/', function(req, res) {
     res.sendFile('./dist/index.html');
 });
 
 app.get('/download/cv/en', function(req, res){
- // var file = './dl/CV-en.pdf';
-  res.download('/dl/CV-en.pdf', 'ARNAUTOU-CV-en.pdf');
- // res.download(file);
+  var file = __dirname + '/dl/CV-en.pdf';
+  res.download(file);
 });
 
 app.get('/download/cv/fr', function(req, res){
