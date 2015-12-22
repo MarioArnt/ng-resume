@@ -34,17 +34,20 @@ app.get('/download/cv/es', function(req, res){
 app.post('/mail', function(req, res){
   verifyRecaptcha(req.body["g-recaptcha-response"], function(success) {
     if (success) {
-      nodemailer.sendmail = true;
-      var transporter = nodemailer.createTransport(smtpTransport({
-          host: 'localhost',
-          port: 25,
-      }));
-      transporter.sendMail({
-        from: req.body.from,
+      var transporter = nodemailer.createTransport({
+          service: 'Gmail',
+          auth: {
+              user: ' mario.nodemailer@gmail.com',
+              pass: 'K!ll3rN0de'
+          }
+      });
+      var mailOptions = {
+        from: req.body.from +' ✔ <' + req.body.from + '>', // sender address
         to: "mario.arnautou@gmail.com",
         subject: req.body.object,
-        text: req.body.content
-      }, function(error, info){
+        text: 'sender:' + req.body.from + ' message:' + req.body.content
+      };
+      transporter.sendMail(mailOptions, function(error, info){
         if(error){
           console.log(error);
           res.status(500);
