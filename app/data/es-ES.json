@@ -83,7 +83,7 @@
       "year": 2012,
       "period": "Noviembre 2012 - Febrero 2013",
       "details": "Durante las elecciones de la oficina de los estudiantes, desarrollé el sitio web escaparate de mi equipo",
-      "more": "<a href=\"#\">Voir le projet</a>"
+      "anchor": "student-office-website"
   },
   {
       "type": "job",
@@ -118,7 +118,8 @@
       "year": 2015,
       "period": "Enero 2015",
       "location": "Evry, France",
-      "details": "Ingeniería de control para un coche teledirigido gracias a un micro-controlador de 8 bits y numerosos sensores y actuadores. Hicimos un control de velocidad y de dirección para que el coche sigua de manera autónoma la pista de carrera."
+      "details": "Ingeniería de control para un coche teledirigido gracias a un micro-controlador de 8 bits y numerosos sensores y actuadores. Hicimos un control de velocidad y de dirección para que el coche sigua de manera autónoma la pista de carrera.",
+      "anchor": "autonomous-car"
   },
   {
       "type": "project",
@@ -127,7 +128,8 @@
       "year": 2015,
       "period": "Abril 2015",
       "location": "Evry, France",
-      "details": "Participación a una competición de creación de empresa con dos otros estudiantes en ingeniería y dos estudiantes en administración. Tenemos una semana para imaginar una empresa innovadora y trabajar sobre los aspectos técnicos y financieros. Nuestro proyecto fue cualificado para las semifinales (16 proyectos sobre 116)"
+      "details": "Participación a una competición de creación de empresa con dos otros estudiantes en ingeniería y dos estudiantes en administración. Tenemos una semana para imaginar una empresa innovadora y trabajar sobre los aspectos técnicos y financieros. Nuestro proyecto fue cualificado para las semifinales (16 proyectos sobre 116)",
+      "anchor": "entrepreneurship-competition"
   },
   {
       "type": "job",
@@ -137,23 +139,24 @@
       "period": "Junio 2015 - Septiembre 2015",
       "location": "Paris, France",
       "details": "Practica de verano como desarrollador web. Con un equipo internacional, trabajamos sobre una red social de código abierto especialmente designado por las empresas. Utilizamos una pila de desarrollo MEAN (MongoDB, ExpressJS, AngularJS y NodeJS) y herramientas de trabajo en equipo, de integración continua y de desarrollo ágil. Fue una experiencia de programación en un contexto profesional muy enriquecedora",
-      "more": "There is more to say...."
+      "anchor": "openpaas-esn"
   },
   {
       "type": "project",
-      "title": "Projet de Recherche Cassiopée",
+      "title": "Kaggle SF crime classification",
       "month": 10,
       "year": 2015,
-      "period": "Octobre 2015 - Janvier 2016",
-      "details": "Participation à une compétition de data science sur la plateforme Kaggle. Prédiction de la nature d’un délit commis à un San Francisco en s’appuyant sur 12 ans d’archive de la police"
+      "period": "October 2015 - January 2016",
+      "details": "With a fellow student, we participate to a data science competition on Kaggle. The aim of the competition is to predict a crime category given numerous parameters (geographic coordinates, date, time and so on). To achieve these predictions we use a 12-years dataset of police records.",
+      "anchor": "san-francisco"  
   },
   {
       "type": "project",
-      "title": "Projet de Fin d’Étude",
+      "title": "Engineer’s degree final project",
       "month": 10,
       "year": 2015,
-      "period": "Octobre 2015 - Janvier 2016",
-      "details": "Implémentation sur une Raspberry Pi d’un protocole de chiffrement asymétrique pour les systèmes contraints basé sur les codes correcteurs d’erreurs."
+      "period": "October 2015 - January 2016",
+      "details": "Implement an asymmetric cyphering protocol on a Raspberry Pi and realize a benchmark. The algorithm is a Post-quantum cryptography algorithm based on errors detection and correction codes especially designed for constraint environment. "
   }
 ],
   "skills": [

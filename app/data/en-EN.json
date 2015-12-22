@@ -119,7 +119,7 @@
       "period": "January 2015",
       "location": "Evry, France",
       "details": "Control engineering for a remote-controlled car thanks to an 8-bits microprocessor and various sensors and actuators. We performed a speed control and a direction control so that the car could autonomously follow a racing track.",
-      "anchor": "remote-controlled-car"
+      "anchor": "autonomous-car"
   },
   {
       "type": "project",
@@ -139,7 +139,7 @@
       "period": "June 2015 - Spetember 2015",
       "location": "Paris, France",
       "details": "Summer internship in web development. With an international team, we worked on an open-source enterprise social network using a MEAN stack (MongoDB, ExpressJS, AngularJS and NodeJS). Programming experience in professional environment using agile methodology and continuous integration tools.",
-      "anchor": "open-paas"
+      "anchor": "openpaas-esn"
   },
   {
       "type": "project",
@@ -147,7 +147,8 @@
       "month": 10,
       "year": 2015,
       "period": "October 2015 - January 2016",
-      "details": "With a fellow student, we participate to a data science competition on Kaggle. The aim of the competition is to predict a crime category given numerous parameters (geographic coordinates, date, time and so on). To achieve these predictions we use a 12-years dataset of police records."
+      "details": "With a fellow student, we participate to a data science competition on Kaggle. The aim of the competition is to predict a crime category given numerous parameters (geographic coordinates, date, time and so on). To achieve these predictions we use a 12-years dataset of police records.",
+      "anchor": "san-francisco"
   },
   {
       "type": "project",
