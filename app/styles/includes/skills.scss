@@ -9,6 +9,27 @@ section.skills {
   .skills-list {
     width: 100%;
     display: inline-block;
+    @media (min-width: 768px) and (max-width: 1200px) {
+      -moz-column-count: 2;
+      -moz-column-gap: 20px;
+      -webkit-column-count: 2;
+      -webkit-column-gap: 20px;
+    }
+    @media (min-width: 1200px) {
+      -moz-column-count: 3;
+      -moz-column-gap: 20px;
+      -webkit-column-count: 3;
+      -webkit-column-gap: 20px;
+    }
+    div.dontsplit {
+      @media (min-width: 768px) {
+        -webkit-column-break-inside: avoid;
+        page-break-inside: avoid;
+        break-inside: avoid-column;
+        display:table;
+        width: 100%;
+      }
+    }
   }
   ul {
     padding: 0;
