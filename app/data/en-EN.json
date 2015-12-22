@@ -439,7 +439,7 @@
   "projects": [
     {
     "title": "San Francisco Crime Classification",
-    "link": "http://kaggle.com/SF",
+    "anchor": "san-francisco",
     "skills": [
       {
       "name": "R",
@@ -460,7 +460,7 @@
     },
     {
     "title": "Student Office Campaign Website",
-    "link": "",
+    "anchor": "student-office-website",
     "skills": [
       {
       "name": "HTML5",
@@ -493,7 +493,7 @@
     },
     {
     "title": "Autonomous Remote-Controlled Car",
-    "link": "",
+    "anchor": "autonomous-car",
     "skills": [
       {
         "name": "A51 Assembly language",
@@ -506,7 +506,7 @@
     },
     {
     "title": "Entrepreneurship Competition",
-    "link": "",
+    "anchor": "entrepreneurship-competition",
     "skills": [
       {
         "name": "Photoshop",
@@ -528,6 +528,7 @@
     {
     "title": "OpenPaaS - Entreprise Social Network",
     "link": "http://open-paas.org/",
+    "anchor": "openpaas-esn",
     "skills": [
       {
         "name": "Javascript",

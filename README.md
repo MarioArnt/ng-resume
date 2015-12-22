@@ -1,20 +1,39 @@
 # ng-résumé
 
-##Build
+Here's the source code of my (quickly-made) online interactive résumé available at http://mario.arnautou.fr/
+The website uses the front-end framework AngularJS and the back-end framework expressJS.
+There is no databases such as MongoDB but the data are stored in static JSON files loaded
+via an AJAX request from the front-end.
 
-##todo
-Add Links for social medias
-Finish translation
-Project description
-###Timeline
-anchor
-###Skills
-add arduino
-new icons
-###contact
-Better warning design
-succes/failure notification
-###i18n
-write doc
-refactor for mongo
-publish on github
+## Installation
+
+Clone the repo on your server and fill the data JSON with your infos.
+Then install the dependencies and build the dist files by typing the following command.
+
+````
+npm install && bower install
+grunt build
+````
+
+## Deployment
+
+If you use nginx and passenge ruse the following configuration.
+
+````
+server {
+    listen 80;
+    server_name subdomain.example.com;
+
+    # Tell Nginx and Passenger where your app's 'public' directory is
+    root path/to/resume/dist;
+
+    # Turn on Passenger
+    passenger_enabled on;
+    # Tell Passenger that your app is a Node.js app
+    passenger_app_type node;
+    passenger_startup_file server.js;
+}
+````
+And restart nginx ``sudo service nginx restart``
+
+Enjoy
