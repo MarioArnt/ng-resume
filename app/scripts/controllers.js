@@ -6,20 +6,20 @@ angular.module('ngResume')
   $scope.me = profile.data;
   $rootScope.title = $scope.me.fullName + ' | Interactive résumé';
   $scope.$on('onRepeatLast', function(){
-    columnizeSkills();
+    //columnizeSkills();
   });
   angular.element($window).bind('resize', function () {
     if($('.dontsplit').parent().is('.column')) {
       $('.dontsplit').unwrap();
       $('.profile-picture').css('top', $('header').height()-0.5*$('.profile-picture').height());
-      columnizeSkills();
+      //columnizeSkills();
     }
   });
 
 
   $('.profile-picture').css('top', $('header').height()-0.5*$('.profile-picture').height());
 
-  function columnizeSkills() {
+  /*function columnizeSkills() {
     if($window.innerWidth < 768) {
       $('.skills-list').columnize({columns: 1, lastNeverTallest:true});
       return;
@@ -33,7 +33,7 @@ angular.module('ngResume')
       return;
     }
     $('.skills-list').columnize({columns: 1, lastNeverTallest:true});
-  }
+  }*/
 
   $scope.me.events.forEach(function(event){
     event.showMore = false;
