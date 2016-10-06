@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(__dirname + '/dist'));
 
 app.get('/', function(req, res) {
-    res.sendFile('./dist/index.html');
+    res.sendFile('./dist/index.html', {root: __dirname});
 });
 
 app.get('/download/cv/en', function(req, res){
@@ -83,4 +83,4 @@ function verifyRecaptcha(key, callback) {
     });
   });
 }
-app.listen(8080);
+app.listen(8081);
