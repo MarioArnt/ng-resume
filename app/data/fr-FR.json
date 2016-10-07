@@ -165,6 +165,14 @@
       "year": 2015,
       "period": "Octobre 2015 - Janvier 2016",
       "details": "Implémentation sur une Raspberry Pi d’un protocole de chiffrement asymétrique pour les systèmes contraints basé sur les codes correcteurs d’erreurs."
+  }, 
+  {
+	"type": "job",
+	"title": "Software Developer @ Airbus",
+        "month": 2,
+        "year": 2016,
+        "period": "February 2016 - August 2016",
+        "details": "Build a tool that performs several checks to ensure the software embedded in Airbus aircrafts will be consistent and respect real-time constraints. The tool is mostly used in research and development phase and is useful to detect potential errors and fix it before ground and flight tests."
   }
 ],
   "skills": [
