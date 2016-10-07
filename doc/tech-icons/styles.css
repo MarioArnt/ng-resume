@@ -45,37 +45,37 @@
   content: "\62";
 }
 .tech-c-cpp:before {
-  content: "\65";
-}
-.tech-java:before {
-  content: "\66";
-}
-.tech-bootstrap:before {
-  content: "\67";
-}
-.tech-grunt:before {
-  content: "\68";
-}
-.tech-javascript:before {
-  content: "\69";
-}
-.tech-jira:before {
-  content: "\6a";
-}
-.tech-spark:before {
-  content: "\6b";
-}
-.tech-node-js:before {
-  content: "\6c";
-}
-.tech-python:before {
-  content: "\6d";
-}
-.tech-db:before {
   content: "\63";
 }
-.tech-db-outline:before {
+.tech-java:before {
   content: "\64";
+}
+.tech-bootstrap:before {
+  content: "\65";
+}
+.tech-grunt:before {
+  content: "\66";
+}
+.tech-javascript:before {
+  content: "\67";
+}
+.tech-jira:before {
+  content: "\68";
+}
+.tech-spark:before {
+  content: "\69";
+}
+.tech-node-js:before {
+  content: "\6a";
+}
+.tech-python:before {
+  content: "\6b";
+}
+.tech-db:before {
+  content: "\6c";
+}
+.tech-db-outline:before {
+  content: "\6d";
 }
 .tech-after-effect:before {
   content: "\6e";
@@ -132,70 +132,73 @@
   content: "\45";
 }
 .tech-maths-function:before {
-  content: "\48";
-}
-.tech-pie-chart:before {
-  content: "\4b";
-}
-.tech-pie-chart-alt:before {
-  content: "\4c";
-}
-.tech-gears:before {
-  content: "\4d";
-}
-.tech-brain-outline:before {
-  content: "\4f";
-}
-.tech-brain:before {
-  content: "\50";
-}
-.tech-php-elephant:before {
-  content: "\51";
-}
-.tech-tex:before {
-  content: "\47";
-}
-.tech-tag-search:before {
-  content: "\49";
-}
-.tech-compas:before {
   content: "\46";
 }
-.tech-r:before {
-  content: "\52";
+.tech-pie-chart:before {
+  content: "\47";
 }
-.tech-express:before {
-  content: "\53";
+.tech-pie-chart-alt:before {
+  content: "\48";
 }
-.tech-angular-outline:before {
+.tech-gears:before {
+  content: "\49";
+}
+.tech-brain-outline:before {
   content: "\4a";
 }
-.tech-regex-alt:before {
+.tech-brain:before {
+  content: "\4b";
+}
+.tech-php-elephant:before {
+  content: "\4c";
+}
+.tech-tex:before {
+  content: "\4d";
+}
+.tech-tag-search:before {
   content: "\4e";
+}
+.tech-compas:before {
+  content: "\4f";
+}
+.tech-r:before {
+  content: "\50";
+}
+.tech-express:before {
+  content: "\51";
+}
+.tech-angular-outline:before {
+  content: "\52";
+}
+.tech-regex-alt:before {
+  content: "\53";
 }
 .tech-regex:before {
   content: "\54";
 }
-.tech-raspberry:before {
+.tech-clock:before {
   content: "\55";
 }
-.tech-clock:before {
+.tech-android-time:before {
   content: "\56";
 }
-.tech-android-time:before {
+.tech-clock-watch:before {
   content: "\57";
 }
-.tech-clock-watch:before {
+.tech-ram-chip:before {
   content: "\58";
 }
-.tech-ram-chip:before {
+.tech-ram-memory:before {
+  content: "\59";
+}
+.tech-raspberry:before {
+  content: "\5a";
+}
+.tech-qt:before {
   content: "\30";
 }
-.tech-ram-memory:before {
+.tech-computer-cpu:before {
   content: "\31";
-}
-.tech-cpu:before {
-  content: "\59";
 }
 .tech-arduino:before {
   content: "\32";
@@ -203,12 +206,6 @@
 .tech-computer-processor:before {
   content: "\33";
 }
-.tech-arduino-seeklogo:before {
-  content: "\33";
-}
-.tech-qt:before {
-  content: "\5a";
-}
-.tech-arduino:before {
+.tech-cpu:before {
   content: "\34";
 }
