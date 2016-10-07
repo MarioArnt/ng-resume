@@ -188,9 +188,6 @@
 .tech-clock-watch:before {
   content: "\58";
 }
-.tech-qt:before {
-  content: "\5a";
-}
 .tech-ram-chip:before {
   content: "\30";
 }
@@ -208,4 +205,10 @@
 }
 .tech-arduino-seeklogo:before {
   content: "\33";
+}
+.tech-qt:before {
+  content: "\5a";
+}
+.tech-arduino:before {
+  content: "\34";
 }

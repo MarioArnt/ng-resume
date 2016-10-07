@@ -39,140 +39,176 @@
 }
 
 .tech-html5:before {
-  content: "a";
+  content: "\61";
 }
 .tech-css3:before {
-  content: "b";
+  content: "\62";
 }
 .tech-c-cpp:before {
-  content: "e";
+  content: "\65";
 }
 .tech-java:before {
-  content: "f";
+  content: "\66";
 }
 .tech-bootstrap:before {
-  content: "g";
+  content: "\67";
 }
 .tech-grunt:before {
-  content: "h";
+  content: "\68";
 }
 .tech-javascript:before {
-  content: "i";
+  content: "\69";
 }
 .tech-jira:before {
-  content: "j";
+  content: "\6a";
 }
 .tech-spark:before {
-  content: "k";
+  content: "\6b";
 }
 .tech-node-js:before {
-  content: "l";
+  content: "\6c";
 }
 .tech-python:before {
-  content: "m";
+  content: "\6d";
 }
 .tech-db:before {
-  content: "c";
+  content: "\63";
 }
 .tech-db-outline:before {
-  content: "d";
+  content: "\64";
 }
 .tech-after-effect:before {
-  content: "n";
+  content: "\6e";
 }
 .tech-photoshop:before {
-  content: "o";
+  content: "\6f";
 }
 .tech-illustrator:before {
-  content: "p";
+  content: "\70";
 }
 .tech-indesign:before {
-  content: "q";
+  content: "\71";
 }
 .tech-angular:before {
-  content: "r";
+  content: "\72";
 }
 .tech-git:before {
-  content: "s";
+  content: "\73";
 }
 .tech-jenkins:before {
-  content: "t";
+  content: "\74";
 }
 .tech-mongo:before {
-  content: "u";
+  content: "\75";
 }
 .tech-symfony:before {
-  content: "v";
+  content: "\76";
 }
 .tech-server:before {
-  content: "w";
+  content: "\77";
 }
 .tech-html5-text:before {
-  content: "x";
+  content: "\78";
 }
 .tech-tag-outline:before {
-  content: "y";
+  content: "\79";
 }
 .tech-tag-close:before {
-  content: "z";
+  content: "\7a";
 }
 .tech-php:before {
-  content: "A";
+  content: "\41";
 }
 .tech-glass:before {
-  content: "B";
+  content: "\42";
 }
 .tech-linux:before {
-  content: "C";
+  content: "\43";
 }
 .tech-latex:before {
-  content: "D";
+  content: "\44";
 }
 .tech-diploma:before {
-  content: "E";
+  content: "\45";
 }
 .tech-maths-function:before {
-  content: "H";
+  content: "\48";
 }
 .tech-pie-chart:before {
-  content: "K";
+  content: "\4b";
 }
 .tech-pie-chart-alt:before {
-  content: "L";
+  content: "\4c";
 }
 .tech-gears:before {
-  content: "M";
+  content: "\4d";
 }
 .tech-brain-outline:before {
-  content: "O";
+  content: "\4f";
 }
 .tech-brain:before {
-  content: "P";
+  content: "\50";
 }
 .tech-php-elephant:before {
-  content: "Q";
+  content: "\51";
 }
 .tech-tex:before {
-  content: "G";
+  content: "\47";
 }
 .tech-tag-search:before {
-  content: "I";
+  content: "\49";
 }
 .tech-compas:before {
-  content: "F";
+  content: "\46";
 }
 .tech-r:before {
-  content: "R";
+  content: "\52";
 }
 .tech-express:before {
-  content: "S";
+  content: "\53";
 }
 .tech-angular-outline:before {
-  content: "J";
+  content: "\4a";
 }
 .tech-regex-alt:before {
-  content: "N";
+  content: "\4e";
 }
 .tech-regex:before {
-  content: "T";
+  content: "\54";
+}
+.tech-raspberry:before {
+  content: "\55";
+}
+.tech-clock:before {
+  content: "\56";
+}
+.tech-android-time:before {
+  content: "\57";
+}
+.tech-clock-watch:before {
+  content: "\58";
+}
+.tech-ram-chip:before {
+  content: "\30";
+}
+.tech-ram-memory:before {
+  content: "\31";
+}
+.tech-cpu:before {
+  content: "\59";
+}
+.tech-arduino:before {
+  content: "\32";
+}
+.tech-computer-processor:before {
+  content: "\33";
+}
+.tech-arduino-seeklogo:before {
+  content: "\33";
+}
+.tech-qt:before {
+  content: "\5a";
+}
+.tech-arduino:before {
+  content: "\34";
 }
