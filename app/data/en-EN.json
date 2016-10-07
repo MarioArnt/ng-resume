@@ -157,6 +157,14 @@
       "year": 2015,
       "period": "October 2015 - January 2016",
       "details": "Implement an asymmetric cyphering protocol on a Raspberry Pi and realize a benchmark. The algorithm is a Post-quantum cryptography algorithm based on errors detection and correction codes especially designed for constraint environment. "
+  }, 
+  {
+	"type": "job",
+	"title": "Software Developer @ Airbus",
+        "month": 2,
+        "year": 2016,
+        "period": "February 2016 - August 2016",
+        "details": "Build a tool that performs several checks to ensure the software embedded in Airbus aircrafts will be consistent and respect real-time constraints. The tool is mostly used in research and development phase and is useful to detect potential errors and fix it before ground and flight tests."
   }
 ],
   "skills": [
@@ -222,7 +230,7 @@
         "id": 9,
         "name": "Web Scrapping",
         "icon": "tech-tag-search",
-        "stars": 3
+        "stars": 4
         }
       ]
     },
@@ -234,19 +242,19 @@
         "id": 1,
         "name": "C/C++",
         "icon": "tech-c-cpp",
-        "stars": 2
+        "stars": 4
         },
         {
         "id": 2,
         "name": "Java",
         "icon": "tech-java",
-        "stars": 2
+        "stars": 1
         },
         {
         "id": 41,
         "name": "Python",
         "icon": "tech-python",
-        "stars": 2
+        "stars": 3
         }
       ]
     },
@@ -306,13 +314,13 @@
           "id": 2,
           "name": "Raspberry",
           "icon": "",
-          "stars": 2
+          "stars": 3
         },
         {
           "id": 2,
           "name": "Arduino",
           "icon": "",
-          "stars": 2
+          "stars": 1
         },
         {
           "id": 1,
@@ -334,7 +342,7 @@
       "skills": [
         {
         "id": 2,
-        "name": "JIRA/Scrum Method",
+        "name": "Agile methods",
         "icon": "tech-jira",
         "stars": 3
         },
@@ -354,7 +362,7 @@
         "id": 5,
         "name": "UML",
         "icon": "tech-compas",
-        "stars": 3
+        "stars": 2
         },
         {
           "id": 4,
@@ -390,7 +398,7 @@
         "id": 4,
         "name": "Adobe After Effect",
         "icon": "tech-after-effect",
-        "stars": 2
+        "stars": 1
         }
       ]
     },
