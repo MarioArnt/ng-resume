@@ -6,9 +6,11 @@ section.projects {
       float: left;
       margin-left: 5px;
       .circle-project {
-        height: 25px;
+        height: 25pt;
         cursor: pointer;
-        width: 25px;
+        width: 25pt;
+	line-height: 100%;
+	font-size: 13.5pt;
         border-radius: 50%;
         background-color: $primary-color;
         color: $white-primary-color;
