@@ -10,7 +10,8 @@
     "grunt-html2js": "^0.3.5",
     "morgan": "^1.6.1",
     "nodemailer": "^1.10.0",
-    "nodemailer-smtp-transport": "^1.0.4"
+    "nodemailer-smtp-transport": "^1.0.4",
+    "wow": "0.0.6"
   },
   "repository": {},
   "devDependencies": {
