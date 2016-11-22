@@ -19,20 +19,20 @@
   ],
   "social": [
   {
-    "name": "github",
-    "url": "https://github.com/MarioArnt"
-  },
-  {
     "name": "linkedin",
     "url": "https://fr.linkedin.com/in/mario-arnautou-pages-722a51108"
   },
   {
-    "name": "twitter",
-    "url": "https://twitter.com/marioarnt"
+    "name": "github",
+    "url": "https://github.com/MarioArnt"
   },
   {
-    "name": "google-plus",
-    "url": "https://plus.google.com/101220274442441634495"
+    "name": "codepen",
+    "url": "http://codepen.io/MarioArnt"
+  },
+  {
+    "name": "twitter",
+    "url": "https://twitter.com/marioarnt"
   },
   {
     "name": "email",
@@ -167,278 +167,290 @@
       "details": "Implémentation sur une Raspberry Pi d’un protocole de chiffrement asymétrique pour les systèmes contraints basé sur les codes correcteurs d’erreurs."
   }
 ],
-  "skills": [
-    {
+"skills": [
+  {
+    "id": 1,
+    "title": "Web Development",
+    "skills": [
+      {
       "id": 1,
-      "title": "Web Development",
-      "skills": [
-        {
-        "id": 1,
-        "name": "HTML5",
-        "icon": "tech-html5-text",
-        "stars": 4
-        },
-        {
-        "id": 2,
-        "name": "CSS3",
-        "icon": "tech-css3",
-        "stars": 4
-        },
-        {
-        "id": 3,
-        "name": "Javascript",
-        "icon": "tech-javascript",
-        "stars": 4
-        },
-        {
-        "id": 4,
-        "name": "PHP",
-        "icon": "tech-php-elephant",
-        "stars": 3
-        },
-        {
-        "id": 5,
-        "name": "AngularJS",
-        "icon": "tech-angular-outline",
-        "stars": 3
-        },
-        {
-        "id": 6,
-        "name": "ExpressJS",
-        "icon": "tech-express",
-        "stars": 3
-        },
-        {
-        "id": 7,
-        "name": "NodeJS",
-        "icon": "tech-node-js",
-        "stars": 3
-        },
-        {
-        "id": 7,
-        "name": "Symfony",
-        "icon": "tech-symfony",
-        "stars": 2
-        },
-        {
-        "id": 8,
-        "name": "Twitter Bootstrap",
-        "icon": "tech-bootstrap",
-        "stars": 4
-        },
-        {
-        "id": 9,
-        "name": "Web Scrapping",
-        "icon": "tech-tag-search",
-        "stars": 3
-        }
-      ]
-    },
-    {
-      "id": "2",
-      "title": "Software Develoment",
-      "skills": [
-        {
-        "id": 1,
-        "name": "C/C++",
-        "icon": "tech-c-cpp",
-        "stars": 2
-        },
-        {
-        "id": 2,
-        "name": "Java",
-        "icon": "tech-java",
-        "stars": 2
-        },
-        {
-        "id": 41,
-        "name": "Python",
-        "icon": "tech-python",
-        "stars": 2
-        }
-      ]
-    },
-    {
-      "id": "3",
-      "title": "Databases",
-      "skills": [
-        {
-        "id": 31,
-        "name": "MongoDB",
-        "icon": "tech-mongo",
-        "stars": 2
-        },
-        {
-        "id": 32,
-        "name": "SQL",
-        "icon": "tech-db",
-        "stars": 3
-        }
-      ]
-    },
-    {
-      "id": "4",
-      "title": "Data Analytics",
-      "skills": [
-        {
-        "id": 1,
-        "name": "R",
-        "icon": "tech-r",
-        "stars": 2
-        },
-        {
-        "id": 3,
-        "name": "Machine Learning",
-        "icon": "tech-brain-outline",
-        "stars": 3
-        },
-        {
-        "id": 2,
-        "name": "Matlab/Octave",
-        "icon": "tech-maths-function",
-        "stars": 2
-        }
-      ]
-    },
-    {
+      "name": "HTML5",
+      "icon": "tech-html5-text",
+      "stars": 4
+      },
+      {
+      "id": 2,
+      "name": "CSS3",
+      "icon": "tech-css3",
+      "stars": 4
+      },
+      {
+      "id": 3,
+      "name": "Javascript",
+      "icon": "tech-javascript",
+      "stars": 4
+      },
+      {
+      "id": 4,
+      "name": "PHP",
+      "icon": "tech-php-elephant",
+      "stars": 3
+      },
+      {
       "id": 5,
-      "title": "Embedded Systems",
-      "skills": [
-        {
-          "id": 1,
-          "name": "A51 Assembly Language",
-          "icon": "",
-          "stars": 2
-        },
-        {
-          "id": 2,
-          "name": "Raspberry",
-          "icon": "",
-          "stars": 2
-        },
-        {
-          "id": 1,
-          "name": "VHDL",
-          "icon": "",
-          "stars": 1
-        },
-        {
-          "id": 1,
-          "name": "Real-Time Computing",
-          "icon": "",
-          "stars": 2
-        }
-      ]
-    },
+      "name": "AngularJS",
+      "icon": "tech-angular-outline",
+      "stars": 3
+      },
+      {
+      "id": 6,
+      "name": "ExpressJS",
+      "icon": "tech-express",
+      "stars": 3
+      },
+      {
+      "id": 7,
+      "name": "NodeJS",
+      "icon": "tech-node-js",
+      "stars": 3
+      },
+      {
+      "id": 7,
+      "name": "Symfony",
+      "icon": "tech-symfony",
+      "stars": 2
+      },
+      {
+      "id": 8,
+      "name": "Twitter Bootstrap",
+      "icon": "tech-bootstrap",
+      "stars": 4
+      },
+      {
+      "id": 9,
+      "name": "Web Scrapping",
+      "icon": "tech-tag-search",
+      "stars": 4
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Software Develoment",
+    "skills": [
+      {
+      "id": 1,
+      "name": "C/C++",
+      "icon": "tech-c-cpp",
+      "stars": 3
+      },
+      {
+      "id": 2,
+      "name": "Java",
+      "icon": "tech-java",
+      "stars": 1
+      },
+      {
+      "id": 41,
+      "name": "Python",
+      "icon": "tech-python",
+      "stars": 3
+      },
     {
-      "id": "5",
-      "title": "Workflow",
-      "skills": [
-        {
-        "id": 2,
-        "name": "JIRA/Scrum Method",
-        "icon": "tech-jira",
-        "stars": 3
-        },
-        {
-        "id": 3,
-        "name": "Jenkins",
-        "icon": "tech-jenkins",
-        "stars": 2
-        },
-        {
-        "id": 1,
-        "name": "Git",
-        "icon": "tech-git",
-        "stars": 4
-        },
-        {
-        "id": 5,
-        "name": "UML",
-        "icon": "tech-compas",
-        "stars": 3
-        },
-        {
-          "id": 4,
-          "name": "Grunt",
-          "icon": "tech-grunt",
-          "stars": 3
-        }
-      ]
-    },
-    {
-      "id": "6",
-      "title": "Design",
-      "skills": [
-        {
-        "id": 1,
-        "name": "Adobe Photoshop",
-        "icon": "tech-photoshop",
-        "stars": 4
-        },
-        {
-        "id": 2,
-        "name": "Adobe Illustrator",
-        "icon": "tech-illustrator",
-        "stars": 2
-        },
-        {
-        "id": 3,
-        "name": "Adobe InDesign",
-        "icon": "tech-indesign",
-        "stars": 2
-        },
-        {
-        "id": 4,
-        "name": "Adobe After Effect",
-        "icon": "tech-after-effect",
-        "stars": 2
-        }
-      ]
-    },
-    {
-      "id": "7",
-      "title": "Systems Administration",
-      "skills": [
-        {
-        "id": 3,
-        "name": "TCP/IP Networks",
-        "icon": "mdi mdi-earth",
-        "stars": 2
-        },
-        {
-        "id": 2,
-        "name": "Servers Adminstration",
-        "icon": "tech-server",
-        "stars": 3
-        },
-        {
-        "id": 1,
-        "name": "Unix",
-        "icon": "tech-linux",
-        "stars": 4
-        }
-      ]
-    },
-    {
-      "id": "8",
-      "title": "Miscellaneous",
-      "skills": [
-        {
-        "id": 1,
-        "name": "LaTeX",
-        "icon": "tech-tex",
-        "stars": 4
-        },
-        {
-        "id": 2,
-        "name": "PCRE Regex",
-        "icon": "tech-regex-alt",
-        "stars": 4
-        }
-      ]
+      "id": 42,
+      "name": "QT",
+      "icon": "",
+      "stars": 4
     }
-  ],
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Databases",
+    "skills": [
+      {
+      "id": 31,
+      "name": "MongoDB",
+      "icon": "tech-mongo",
+      "stars": 2
+      },
+      {
+      "id": 32,
+      "name": "SQL",
+      "icon": "tech-db",
+      "stars": 3
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Data Analytics",
+    "skills": [
+      {
+      "id": 1,
+      "name": "R",
+      "icon": "tech-r",
+      "stars": 2
+      },
+      {
+      "id": 3,
+      "name": "Machine Learning",
+      "icon": "tech-brain-outline",
+      "stars": 3
+      },
+      {
+      "id": 2,
+      "name": "Matlab/Octave",
+      "icon": "tech-maths-function",
+      "stars": 2
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Embedded Systems",
+    "skills": [
+      {
+        "id": 1,
+        "name": "A51 Assembly Language",
+        "icon": "",
+        "stars": 2
+      },
+      {
+        "id": 2,
+        "name": "Raspberry",
+        "icon": "",
+        "stars": 3
+      },
+      {
+        "id": 2,
+        "name": "Arduino",
+        "icon": "",
+        "stars": 1
+      },
+      {
+        "id": 1,
+        "name": "VHDL",
+        "icon": "",
+        "stars": 1
+      },
+      {
+        "id": 1,
+        "name": "Real-Time Computing",
+        "icon": "",
+        "stars": 2
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Workflow",
+    "skills": [
+      {
+      "id": 2,
+      "name": "Agile methods",
+      "icon": "tech-jira",
+      "stars": 3
+      },
+      {
+      "id": 3,
+      "name": "Jenkins",
+      "icon": "tech-jenkins",
+      "stars": 2
+      },
+      {
+      "id": 1,
+      "name": "Git",
+      "icon": "tech-git",
+      "stars": 4
+      },
+      {
+      "id": 5,
+      "name": "UML",
+      "icon": "tech-compas",
+      "stars": 2
+      },
+      {
+        "id": 4,
+        "name": "Grunt",
+        "icon": "tech-grunt",
+        "stars": 3
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Design",
+    "skills": [
+      {
+      "id": 1,
+      "name": "Adobe Photoshop",
+      "icon": "tech-photoshop",
+      "stars": 4
+      },
+      {
+      "id": 2,
+      "name": "Adobe Illustrator",
+      "icon": "tech-illustrator",
+      "stars": 2
+      },
+      {
+      "id": 3,
+      "name": "Adobe InDesign",
+      "icon": "tech-indesign",
+      "stars": 2
+      },
+      {
+      "id": 4,
+      "name": "Adobe After Effect",
+      "icon": "tech-after-effect",
+      "stars": 1
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Systems Administration",
+    "skills": [
+      {
+      "id": 3,
+      "name": "TCP/IP Networks",
+      "icon": "mdi mdi-earth",
+      "stars": 2
+      },
+      {
+      "id": 2,
+      "name": "Servers Adminstration",
+      "icon": "tech-server",
+      "stars": 3
+      },
+      {
+      "id": 1,
+      "name": "Unix",
+      "icon": "tech-linux",
+      "stars": 4
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Miscellaneous",
+    "skills": [
+      {
+      "id": 1,
+      "name": "LaTeX",
+      "icon": "tech-tex",
+      "stars": 4
+      },
+      {
+      "id": 2,
+      "name": "PCRE Regex",
+      "icon": "tech-regex-alt",
+      "stars": 4
+      }
+    ]
+  }
+],
   "projects": [
     {
     "title": "San Francisco Crime Classification",
