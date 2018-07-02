@@ -3,7 +3,7 @@ var bodyParser = require("body-parser");
 var nodemailer = require('nodemailer');
 var smtpTransport = require('nodemailer-smtp-transport');
 var https = require('https');
-var logger = require('morgan')
+var logger = require('morgan');
 
 var app  = express();
 

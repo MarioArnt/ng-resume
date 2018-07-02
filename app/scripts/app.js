@@ -17,7 +17,7 @@ app.config(['$routeProvider', function($routeProvider) {
     templateUrl: '../main.html',
     controller: 'MainCtrl',
     resolve: {
-      profile: function(profileService) {
+      profile: (profileService) => {
         return profileService.getProfile('data/en-EN.json');
       }
     }
@@ -26,7 +26,7 @@ app.config(['$routeProvider', function($routeProvider) {
     templateUrl: '../main.html',
     controller: 'MainCtrl',
     resolve: {
-      profile: function(profileService) {
+      profile: (profileService) => {
         return profileService.getProfile('data/fr-FR.json');
       }
     }
@@ -35,7 +35,7 @@ app.config(['$routeProvider', function($routeProvider) {
     templateUrl: '../main.html',
     controller: 'MainCtrl',
     resolve: {
-      profile: function(profileService) {
+      profile: (profileService) => {
         return profileService.getProfile('data/es-ES.json');
       }
     }
