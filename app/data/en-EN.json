@@ -167,6 +167,28 @@
       "details": "Build a tool that performs several checks to ensure the software embedded in Airbus aircrafts will be consistent and respect real-time constraints. The tool is mostly used in research and development phase and is useful to detect potential errors and fix it before ground and flight tests."
   }
 ],
+  "skills_legend": [
+    {
+      "stars": 1,
+      "label" : "Theoretical knowledge",
+      "details": "I am aware this technology exists. I read articles about it and I know the concepts and how it works. Though I never experiment it on a project. But I will be very glad to learn it and use it."
+    },
+    {
+      "stars": 2,
+      "label" : "Basic knowledge",
+      "details": "I used this technology in personal and school projects. I am comfortable using it for basic use cases. However I need support or further research to solve more advanced problems"
+    },
+    {
+      "stars": 3,
+      "label" : "Intermediate knowledge",
+      "details": "I used this technology in professional projects. I am autonomous and can get through documentation to solve most of the problems. My experience allow me to avoid current mistakes so I can develop quickly and efficiently."
+    },
+    {
+      "stars": 4,
+      "label" : "Advanced knowledge",
+      "details": "I've used this technology since a long time. I can solve complex problems using it and support people who need help."
+    }
+  ],
   "skills": [
     {
       "id": 1,

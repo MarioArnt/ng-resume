@@ -1,10 +1,17 @@
 section.skills
-  h1 Skills 
+  h1 Skills
+  div.skills-legend
+    h3 Legend
+    div.skill-legend(ng-repeat="skill_legend in me.skills_legend")
+      h4.label {{skill_legend.label}}
+      div.stars
+        div.unit.wow.fadeIn(ng-repeat="i in [0.2, 0.4, 0.6, 0.8]" ng-class="{active: $index + 1 <= skill_legend.stars}" data-wow-delay="{{i}}s")
+      p.detail {{skill_legend.details}}
   div.skills-list
     div.dontsplit(ng-repeat="category in me.skills" on-last-repeat)
       h3  {{category.title}}
       ul
-        li(ng-repeat="skill in category.skills") 
+        li(ng-repeat="skill in category.skills")
           div.circle-skill
             i(ng-if="skill.icon" class="{{skill.icon}}")
             i.mdi.mdi-star(ng-if="!skill.icon")

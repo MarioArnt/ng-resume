@@ -4,6 +4,7 @@ angular.module('ngResume')
 .controller('MainCtrl', function($scope, $anchorScroll, Notification, $location, $http, vcRecaptchaService, profile, $window, $rootScope) {
   $rootScope.loadingFinished = true;
   $scope.me = profile.data;
+  $scope.me.events.sort((a, b) => (100*b.year) + b.month - (100*a.year) - a.month);
   $rootScope.title = $scope.me.fullName + ' | Interactive résumé';
   angular.element($window).bind('resize', () => {
       $('.profile-picture').css('top', $('header').height()-0.5*$('.profile-picture').height());
@@ -41,7 +42,11 @@ angular.module('ngResume')
         return;
       }
       if(vcRecaptchaService.getResponse() === '') {
-        console.log('please repatcha');
+        Notification.error({
+          message: 'Please fill the captcha',
+          title: 'Missing fields',
+          positionX: 'center'
+        });
         return;
       }
       $http({
