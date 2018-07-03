@@ -1,8 +1,8 @@
 {
   "lang": "en",
   "fullName": "Mario Arnautou-Pages",
-  "job": "IT Engineering Student",
-  "location": "Evry, France",
+  "job": "Full Stack Developer",
+  "location": "Rhônes-Alpes, France",
   "cv": [
     {
       "text": "English",
@@ -165,6 +165,14 @@
       "year": 2016,
       "period": "February 2016 - August 2016",
       "details": "Build a tool that performs several checks to ensure the software embedded in Airbus aircrafts will be consistent and respect real-time constraints. The tool is mostly used in research and development phase and is useful to detect potential errors and fix it before ground and flight tests."
+  },
+  {
+    "type": "job",
+    "title": "Technical Consultant @ Altran",
+    "month": 1,
+    "year": 2017,
+    "period": "January 2017 - September 2017",
+    "details": "Full stack developer and technical consultant for IT projects."
   }
 ],
   "skills_legend": [
@@ -192,67 +200,105 @@
   "skills": [
     {
       "id": 1,
-      "title": "Web Development",
+      "title": "Front-end",
       "skills": [
         {
-        "id": 1,
-        "name": "HTML5",
-        "icon": "tech-html5-text",
-        "stars": 4
+          "id": 1,
+          "name": "HTML5",
+          "icon": "tech-html5-text",
+          "details": "New best practices with new tags. I generally use preprocessors to make it less verbose (e.g. Pug, EJS, HAML, Handlebars). I also have a good knowledge of Audio and Canvas APIs.",
+          "stars": 4
         },
         {
-        "id": 2,
-        "name": "CSS3",
-        "icon": "tech-css3",
-        "stars": 4
+          "id": 2,
+          "name": "CSS3",
+          "icon": "tech-css3",
+          "details": "Even if using CSS can be frustrating I still love it. I have a strong knowledge (use of advanced selectors, awareness of best practices (BEM, OOCSS). I use preprocessors (Stylus, SASS, LESS) for mixins, includes and more to make the code shorter and clearer.",
+          "stars": 4
         },
         {
-        "id": 3,
-        "name": "Javascript",
-        "icon": "tech-javascript",
-        "stars": 4
+          "id": 3,
+          "name": "Javascript",
+          "icon": "tech-javascript",
+          "details": "I love the Javascript ecosystem which is, in my opinion, one of the most innovative nowadays. It's very rich and evolve quickly, thus Javascript developers have to constantly keep learning new stuffs. Currently using ES6 syntax, I tried several derived languages and supersets such as Typescript or Dart. The syntax is quite easy and high level but that does not mean Javascript is easy. Rather the opposite, you have to know how the engine works for complex debugging.",
+          "stars": 3
         },
         {
-        "id": 4,
-        "name": "PHP",
-        "icon": "tech-php-elephant",
-        "stars": 3
+          "id": 5,
+          "name": "AngularJS",
+          "icon": "tech-angular-outline",
+          "details": "I loved working the good old AngularJS. This was my first real professional JS framework and I really learned to use it properly by making my own directive/services. I couldn't say I'm an expert as the beast is quite big and complex. I always need to keep an eye on the doc to know what it is possible to do with the different components (router, built-in service as $http). Moreover I'm comfortable at unit testing but far less with E2E testing. In the future I would prefer using Angular2+ but I still have the knowledge to maintain legacy AngularJS apps.",
+          "stars": 3
         },
         {
-        "id": 5,
-        "name": "AngularJS",
-        "icon": "tech-angular-outline",
-        "stars": 3
+          "id": 5,
+          "name": "Angular",
+          "icon": "tech-angular-outline",
+          "details": "I mean Angular2 and beyond here. I definitely love the new versions of the framework. The use of TypeScript make the code more maintainable and clear in my opinion. The integration of RxJS in Angular make async code management smoother and more elegant. Even if I'm a bit novice at it, I'm eager to learn and progress.",
+          "stars": 2
         },
         {
-        "id": 6,
-        "name": "ExpressJS",
-        "icon": "tech-express",
-        "stars": 3
+          "id": 5,
+          "name": "React",
+          "icon": "tech-angular-outline",
+          "details": "I tried react in personal projects and I loved it. Making is own little components and compose them is so satisfying ! The Flux/Redux philosophy is also a great way to manage async code using only pure functions as reducers. I think coding in react make it easier to scale up to complex projects, but I never had the chance to use it in a professional context to verify this. I would be glad if this opportunity would happen in the future.",
+          "stars": 2
         },
         {
-        "id": 7,
-        "name": "NodeJS",
-        "icon": "tech-node-js",
-        "stars": 3
+          "id": 5,
+          "name": "VueJS",
+          "icon": "tech-angular-outline",
+          "details": "I'm very interested by this library but I never really tried it beyond some ",
+          "stars": 1
         },
         {
-        "id": 7,
-        "name": "Symfony",
-        "icon": "tech-symfony",
-        "stars": 2
+          "id": 8,
+          "name": "Bootstrap",
+          "icon": "tech-bootstrap",
+          "details": "I used Bootstrap a lot in the past for all kind of projects.",
+          "stars": 4
         },
         {
-        "id": 8,
-        "name": "Twitter Bootstrap",
-        "icon": "tech-bootstrap",
-        "stars": 4
+          "id": 8,
+          "name": "Material Design Lite",
+          "icon": "tech-bootstrap",
+          "details": "",
+          "stars": 4
+        }
+      ]},
+    {
+      "id": 2,
+      "title": "Back-end",
+      "skills": [
+        {
+          "id": 6,
+          "name": "J2E",
+          "icon": "tech-java",
+          "stars": 3
         },
         {
-        "id": 9,
-        "name": "Web Scrapping",
-        "icon": "tech-tag-search",
-        "stars": 4
+          "id": 6,
+          "name": "Spring",
+          "icon": "tech-express",
+          "stars": 3
+        },
+        {
+          "id": 7,
+          "name": "NodeJS",
+          "icon": "tech-node-js",
+          "stars": 3
+        },
+        {
+          "id": 7,
+          "name": "ElasticSearch",
+          "icon": "tech-elastic",
+          "stars": 2
+        },
+        {
+          "id": 9,
+          "name": "Web Scrapping",
+          "icon": "tech-tag-search",
+          "stars": 4
         }
       ]
     },
@@ -278,12 +324,12 @@
         "icon": "tech-python",
         "stars": 3
         },
-      {
-        "id": 42,
-        "name": "QT",
-        "icon": "",
-        "stars": 4
-      }
+        {
+          "id": 42,
+          "name": "QT",
+          "icon": "",
+          "stars": 4
+        }
       ]
     },
     {
@@ -318,13 +364,25 @@
         "id": 3,
         "name": "Machine Learning",
         "icon": "tech-brain-outline",
-        "stars": 3
+        "stars": 2
         },
         {
         "id": 2,
         "name": "Matlab/Octave",
         "icon": "tech-maths-function",
         "stars": 2
+        },
+        {
+          "id": 2,
+          "name": "Tensorflow",
+          "icon": "tech-maths-function",
+          "stars": 2
+        },
+        {
+          "id": 2,
+          "name": "ScikitLearn",
+          "icon": "tech-maths-function",
+          "stars": 2
         }
       ]
     },

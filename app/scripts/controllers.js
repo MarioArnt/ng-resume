@@ -15,6 +15,8 @@ angular.module('ngResume')
     event.showMore = false;
   });
 
+  $scope.me.skills.forEach((cat) => cat.skills.forEach((skill) => skill.showMore = false));
+
   $scope.me.projects.forEach((project) => {
     project.skills.forEach((skill) => {
       skill.tooltip = {
@@ -32,6 +34,11 @@ angular.module('ngResume')
   $scope.scrollTo = (id) => {
      $location.hash(id);
      $anchorScroll();
+  };
+
+  $scope.toggleDetails = (i, j) => {
+    let skill = $scope.me.skills[i].skills[j];
+    skill.showMore = !skill.showMore;
   };
 
   $scope.emptyOptionalFields = false;

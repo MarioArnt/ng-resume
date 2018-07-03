@@ -11,10 +11,14 @@ section.skills
     div.dontsplit(ng-repeat="category in me.skills" on-last-repeat)
       h3  {{category.title}}
       ul
-        li(ng-repeat="skill in category.skills")
+        li(ng-repeat="skill in category.skills" ng-click="toggleDetails($parent.$index, $index)" ng-class="{'show-more': skill.showMore}")
           div.circle-skill
             i(ng-if="skill.icon" class="{{skill.icon}}")
             i.mdi.mdi-star(ng-if="!skill.icon")
           h5 {{skill.name}}
           div.stars
             div.unit.wow.fadeIn(ng-repeat="i in [0.2, 0.4, 0.6, 0.8]" ng-class="{active: $index + 1 <= skill.stars}" data-wow-delay="{{i}}s")
+          //p.show-less(ng-if="skill.showMore") - Show less
+          //p.show-more(ng-if="!skill.showMore") + Show more
+          p.skill-details(ng-if="skill.showMore === true") {{skill.details}}
+
