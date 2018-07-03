@@ -16,6 +16,6 @@ section.contact(id="contact")
     .form-group(ng-class="{'has-warning': emptyOptionalFields}")
       textarea.form-control(ng-model="mail.body")
       p(ng-show="emptyOptionalFields" class="help-block") Empty content, send anyway ?
-    div.captcha(vc-recaptcha key="'6Lcj0gATAAAAANFakPdCHvbqeczPAUMAET-nijPg'")  
+    div.g-recaptcha(data-sitekey="6Lcj0gATAAAAANFakPdCHvbqeczPAUMAET-nijPg")
     button.mdl-button.mdl-js-button.mdl-button--fab.mdl-js-ripple-effect(type="submit" ng-disabled="userForm.$invalid")
       i.mdi.mdi-send
