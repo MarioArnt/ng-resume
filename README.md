@@ -11,13 +11,18 @@ Clone the repo on your server and fill the data JSON with your infos.
 Then install the dependencies and build the dist files by typing the following command.
 
 ````
+npm install -g bower grunt
+gem install sass
+gem install compass
 npm install && bower install
 grunt build
 ````
 
+Rename the config.example.json to config.json and fill it with relevant informations.
+
 ## Deployment
 
-If you use nginx and passenge ruse the following configuration.
+If you use nginx and passenger use the following configuration.
 
 ````
 server {

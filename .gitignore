@@ -7,3 +7,6 @@ app/fonts/svg
 bower_components
 npm-debug.log
 dl
+.idea
+doc
+config.json

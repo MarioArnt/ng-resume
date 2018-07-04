@@ -1,53 +1,39 @@
-var express = require('express');
-var bodyParser = require("body-parser");
-var nodemailer = require('nodemailer');
-var smtpTransport = require('nodemailer-smtp-transport');
-var https = require('https');
-var logger = require('morgan')
+const express = require('express');
+const bodyParser = require("body-parser");
+const nodemailer = require('nodemailer');
+const smtpTransport = require('nodemailer-smtp-transport');
+const https = require('https');
+const logger = require('morgan');
+const config = require('./config.json');
 
-var app  = express();
-
-var SECRET = "6Lcj0gATAAAAADGOzCmp3-W8wpcarZRueKoQERrs";
+let app  = express();
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(__dirname + '/dist'));
 
-app.get('/', function(req, res) {
+app.get('/', (req, res) => {
     res.sendFile('./dist/index.html', {root: __dirname});
 });
 
-app.get('/download/cv/en', function(req, res){
-  var file = __dirname + '/dl/CV-en.pdf';
-  res.download(file);
+config.downloads.forEach((dl) => {
+  let url = `/download/cv/${dl.lang}`;
+  let file = __dirname + dl.src;
+  app.get(url, (req, res) => {
+    res.download(file);
+  });
 });
 
-app.get('/download/cv/fr', function(req, res){
-  var file = __dirname + '/dl/CV-fr.pdf';
-  res.download(file);
-});
-
-app.get('/download/cv/es', function(req, res){
-  var file = __dirname + '/dl/CV-es.pdf';
-  res.download(file);
-});
-
-app.post('/mail', function(req, res){
-  verifyRecaptcha(req.body["g-recaptcha-response"], function(success) {
+app.post('/mail', (req, res) => {
+  verifyRecaptcha(req.body["g-recaptcha-response"], (success) => {
     if (success) {
-      var transporter = nodemailer.createTransport({
-          service: 'Gmail',
-          auth: {
-              user: ' mario.nodemailer@gmail.com',
-              pass: 'K!ll3rN0de'
-          }
-      });
-      var mailOptions = {
+      const transporter = nodemailer.createTransport(config.nodemailer_transport);
+      const mailOptions = {
         from: req.body.from +' ✔ <' + req.body.from + '>', // sender address
-        to: "mario.arnautou@gmail.com",
+        to: config.email,
         subject: req.body.object,
         text: 'sender:' + req.body.from + ' message:' + req.body.content
       };
-      transporter.sendMail(mailOptions, function(error, info){
+      transporter.sendMail(mailOptions, (error, info) => {
         if(error){
           console.log(error);
           res.status(500);
@@ -67,14 +53,15 @@ app.post('/mail', function(req, res){
 });
 
 function verifyRecaptcha(key, callback) {
-  https.get("https://www.google.com/recaptcha/api/siteverify?secret=" + SECRET + "&response=" + key, function(res) {
-    var data = "";
-    res.on('data', function (chunk) {
+  const url = `https://www.google.com/recaptcha/api/siteverify?secret=${config.recaptcha_secret_key}&response=${key}`;
+  https.get(url, (res) => {
+    let data = "";
+    res.on('data', (chunk) => {
       data += chunk.toString();
     });
-    res.on('end', function() {
+    res.on('end', () => {
       try {
-        var parsedData = JSON.parse(data);
+        let parsedData = JSON.parse(data);
         console.log(parsedData);
         callback(parsedData.success);
         } catch (e) {
@@ -83,4 +70,5 @@ function verifyRecaptcha(key, callback) {
     });
   });
 }
+
 app.listen(8081);
