@@ -207,21 +207,67 @@
           "name": "HTML5",
           "icon": "tech-html5-text",
           "details": "New best practices with new tags. I generally use preprocessors to make it less verbose (e.g. Pug, EJS, HAML, Handlebars). I also have a good knowledge of Audio and Canvas APIs.",
-          "stars": 4
+          "stars": 4,
+          "related": [
+            {
+              "name": "Pug",
+              "icon": "tech-pug"
+            }
+          ]
         },
         {
           "id": 2,
           "name": "CSS3",
           "icon": "tech-css3",
           "details": "Even if using CSS can be frustrating I still love it. I have a strong knowledge (use of advanced selectors, awareness of best practices (BEM, OOCSS). I use preprocessors (Stylus, SASS, LESS) for mixins, includes and more to make the code shorter and clearer.",
-          "stars": 4
+          "stars": 4,
+          "related": [
+            {
+              "name": "SASS",
+              "icon": "tech-sass"
+            },
+            {
+              "name": "Less",
+              "icon": "tech-less"
+            },
+            {
+              "name": "Stylus",
+              "icon": "tech-stylus"
+            }
+          ]
         },
         {
           "id": 3,
           "name": "Javascript",
           "icon": "tech-javascript",
           "details": "I love the Javascript ecosystem which is, in my opinion, one of the most innovative nowadays. It's very rich and evolve quickly, thus Javascript developers have to constantly keep learning new stuffs. Currently using ES6 syntax, I tried several derived languages and supersets such as Typescript or Dart. I'm also comfortable with module bundlers like Webpack or task runners like Gulp or Grunt. The syntax is quite easy and high level but that does not mean Javascript is easy. Rather the opposite, you have to know how the engine works for complex debugging.",
-          "stars": 3
+          "stars": 3,
+          "related": [
+            {
+              "name": "Typescript",
+              "icon": "tech-npm"
+            },
+            {
+              "name": "NPM",
+              "icon": "tech-npm"
+            },
+            {
+              "name": "Yarn",
+              "icon": "tech-yarn"
+            },
+            {
+              "name": "Webpack",
+              "icon": "tech-stylus"
+            },
+            {
+              "name": "Grunt",
+              "icon": "tech-npm"
+            },
+            {
+              "name": "Gulp",
+              "icon": "tech-yarn"
+            }
+          ]
         },
         {
           "id": 5,
@@ -233,21 +279,21 @@
         {
           "id": 5,
           "name": "Angular",
-          "icon": "tech-angular-outline",
+          "icon": "",
           "details": "I mean Angular2 and beyond here. I definitely love the new versions of the framework. The use of TypeScript make the code more maintainable and clear in my opinion. The integration of RxJS in Angular make async code management smoother and more elegant. Even if I'm a bit novice at it, I'm eager to learn and progress.",
           "stars": 2
         },
         {
           "id": 5,
           "name": "React",
-          "icon": "tech-angular-outline",
+          "icon": "",
           "details": "I tried react in personal projects and I loved it. Making is own little components and compose them is so satisfying ! The Flux/Redux philosophy is also a great way to manage async code using only pure functions as reducers. I think coding in react make it easier to scale up to complex projects, but I never had the chance to use it in a professional context to verify this. I would be glad if this opportunity would happen in the future.",
           "stars": 2
         },
         {
           "id": 5,
           "name": "VueJS",
-          "icon": "tech-angular-outline",
+          "icon": "",
           "details": "I'm very interested by this UI framework. I played a bit with Vue when it was released but I never had the chance to work with it in real project. I really liked the lightweight approach. I feel Vue manage to offer the efficiency of modern UI framework features (virtual DOM, reusable components) while keeping in mind performance.",
           "stars": 1
         },
@@ -261,7 +307,7 @@
         {
           "id": 8,
           "name": "Material Design Lite",
-          "icon": "tech-bootstrap",
+          "icon": "",
           "details": "I know it's subjective but Material Design is my favorite webdesign trend. It's always satisfying to develop beautiful UI. I used several implementations of Google Material Design guidelines. Among them Material Design Lite and MaterializeCSS appears to be the most mature projects.",
           "stars": 3
         }
@@ -273,14 +319,8 @@
       "skills": [
         {
           "id": 6,
-          "name": "J2E",
-          "icon": "tech-java",
-          "stars": 3
-        },
-        {
-          "id": 6,
           "name": "Spring",
-          "icon": "tech-express",
+          "icon": "",
           "details": "I discovered Spring and J2E when I worked in Altran. Before that I used ExpressJS or Symphony as back-end framework. I understand now why J2E/Spring is so widely used in the industry. It's very mature technology and it works just perfectly with relational databases thanks to hibernate. IMO, the static typing and the oriented-object aspect of Java force the developer to produce code more rigorously and improve maintainability.",
           "stars": 3
         },
@@ -301,30 +341,6 @@
       ]
     },
     {
-      "id": "2",
-      "title": "Software Develoment",
-      "skills": [
-        {
-          "id": 1,
-          "name": "C/C++",
-          "icon": "tech-c-cpp",
-          "stars": 3
-        },
-        {
-          "id": 2,
-          "name": "Java",
-          "icon": "tech-java",
-          "stars": 1
-        },
-        {
-          "id": 42,
-          "name": "QT",
-          "icon": "tech-qt",
-          "stars": 4
-        }
-      ]
-    },
-    {
       "id": "3",
       "title": "Databases",
       "skills": [
@@ -332,6 +348,7 @@
           "id": 31,
           "name": "MongoDB",
           "icon": "tech-mongo",
+          "details": "The first NoSQL database I used. This document-oriented database allow high scalability but breaks with traditional relational database ease of use and possibility of complex requests.",
           "stars": 2
         },
         {
@@ -345,7 +362,53 @@
           "id": 32,
           "name": "SQL",
           "icon": "tech-db",
+          "details": "Most of the projects on which I worked use a SQL database. I'm able to build complex requests and optimize performances. I can also design data-models connecting entities with different relationships (one-to-many etc...) and implement the corresponding schema in SQL.",
           "stars": 3
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Software Develoment",
+      "skills": [
+        {
+          "id": 1,
+          "name": "C/C++",
+          "icon": "tech-c-cpp",
+          "details": "",
+          "stars": 3
+        },
+        {
+          "id": 42,
+          "name": "QT",
+          "icon": "tech-qt",
+          "details": "QT is a framework that I develop a desktop application",
+          "stars": 4
+        },
+        {
+          "id": 42,
+          "name": "Electron",
+          "icon": "tech-electron",
+          "details": "Electron permits to build desktop applications with the web world technologies (JS/HTML/CSS). I don't have professional experience with electron, but I tried it and I think I could be a productive Electron programmer quickly if I work on it in a professional context.",
+          "stars": 1
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Mobile App Develoment",
+      "skills": [
+        {
+          "id": 1,
+          "name": "Android SDK",
+          "icon": "I already developed basic Android apps with the official SDK at school. I would be glad to improve my skills by working on a professional project.",
+          "stars": 1
+        },
+        {
+          "id": 2,
+          "name": "Ionic",
+          "icon": "Ionic permits to develop hybrid mobile apps. I never tried but I think I could learn it quickly as I already know most of the technologies Ionic is based on (HTML/CSS/JS). I would glad to work with Ionic and I'm thinking of doing a personal project with it.",
+          "stars": 1
         }
       ]
     },
@@ -357,7 +420,7 @@
           "id": 41,
           "name": "Python",
           "icon": "tech-python",
-          "details": "I mainly use Python for machine learning. As far as I know, it's the most suitable tool for this using the awesome library SciPy based on Numpy. Python is useful for data cleaning and processing using the Python API of ML libraries such as Scikit-learn or Tensorflow.",
+          "details": "I mainly use Python for machine learning. As far as I know, it's the most suitable tool for this using the awesome library SciPy based on Numpy. Python is useful for data cleaning and processing using the Python API of ML libraries such as Scikit-learn or Tensorflow. I never used Python for web development (Django).",
           "stars": 3
         },
         {
@@ -378,13 +441,14 @@
           "id": 2,
           "name": "Matlab/Octave",
           "icon": "tech-maths-function",
+          "details": "",
           "stars": 2
         },
         {
           "id": 2,
           "name": "Tensorflow",
-          "icon": "tech-maths-function",
-          "details": "Tensorflow is a Deep learning library that make easier the use deep neural networks. ",
+          "icon": "",
+          "details": "Tensorflow is a Deep learning library that make easier the use deep neural networks. I used it at school for handwritten digits recognition (MNIST database) and during the project Kaggle SF Crimes Classification.",
           "stars": 2
         },
         {
@@ -522,6 +586,113 @@
   ],
   "projects": [
     {
+      "title": "Pictrip",
+      "anchor": "agedi",
+      "skills": [
+        {
+          "name": "J2E",
+          "icon": "tech-java"
+        },
+        {
+          "name": "Spring",
+          "icon": ""
+        },
+        {
+          "name": "Angular 2+",
+          "icon": ""
+        },
+        {
+          "name": "HTML5",
+          "icon": "tech-html"
+        },
+        {
+          "name": "CSS3",
+          "icon": "tech-css"
+        },
+        {
+          "name": "Webpack",
+          "icon": ""
+        },
+        {
+          "name": "Google Maps API",
+          "icon": ""
+        },
+        {
+          "name": "SQL",
+          "icon": "tech-database"
+        },
+        {
+          "name": "Git",
+          "icon": "tech-git"
+        }
+      ],
+      "begin-date": "August 2017",
+      "end-date": "September 2017",
+      "details": "A side project I began to develop before my trip in South-East Asia. Unfortunately I didn't have time to finish it. The idea was to build a single page app that allow the user to draw his trip on the world map. The user can add step and connect them by precising the transportation mode used. At each step he can upload pictures. The project was scaffold using jHipster, a nice tool that generate the backbone of an Spring/Angular4 project. As I said I didn't finish it, but it was a good exercise. I updated my skills on angular4, learned TypeScript, created my data-model and played with GoogleMaps API. I released the source code on <a target=\"_blank\" href=\"https://github.com/MarioArnt/pictrip\">Github</a>. Maybe I'll finish it one day."
+    },
+    {
+      "title": "AGEDI Accounting and Payrol",
+      "anchor": "agedi",
+      "skills": [
+        {
+          "name": "J2E",
+          "icon": "tech-java"
+        },
+        {
+          "name": "Spring",
+          "icon": ""
+        },
+        {
+          "name": "AngularJS",
+          "icon": ""
+        },
+        {
+          "name": "HTML5",
+          "icon": "tech-html"
+        },
+        {
+          "name": "CSS3",
+          "icon": "tech-css"
+        },
+        {
+          "name": "SQL",
+          "icon": "tech-database"
+        },
+        {
+          "name": "Git",
+          "icon": "tech-git"
+        },
+        {
+          "name": "Agile Methods",
+          "icon": "tech-jira"
+        },
+        {
+          "name": "Continuous Integration",
+          "icon": "tech-jenkins"
+        }
+      ],
+      "begin-date": "January 2017",
+      "end-date": "September 2017",
+      "details": ""
+    },
+    {
+      "title": "Flight Controls Anomalies Detection tools",
+      "anchor": "flight-controls",
+      "skills": [
+        {
+          "name": "C/C++",
+          "icon": "tech-c-cpp"
+        },
+        {
+          "name": "QT",
+          "icon": "tech-qt"
+        }
+      ],
+      "begin-date": "February 2016",
+      "end-date": "September 2016",
+      "details": ""
+    },
+    {
       "title": "San Francisco Crime Classification",
       "anchor": "san-francisco",
       "skills": [
@@ -540,7 +711,7 @@
       ],
       "begin-date": "October 2015",
       "end-date": "January 2016",
-      "details": "With a friend from Telecom SudParis, we particpate to a machine learning competition on the data-science website kaggle. The aim of the competition is to predict the category of a crime given several parameters such as the location, the precise datetime or the police station that investigate on it. To feed our machine-learning system we have access to 12 years police records. We have now visualized the data thanks to R language and we will use several unsupervised and supervised machine learning technics to predict the crime category including Support vectors machines, Neural Networks and Random Forrest. Find more information about the competition on the <a href=”https://www.kaggle.com/c/sf-crime/”>Kaggle website<a>."
+      "details": "With a friend from Telecom SudParis, we particpate to a machine learning competition on the data-science website kaggle. The aim of the competition is to predict the category of a crime given several parameters such as the location, the precise datetime or the police station that investigate on it. To feed our machine-learning system we have access to 12 years police records. We have now visualized the data thanks to R language and we will use several unsupervised and supervised machine learning technics to predict the crime category including Support vectors machines, Neural Networks and Random Forrest. Find more information about the competition on the <a target=\"_blank\" href=”https://www.kaggle.com/c/sf-crime/”>Kaggle website<a>."
     },
     {
       "title": "Student Office Campaign Website",
@@ -661,7 +832,7 @@
       ],
       "begin-date": "June 2015",
       "end-date": "September 2015",
-      "details": "OpenPaaS is an open-source Enterprise Social Network with the ambition of competing with the greatest commercial software and becoming a reference on this market. The advantage for the companies is the control of their data. In addition to the classical features – calendar, contacts, email – OpenPaaS implement social features, such as likes, comments, re-post. An innovating recommender system suggest to the employees the relevant information according to their job in the company. Finally OpenPaaS includes a visio-conference service called <a href=”http://hubl.in/”>Hubl.in</a>, that works directly in the web browser without plugin, and that can host conferences for 9 attendees. You can see these projects code on Github : <a href=”https://github.com/linagora/openpaas-esn”>OpenPaaS ESN</a> and <a href=”https://github.com/linagora/hublin”>Hubl.in</a>"
+      "details": "OpenPaaS is an open-source Enterprise Social Network with the ambition of competing with the greatest commercial software and becoming a reference on this market. The advantage for the companies is the control of their data. In addition to the classical features – calendar, contacts, email – OpenPaaS implement social features, such as likes, comments, re-post. An innovating recommender system suggest to the employees the relevant information according to their job in the company. Finally OpenPaaS includes a visio-conference service called <a href=”http://hubl.in/”>Hubl.in</a>, that works directly in the web browser without plugin, and that can host conferences for 9 attendees. You can see these projects code on Github : <a href=”https://github.com/linagora/openpaas-esn”>OpenPaaS ESN</a> and <a target=\"_blank\" href=”https://github.com/linagora/hublin”>Hubl.in</a>"
     }
   ]
 }

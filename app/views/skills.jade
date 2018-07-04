@@ -7,6 +7,9 @@ section.skills
       div.stars
         div.unit.wow.fadeIn(ng-repeat="i in [0.2, 0.4, 0.6, 0.8]" ng-class="{active: $index + 1 <= skill_legend.stars}" data-wow-delay="{{i}}s")
       p.detail {{skill_legend.details}}
+  div.collapse-control
+    p Click on a skill to expand/collapse it.
+      a(ng-click="expandAll()") {{ me.skills.allCollapsed ? 'Expand all' : 'Collapse all'}}
   div.skills-list
     div.dontsplit(ng-repeat="category in me.skills" on-last-repeat)
       h3  {{category.title}}

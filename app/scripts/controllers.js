@@ -16,6 +16,7 @@ angular.module('ngResume')
   });
 
   $scope.me.skills.forEach((cat) => cat.skills.forEach((skill) => skill.showMore = false));
+  $scope.me.skills.allCollapsed = true;
 
   $scope.me.projects.forEach((project) => {
     project.skills.forEach((skill) => {
@@ -24,6 +25,11 @@ angular.module('ngResume')
       };
     });
   });
+
+  $scope.expandAll = () => {
+    $scope.me.skills.forEach((cat) => cat.skills.forEach((skill) => skill.showMore = $scope.me.skills.allCollapsed));
+    $scope.me.skills.allCollapsed = !$scope.me.skills.allCollapsed;
+  };
 
   $scope.changeLang = (lang) => {
     if(lang === $scope.me.lang) {return;}
@@ -39,6 +45,7 @@ angular.module('ngResume')
   $scope.toggleDetails = (i, j) => {
     let skill = $scope.me.skills[i].skills[j];
     skill.showMore = !skill.showMore;
+    //$scope.me.skills.allCollapsed = !$scope.me.skills.some((cat) => cat.skills.some(skill => skill.showMore = true));
   };
 
   $scope.emptyOptionalFields = false;
