@@ -1,0 +1,29 @@
+{
+  // The email address to which the contact section email is sent
+  "email": "john.doe@domain.tld",
+  // The nodemailer transport to use. See nodemailer documentation for further informations. Here is an example with gmail.
+  "nodemailer_transport": {
+    "service": "Gmail",
+    "auth": {
+      "user": "example@gmail.com",
+      "pass": "P455W0RD"
+    }
+  },
+  // Your repatcha secret key. If you have not create an account at https://www.google.com/recaptcha/
+  "recaptcha_secret_key": "YOUR_RECAPTCHA_SECRET_KEY",
+  // The downloadable CV. Create an object for each language with the relative path to the document on the server.
+  "downloads": [
+    {
+      "lang": "en",
+      "src": "/dl/CV-en.pdf"
+    },
+    {
+      "lang": "fr",
+      "src": "/dl/CV-fr.pdf"
+    },
+    {
+      "lang": "es",
+      "src": "/dl/CV-es.pdf"
+    }
+  ]
+}

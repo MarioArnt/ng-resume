@@ -18,6 +18,8 @@ npm install && bower install
 grunt build
 ````
 
+Rename the config.example.json to config.json and fill it with relevant informations.
+
 ## Deployment
 
 If you use nginx and passenger use the following configuration.
