@@ -164,7 +164,7 @@
       "month": 2,
       "year": 2016,
       "period": "February 2016 - August 2016",
-      "details": "Build a tool that performs several checks to ensure the software embedded in Airbus aircrafts will be consistent and respect real-time constraints. The tool is mostly used in research and development phase and is useful to detect potential errors and fix it before ground and flight tests. The software was developped in C++ with the library QT version 5. The parsing engine can support SCADE sheets used to develop critic systems software."
+      "details": "Build a tool that performs several checks to ensure the software embedded in Airbus aircrafts will be consistent and respect real-time constraints. The tool is mostly used in research and development phase and is useful to detect potential errors and fix it before ground and flight tests. The software was developed in C++ with the library QT version 5. The parsing engine can support SCADE sheets used to develop critic systems software."
     },
     {
       "type": "job",
@@ -172,7 +172,7 @@
       "month": 1,
       "year": 2017,
       "period": "January 2017 - September 2017",
-      "details": "Full stack developer and technical consultant for IT projects. I mainly worked on the AGEDI project. AGEDI is a payroll and accounting softawre for the French regional and local authorities. Technologies used : Back-end development with J2E / Spring, front-end with Angular and PostgreSQL databases. Team work, Agile project management with SCRUM, versioning management with Git and cotinuous integration with Jenkins."
+      "details": "Full stack developer and technical consultant for IT projects. I mainly worked on the AGEDI project. AGEDI is a payroll and accounting software for the French regional and local authorities. Technologies used : Back-end development with J2E / Spring, front-end with Angular and PostGreSQL databases. Team work, Agile project management with SCRUM, versioning management with Git and continuous integration with Jenkins."
     }
   ],
   "skills_legend": [
@@ -205,7 +205,7 @@
         {
           "id": 1,
           "name": "HTML5",
-          "icon": "tech-html5-text",
+          "icon": "tech-icon-html5",
           "details": "New best practices with new tags. I generally use preprocessors to make it less verbose (e.g. Pug, EJS, HAML, Handlebars). I also have a good knowledge of Audio and Canvas APIs.",
           "stars": 4,
           "related": [
@@ -218,96 +218,100 @@
         {
           "id": 2,
           "name": "CSS3",
-          "icon": "tech-css3",
+          "icon": "tech-icon-css3",
           "details": "Even if using CSS can be frustrating I still love it. I have a strong knowledge (use of advanced selectors, awareness of best practices (BEM, OOCSS). I use preprocessors (Stylus, SASS, LESS) for mixins, includes and more to make the code shorter and clearer.",
           "stars": 4,
           "related": [
             {
               "name": "SASS",
-              "icon": "tech-sass"
+              "icon": "tech-icon-sass"
             },
             {
               "name": "Less",
-              "icon": "tech-less"
+              "icon": "tech-icon-less"
             },
             {
               "name": "Stylus",
-              "icon": "tech-stylus"
+              "icon": "tech-icon-stylus"
             }
           ]
         },
         {
           "id": 3,
           "name": "Javascript",
-          "icon": "tech-javascript",
+          "icon": "tech-icon-javascript",
           "details": "I love the Javascript ecosystem which is, in my opinion, one of the most innovative nowadays. It's very rich and evolve quickly, thus Javascript developers have to constantly keep learning new stuffs. Currently using ES6 syntax, I tried several derived languages and supersets such as Typescript or Dart. I'm also comfortable with module bundlers like Webpack or task runners like Gulp or Grunt. The syntax is quite easy and high level but that does not mean Javascript is easy. Rather the opposite, you have to know how the engine works for complex debugging.",
           "stars": 3,
           "related": [
             {
               "name": "Typescript",
-              "icon": "tech-npm"
+              "icon": "tech-icon-typescript"
+            },
+            {
+              "name": "D3JS",
+              "icon": "tech-icon-d3"
             },
             {
               "name": "NPM",
-              "icon": "tech-npm"
+              "icon": "tech-icon-npm"
             },
             {
               "name": "Yarn",
-              "icon": "tech-yarn"
+              "icon": "tech-icon-yarn"
             },
             {
               "name": "Webpack",
-              "icon": "tech-stylus"
+              "icon": "tech-icon-webpack"
             },
             {
               "name": "Grunt",
-              "icon": "tech-npm"
+              "icon": "tech-icon-grunt"
             },
             {
               "name": "Gulp",
-              "icon": "tech-yarn"
+              "icon": "tech-icon-gulp"
             }
           ]
         },
         {
           "id": 5,
           "name": "AngularJS",
-          "icon": "tech-angular-outline",
+          "icon": "tech-icon-angularjs",
           "details": "I loved working the good old AngularJS. This was my first real professional JS framework and I really learned to use it properly by making my own directive/services. I couldn't say I'm an expert as the beast is quite big and complex. I always need to keep an eye on the doc to know what it is possible to do with the different components (router, built-in service as $http). Moreover I'm comfortable at unit testing but far less with E2E testing. In the future I would prefer using Angular2+ but I still have the knowledge to maintain legacy AngularJS apps.",
           "stars": 3
         },
         {
           "id": 5,
           "name": "Angular",
-          "icon": "",
+          "icon": "tech-icon-angular2",
           "details": "I mean Angular2 and beyond here. I definitely love the new versions of the framework. The use of TypeScript make the code more maintainable and clear in my opinion. The integration of RxJS in Angular make async code management smoother and more elegant. Even if I'm a bit novice at it, I'm eager to learn and progress.",
           "stars": 2
         },
         {
           "id": 5,
           "name": "React",
-          "icon": "",
+          "icon": "tech-icon-react",
           "details": "I tried react in personal projects and I loved it. Making is own little components and compose them is so satisfying ! The Flux/Redux philosophy is also a great way to manage async code using only pure functions as reducers. I think coding in react make it easier to scale up to complex projects, but I never had the chance to use it in a professional context to verify this. I would be glad if this opportunity would happen in the future.",
           "stars": 2
         },
         {
           "id": 5,
           "name": "VueJS",
-          "icon": "",
+          "icon": "tech-icon-vuejs",
           "details": "I'm very interested by this UI framework. I played a bit with Vue when it was released but I never had the chance to work with it in real project. I really liked the lightweight approach. I feel Vue manage to offer the efficiency of modern UI framework features (virtual DOM, reusable components) while keeping in mind performance.",
           "stars": 1
         },
         {
           "id": 8,
           "name": "Bootstrap",
-          "icon": "tech-bootstrap",
+          "icon": "tech-icon-bootstrap",
           "details": "I used Bootstrap a lot in the past for all kind of projects. I'm used to deal with the grid system and the different CSS and JS components. However, I now prefer material design aesthetically speaking.",
           "stars": 4
         },
         {
           "id": 8,
           "name": "Material Design Lite",
-          "icon": "",
+          "icon": "tech-icon-material-design-lite",
           "details": "I know it's subjective but Material Design is my favorite webdesign trend. It's always satisfying to develop beautiful UI. I used several implementations of Google Material Design guidelines. Among them Material Design Lite and MaterializeCSS appears to be the most mature projects.",
           "stars": 3
         }
@@ -320,21 +324,21 @@
         {
           "id": 6,
           "name": "Spring",
-          "icon": "",
-          "details": "I discovered Spring and J2E when I worked in Altran. Before that I used ExpressJS or Symphony as back-end framework. I understand now why J2E/Spring is so widely used in the industry. It's very mature technology and it works just perfectly with relational databases thanks to hibernate. IMO, the static typing and the oriented-object aspect of Java force the developer to produce code more rigorously and improve maintainability.",
+          "icon": "tech-icon-spring",
+          "details": "I discovered Spring and J2E when I worked in Altran. Before that I used ExpressJS or Symphony as back-end framework. I understand now why J2E/Spring is so widely used in the industry. It's very mature technology and it works just perfectly with relational databases thanks to hibernate. IMO, the static typing and the oriented-object aspect of Java force the developer to produce code more rigorously and improve maintainability. Besides, I like the new stream features in Java 8.",
           "stars": 3
         },
         {
           "id": 7,
           "name": "NodeJS",
-          "icon": "tech-node-js",
+          "icon": "tech-icon-node",
           "details": "Isn't it pleasant to use the same programming language server-side and client-side ? Besides the non-blocking IO system handle more request on a single thread than other languages. However, there is less third party library so you have to do more development yourself. That challenging but quite time-wasting. I haven't use NodeJS in a professional context since a long time, so I'll probably need to update but I still love it.",
           "stars": 2
         },
         {
           "id": 9,
           "name": "Web Scrapping",
-          "icon": "tech-tag-search",
+          "icon": "tech-icon-tag-search",
           "details": "I love building bots scrapping the web and extracting data by parsing HTTP response with RegExp. I use CasperJS to build quickly bots. This awesome lib make the use of cookies, clicks, scrolls and so on easier.",
           "stars": 3
         }
@@ -347,21 +351,21 @@
         {
           "id": 31,
           "name": "MongoDB",
-          "icon": "tech-mongo",
+          "icon": "tech-icon-mongo",
           "details": "The first NoSQL database I used. This document-oriented database allow high scalability but breaks with traditional relational database ease of use and possibility of complex requests.",
           "stars": 2
         },
         {
           "id": 7,
           "name": "ElasticSearch",
-          "icon": "tech-elastic",
+          "icon": "tech-icon-elasticsearch",
           "details": "I used ElasticSearch in professional projects but only as user rather than architect. It means I can index and request documents. Yet, I couldn't deploy and parametrize an elastic search cluster. Well I probably could, but I need to spend time to learn this technology more thoroughly.",
           "stars": 2
         },
         {
           "id": 32,
           "name": "SQL",
-          "icon": "tech-db",
+          "icon": "tech-icon-database",
           "details": "Most of the projects on which I worked use a SQL database. I'm able to build complex requests and optimize performances. I can also design data-models connecting entities with different relationships (one-to-many etc...) and implement the corresponding schema in SQL.",
           "stars": 3
         }
@@ -369,26 +373,26 @@
     },
     {
       "id": "2",
-      "title": "Software Develoment",
+      "title": "Software Development",
       "skills": [
         {
           "id": 1,
           "name": "C/C++",
-          "icon": "tech-c-cpp",
-          "details": "",
+          "icon": "tech-icon-c",
+          "details": "Even though my early career has rather taken the direction of web development, I still have a strong knowledge in C/C++. C was the most used language at university during my specialization in embedded systems. In my opinion, it's important for a programmer to know how to manage the memory. It allows to better understand higher-level language memory management mechanisms (garbage collection, referencing/dereferencing and so on).",
           "stars": 3
         },
         {
           "id": 42,
           "name": "QT",
-          "icon": "tech-qt",
-          "details": "QT is a framework that I develop a desktop application",
+          "icon": "tech-icon-qt",
+          "details": "QT is a framework useful to develop a desktop application. It handles both GUI creation and business logic. It also comes with a lot of helpers and collections such as HashMap. Event programming is managed with Observer pattern. I used QT5 during my internship at Airbus and I'm now comfortable using it.",
           "stars": 4
         },
         {
           "id": 42,
           "name": "Electron",
-          "icon": "tech-electron",
+          "icon": "tech-icon-electron",
           "details": "Electron permits to build desktop applications with the web world technologies (JS/HTML/CSS). I don't have professional experience with electron, but I tried it and I think I could be a productive Electron programmer quickly if I work on it in a professional context.",
           "stars": 1
         }
@@ -396,18 +400,20 @@
     },
     {
       "id": "2",
-      "title": "Mobile App Develoment",
+      "title": "Mobile App Development",
       "skills": [
         {
           "id": 1,
           "name": "Android SDK",
-          "icon": "I already developed basic Android apps with the official SDK at school. I would be glad to improve my skills by working on a professional project.",
+          "icon": "tech-icon-android",
+          "details": "I already developed basic Android apps with the official SDK at school. I would be glad to improve my skills by working on a professional project.",
           "stars": 1
         },
         {
           "id": 2,
           "name": "Ionic",
-          "icon": "Ionic permits to develop hybrid mobile apps. I never tried but I think I could learn it quickly as I already know most of the technologies Ionic is based on (HTML/CSS/JS). I would glad to work with Ionic and I'm thinking of doing a personal project with it.",
+          "icon": "tech-icon-ionic",
+          "details": "Ionic permits to develop hybrid mobile apps. I never tried but I think I could learn it quickly as I already know most of the technologies Ionic is based on (HTML/CSS/JS). I would glad to work with Ionic and I'm thinking of doing a personal project with it.",
           "stars": 1
         }
       ]
@@ -419,42 +425,42 @@
         {
           "id": 41,
           "name": "Python",
-          "icon": "tech-python",
+          "icon": "tech-icon-python",
           "details": "I mainly use Python for machine learning. As far as I know, it's the most suitable tool for this using the awesome library SciPy based on Numpy. Python is useful for data cleaning and processing using the Python API of ML libraries such as Scikit-learn or Tensorflow. I never used Python for web development (Django).",
           "stars": 3
         },
         {
           "id": 3,
           "name": "Machine Learning",
-          "icon": "tech-brain-outline",
+          "icon": "tech-icon-brain-outline",
           "details": "Although I'm not an expert, I'm passionate about IA. I learned machine learning basics and I try to stay informed of new things. I worked on several student projects with a good friend now studying IA PhD. I don't have a great expertise of mathematical in and outs, so my approach is a bit empirical. But it often give satisfying results.",
           "stars": 2
         },
         {
           "id": 1,
           "name": "R",
-          "icon": "tech-r",
+          "icon": "tech-icon-r",
           "details": "I mainly use R for data visualisation. It allows me to better understand data and clean it before using it.",
           "stars": 2
         },
         {
           "id": 2,
           "name": "Matlab/Octave",
-          "icon": "tech-maths-function",
-          "details": "",
+          "icon": "tech-icon-maths-function",
+          "details": "I used Matlab a lot as a student for matrix calculation. It now permits me to quickly validate a model before implementing it.",
           "stars": 2
         },
         {
           "id": 2,
           "name": "Tensorflow",
-          "icon": "",
+          "icon": "tech-icon-tensorflow",
           "details": "Tensorflow is a Deep learning library that make easier the use deep neural networks. I used it at school for handwritten digits recognition (MNIST database) and during the project Kaggle SF Crimes Classification.",
           "stars": 2
         },
         {
           "id": 2,
           "name": "ScikitLearn",
-          "icon": "tech-maths-function",
+          "icon": "tech-icon-artificial-intelligence",
           "details": "Great library for numerous machine learning techniques, supervised and unsupervised: SVN, K-Mean, Logistic Regressions. Also provide good helpers for pre-processing.",
           "stars": 2
         }
@@ -467,21 +473,21 @@
         {
           "id": 1,
           "name": "Assembly Language",
-          "icon": "tech-ram-chip",
-          "details": "I used the low level language to program 8 bits micro-controllers during school projects. Long jump to projects section for more details ;-)",
+          "icon": "tech-icon-random-access-memory-chip",
+          "details": "I used this low-level language to program 8 bits micro-controllers during school projects. Long jump to projects section for more details ;-)",
           "stars": 2
         },
         {
           "id": 2,
           "name": "Raspberry",
-          "icon": "tech-raspberry",
+          "icon": "tech-icon-raspberry",
           "details": "I am the proud owner of a Raspberry Pi 3 Model B. I've turned it in bluetooth audio system. Plug the jack in your hifi stereo and pair your phone: you have a DIY bluetooth speaker at home. I also implemented an asymmetric cyphering protocol on a raspberry for my Engineer’s degree final project.",
           "stars": 3
         },
         {
           "id": 1,
           "name": "Real-Time Computing",
-          "icon": "tech-clock-watch",
+          "icon": "tech-icon-clock",
           "details": "I have theoretical knowledge of critic systems. I can solve problems such as how to schedule jobs to respect real time constraints.",
           "stars": 1
         }
@@ -492,30 +498,30 @@
       "title": "Workflow",
       "skills": [
         {
+          "id": 1,
+          "name": "Git",
+          "icon": "tech-icon-git",
+          "details": "",
+          "stars": 4
+        },
+        {
           "id": 2,
           "name": "Agile methods",
-          "icon": "tech-jira",
+          "icon": "tech-icon-jira",
           "details": "",
           "stars": 3
         },
         {
           "id": 3,
           "name": "Jenkins",
-          "icon": "tech-jenkins",
+          "icon": "tech-icon-jenkins",
           "details": "",
           "stars": 2
         },
         {
-          "id": 1,
-          "name": "Git",
-          "icon": "tech-git",
-          "details": "",
-          "stars": 4
-        },
-        {
           "id": 5,
           "name": "UML",
-          "icon": "tech-compas",
+          "icon": "tech-icon-compas",
           "details": "",
           "stars": 2
         }
@@ -528,13 +534,15 @@
         {
           "id": 2,
           "name": "Adobe Illustrator",
-          "icon": "tech-illustrator",
+          "icon": "tech-icon-illustrator",
+          "details": "Well, I'm not an artist but I have some skills in vectorial drawing. I can produce graphical resources for a project without dedicated graphic designer.",
           "stars": 2
         },
         {
           "id": 3,
           "name": "Adobe InDesign",
-          "icon": "tech-indesign",
+          "icon": "tech-icon-indesign",
+          "details": "Same as above. I can produce decent documents with InDesign. Still less austere than a word document.",
           "stars": 2
         }
       ]
@@ -552,13 +560,13 @@
         {
           "id": 2,
           "name": "Servers Adminstration",
-          "icon": "tech-server",
+          "icon": "tech-icon-server-alt",
           "stars": 2
         },
         {
           "id": 1,
           "name": "Unix",
-          "icon": "tech-linux",
+          "icon": "tech-icon-linux",
           "stars": 4
         }
       ]
@@ -570,14 +578,14 @@
         {
           "id": 1,
           "name": "LaTeX",
-          "icon": "tech-tex",
-          "details": "",
+          "icon": "tech-icon-tex",
+          "details": "The best way to produce scientific documents.",
           "stars": 3
         },
         {
           "id": 2,
           "name": "PCRE Regex",
-          "icon": "tech-regex-alt",
+          "icon": "tech-icon-regex",
           "details": "A good developer has to know how to build complex regular expression.",
           "stars": 4
         }
@@ -591,39 +599,39 @@
       "skills": [
         {
           "name": "J2E",
-          "icon": "tech-java"
+          "icon": "tech-icon-java"
         },
         {
           "name": "Spring",
-          "icon": ""
+          "icon": "tech-icon-spring"
         },
         {
           "name": "Angular 2+",
-          "icon": ""
+          "icon": "tech-icon-angular2"
         },
         {
           "name": "HTML5",
-          "icon": "tech-html"
+          "icon": "tech-icon-html5"
         },
         {
           "name": "CSS3",
-          "icon": "tech-css"
+          "icon": "tech-icon-css3"
         },
         {
           "name": "Webpack",
-          "icon": ""
+          "icon": "tech-icon-webpack"
         },
         {
           "name": "Google Maps API",
-          "icon": ""
+          "icon": "tech-icon-map"
         },
         {
           "name": "SQL",
-          "icon": "tech-database"
+          "icon": "tech-icon-database"
         },
         {
           "name": "Git",
-          "icon": "tech-git"
+          "icon": "tech-icon-git"
         }
       ],
       "begin-date": "August 2017",
@@ -636,39 +644,43 @@
       "skills": [
         {
           "name": "J2E",
-          "icon": "tech-java"
+          "icon": "tech-icon-java"
         },
         {
           "name": "Spring",
-          "icon": ""
+          "icon": "tech-icon-spring"
         },
         {
           "name": "AngularJS",
-          "icon": ""
+          "icon": "tech-icon-angularjs"
+        },
+        {
+          "name": "Gulp",
+          "icon": "tech-icon-gulp"
         },
         {
           "name": "HTML5",
-          "icon": "tech-html"
+          "icon": "tech-icon-html5"
         },
         {
           "name": "CSS3",
-          "icon": "tech-css"
+          "icon": "tech-icon-css3"
         },
         {
           "name": "SQL",
-          "icon": "tech-database"
+          "icon": "tech-icon-database"
         },
         {
           "name": "Git",
-          "icon": "tech-git"
+          "icon": "tech-icon-git"
         },
         {
           "name": "Agile Methods",
-          "icon": "tech-jira"
+          "icon": "tech-icon-jira"
         },
         {
           "name": "Continuous Integration",
-          "icon": "tech-jenkins"
+          "icon": "tech-icon-jenkins"
         }
       ],
       "begin-date": "January 2017",
@@ -681,11 +693,15 @@
       "skills": [
         {
           "name": "C/C++",
-          "icon": "tech-c-cpp"
+          "icon": "tech-icon-c"
         },
         {
           "name": "QT",
-          "icon": "tech-qt"
+          "icon": "tech-icon-qt"
+        },
+        {
+          "name": "Agile Methods",
+          "icon": "tech-icon-jira"
         }
       ],
       "begin-date": "February 2016",
@@ -698,15 +714,23 @@
       "skills": [
         {
           "name": "R",
-          "icon": "tech-r"
+          "icon": "tech-icon-r"
         },
         {
           "name": "Machine Learning",
-          "icon": "tech-brain-outline"
+          "icon": "tech-icon-brain-outline"
         },
         {
           "name": "Python",
-          "icon": "tech-python"
+          "icon": "tech-icon-python"
+        },
+        {
+          "name": "Scikit Learn",
+          "icon": "tech-icon-artificial-intelligence"
+        },
+        {
+          "name": "Tensorflow",
+          "icon": "tech-icon-tensorflow"
         }
       ],
       "begin-date": "October 2015",
@@ -719,27 +743,27 @@
       "skills": [
         {
           "name": "HTML5",
-          "icon": "tech-html5-text"
+          "icon": "tech-icon-html5"
         },
         {
           "name": "CSS3",
-          "icon": "tech-css3"
+          "icon": "tech-icon-css3"
         },
         {
           "name": "Javascript",
-          "icon": "tech-javascript"
+          "icon": "tech-icon-javascript"
         },
         {
           "name": "PHP",
-          "icon": "tech-php-elephant"
+          "icon": "tech-icon-php"
         },
         {
           "name": "Symfony",
-          "icon": "tech-symfony"
+          "icon": "tech-icon-symfony"
         },
         {
           "name": "SQL",
-          "icon": "tech-db"
+          "icon": "tech-icon-database"
         }
       ],
       "begin-date": "November 2012",
@@ -752,7 +776,7 @@
       "skills": [
         {
           "name": "A51 Assembly language",
-          "icon": ""
+          "icon": "tech-icon-random-access-memory-chip"
         }
       ],
       "begin-date": "Fevrier 2015",
@@ -765,15 +789,19 @@
       "skills": [
         {
           "name": "Photoshop",
-          "icon": "tech-photoshop"
+          "icon": "tech-icon-photoshop"
+        },
+        {
+          "name": "Illustrator",
+          "icon": "tech-icon-illustrator"
         },
         {
           "name": "After Effect",
-          "icon": "tech-after-effect"
+          "icon": "tech-icon-after-effect"
         },
         {
           "name": "InDesign",
-          "icon": "tech-indesign"
+          "icon": "tech-icon-indesign"
         }
       ],
       "begin-date": "October 2015",
@@ -787,47 +815,47 @@
       "skills": [
         {
           "name": "Javascript",
-          "icon": "tech-javascript"
+          "icon": "tech-icon-javascript"
         },
         {
           "name": "MongoDB",
-          "icon": "tech-mongo"
+          "icon": "tech-icon-mongo"
         },
         {
           "name": "ExpressJS",
-          "icon": "tech-express"
+          "icon": "tech-icon-express"
         },
         {
           "name": "AngularJS",
-          "icon": "tech-angular-outline"
+          "icon": "tech-icon-angularjs"
         },
         {
           "name": "NodeJS",
-          "icon": "tech-node-js"
+          "icon": "tech-icon-node"
         },
         {
           "name": "HTML5",
-          "icon": "tech-html5"
+          "icon": "tech-icon-html5"
         },
         {
           "name": "CSS3",
-          "icon": "tech-css3"
+          "icon": "tech-icon-css3"
         },
         {
           "name": "Git",
-          "icon": "tech-git"
+          "icon": "tech-icon-git"
         },
         {
           "name": "Jira",
-          "icon": "tech-jira"
+          "icon": "tech-icon-jira"
         },
         {
           "name": "Jenkins",
-          "icon": "tech-jenkins"
+          "icon": "tech-icon-jenkins"
         },
         {
           "name": "Server Adminstration",
-          "icon": "tech-server"
+          "icon": "tech-icon-server-alt"
         }
       ],
       "begin-date": "June 2015",

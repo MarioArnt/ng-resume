@@ -1,19 +1,19 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: "tech-fonts";
-  src:url("fonts/tech-fonts.eot");
-  src:url("fonts/tech-fonts.eot?#iefix") format("embedded-opentype"),
-    url("fonts/tech-fonts.woff") format("woff"),
-    url("fonts/tech-fonts.ttf") format("truetype"),
-    url("fonts/tech-fonts.svg#tech-fonts") format("svg");
+  font-family: "tech-icons";
+  src:url("fonts/tech-icons.eot");
+  src:url("fonts/tech-icons.eot?#iefix") format("embedded-opentype"),
+    url("fonts/tech-icons.woff") format("woff"),
+    url("fonts/tech-icons.ttf") format("truetype"),
+    url("fonts/tech-icons.svg#tech-icons") format("svg");
   font-weight: normal;
   font-style: normal;
 
 }
 
 [data-icon]:before {
-  font-family: "tech-fonts" !important;
+  font-family: "tech-icons" !important;
   content: attr(data-icon);
   font-style: normal !important;
   font-weight: normal !important;
@@ -25,9 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-[class^="tech-"]:before,
-[class*=" tech-"]:before {
-  font-family: "tech-fonts" !important;
+[class^="tech-icon-"]:before,
+[class*=" tech-icon-"]:before {
+  font-family: "tech-icons" !important;
   font-style: normal !important;
   font-weight: normal !important;
   font-variant: normal !important;
@@ -38,174 +38,204 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.tech-html5:before {
+.tech-icon-html5:before {
   content: "\61";
 }
-.tech-css3:before {
+.tech-icon-css3:before {
   content: "\62";
 }
-.tech-c-cpp:before {
+.tech-icon-angularjs:before {
   content: "\63";
 }
-.tech-java:before {
+.tech-icon-angular2:before {
   content: "\64";
 }
-.tech-bootstrap:before {
+.tech-icon-javascript:before {
   content: "\65";
 }
-.tech-grunt:before {
+.tech-icon-node:before {
   content: "\66";
 }
-.tech-javascript:before {
+.tech-icon-sass:before {
   content: "\67";
 }
-.tech-jira:before {
+.tech-icon-npm:before {
   content: "\68";
 }
-.tech-spark:before {
-  content: "\69";
-}
-.tech-node-js:before {
+.tech-icon-less:before {
   content: "\6a";
 }
-.tech-python:before {
+.tech-icon-stylus:before {
+  content: "\69";
+}
+.tech-icon-yarn-outline:before {
   content: "\6b";
 }
-.tech-db:before {
+.tech-icon-react:before {
   content: "\6c";
 }
-.tech-db-outline:before {
+.tech-icon-vuejs:before {
   content: "\6d";
 }
-.tech-after-effect:before {
+.tech-icon-bootstrap:before {
   content: "\6e";
 }
-.tech-photoshop:before {
+.tech-icon-grunt:before {
   content: "\6f";
 }
-.tech-illustrator:before {
+.tech-icon-gulp:before {
   content: "\70";
 }
-.tech-indesign:before {
+.tech-icon-spring:before {
   content: "\71";
 }
-.tech-angular:before {
+.tech-icon-regex:before {
   content: "\72";
 }
-.tech-git:before {
+.tech-icon-r:before {
   content: "\73";
 }
-.tech-jenkins:before {
+.tech-icon-express:before {
   content: "\74";
 }
-.tech-mongo:before {
+.tech-icon-compas:before {
   content: "\75";
 }
-.tech-symfony:before {
+.tech-icon-mongo:before {
   content: "\76";
 }
-.tech-server:before {
+.tech-icon-git:before {
   content: "\77";
 }
-.tech-html5-text:before {
+.tech-icon-python:before {
   content: "\78";
 }
-.tech-tag-outline:before {
+.tech-icon-tag-search:before {
   content: "\79";
 }
-.tech-tag-close:before {
+.tech-icon-tex:before {
   content: "\7a";
 }
-.tech-php:before {
+.tech-icon-database:before {
   content: "\41";
 }
-.tech-glass:before {
+.tech-icon-elasticsearch:before {
   content: "\42";
 }
-.tech-linux:before {
+.tech-icon-webpack:before {
   content: "\43";
 }
-.tech-latex:before {
+.tech-icon-raspberry:before {
   content: "\44";
 }
-.tech-diploma:before {
+.tech-icon-random-access-memory-chip:before {
   content: "\45";
 }
-.tech-maths-function:before {
+.tech-icon-clock:before {
   content: "\46";
 }
-.tech-pie-chart:before {
+.tech-icon-electron:before {
   content: "\47";
 }
-.tech-pie-chart-alt:before {
+.tech-icon-ionic:before {
   content: "\48";
 }
-.tech-gears:before {
+.tech-icon-android:before {
   content: "\49";
 }
-.tech-brain-outline:before {
+.tech-icon-brain-outline:before {
   content: "\4a";
 }
-.tech-brain:before {
+.tech-icon-brain:before {
   content: "\4b";
 }
-.tech-php-elephant:before {
+.tech-icon-jira:before {
   content: "\4c";
 }
-.tech-tex:before {
+.tech-icon-jenkins:before {
   content: "\4d";
 }
-.tech-tag-search:before {
+.tech-icon-illustrator:before {
   content: "\4e";
 }
-.tech-compas:before {
+.tech-icon-indesign:before {
   content: "\4f";
 }
-.tech-r:before {
+.tech-icon-globe:before {
   content: "\50";
 }
-.tech-express:before {
+.tech-icon-earth:before {
   content: "\51";
 }
-.tech-angular-outline:before {
+.tech-icon-server:before {
   content: "\52";
 }
-.tech-regex-alt:before {
+.tech-icon-server-alt:before {
   content: "\53";
 }
-.tech-regex:before {
+.tech-icon-linux:before {
   content: "\54";
 }
-.tech-clock:before {
+.tech-icon-map:before {
   content: "\55";
 }
-.tech-android-time:before {
+.tech-icon-map-alt:before {
   content: "\56";
 }
-.tech-clock-watch:before {
+.tech-icon-d3:before {
   content: "\57";
 }
-.tech-ram-chip:before {
+.tech-icon-qt-outline:before {
   content: "\58";
 }
-.tech-ram-memory:before {
+.tech-icon-typescript:before {
   content: "\59";
 }
-.tech-raspberry:before {
+.tech-icon-tensorflow:before {
   content: "\5a";
 }
-.tech-qt:before {
-  content: "\30";
-}
-.tech-computer-cpu:before {
-  content: "\31";
-}
-.tech-arduino:before {
+.tech-icon-c:before {
   content: "\32";
 }
-.tech-computer-processor:before {
+.tech-icon-pug:before {
   content: "\33";
 }
-.tech-cpu:before {
+.tech-icon-material-design-lite:before {
   content: "\34";
+}
+.tech-icon-maths-function:before {
+  content: "\30";
+}
+.tech-icon-artificial-intelligence:before {
+  content: "\32";
+}
+.tech-icon-pug-1:before {
+  content: "\33";
+}
+.tech-icon-yarn:before {
+  content: "\31";
+}
+.tech-icon-c:before {
+  content: "\35";
+}
+.tech-icon-qt:before {
+  content: "\36";
+}
+.tech-icon-java:before {
+  content: "\37";
+}
+.tech-icon-after-effect:before {
+  content: "\38";
+}
+.tech-icon-photoshop:before {
+  content: "\39";
+}
+.tech-icon-php:before {
+  content: "\21";
+}
+.tech-icon-symfony:before {
+  content: "\22";
+}
+.tech-icon-diploma:before {
+  content: "\23";
 }
