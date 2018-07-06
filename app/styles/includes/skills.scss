@@ -54,17 +54,92 @@ section.skills {
         display:table;
         width: 100%;
       }
-    }
-  }
-  .skills-related {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    li {
-      margin-left: 40px;
-    }
-    li:first-child {
-      margin-left: 0;
+      ul {
+        padding: 0;
+        padding-right: 30px;
+        li {
+          padding: $circle-padding;
+          position: relative;
+          min-height: $circle-skill-size + 2*$circle-padding;
+          cursor: pointer;
+          .circle-skill {
+            position: absolute;
+            top: $circle-padding;
+            left: $circle-padding;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            font-size: 21pt;
+            color: $white;
+            height: $circle-skill-size;
+            width: $circle-skill-size;
+            border-radius: 50%;
+            background-color: $primary-color;
+          }
+          h5 {
+            margin-left: $circle-skill-size + $circle-padding;
+            margin-bottom: 10px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+          p.show-more, p.show-less {
+            font-size: 8pt;
+            line-height: 8pt;
+            margin-bottom: 10px;
+          }
+          &:hover {
+            .active {
+              background-color: $darker-primary-color;
+            }
+            .circle-skill {
+              background-color: $darker-primary-color;
+            }
+          }
+          p.skill-details {
+            margin-top: 40px;
+          }
+
+        }
+        li.show-more {
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          border-radius: 5px;
+          background-color: $primary-color;
+          color: $white;
+          .circle-skill {
+            color: $primary-color;
+            background-color: $white;
+          }
+          .stars {
+            .unit {
+              background-color: $light-primary-color;
+            }
+            .active {
+              background-color: $white;
+            }
+          }
+        }
+        li.show-more + li.show-more {
+          margin-top: 10px;
+        }
+      }
+      .skill-details {
+        p.details {
+          padding-top: 20px;
+        }
+      }
+      .skills-related {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        li {
+          margin-left: 40px;
+        }
+        li:first-child {
+          margin-left: 0;
+        }
+      }
     }
   }
   .stars {
@@ -78,76 +153,6 @@ section.skills {
     }
     .active {
       background-color: $primary-color;
-    }
-  }
-  ul {
-    padding: 0;
-    padding-right: 30px;
-    li {
-      padding: $circle-padding;
-      position: relative;
-      min-height: $circle-skill-size + 2*$circle-padding;
-      cursor: pointer;
-      .circle-skill {
-        position: absolute;
-        top: $circle-padding;
-        left: $circle-padding;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        font-size: 21pt;
-        color: $white;
-        height: $circle-skill-size;
-        width: $circle-skill-size;
-        border-radius: 50%;
-        background-color: $primary-color;
-      }
-      h5 {
-        margin-left: $circle-skill-size + $circle-padding;
-        margin-bottom: 10px;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-      }
-      p.show-more, p.show-less {
-        font-size: 8pt;
-        line-height: 8pt;
-        margin-bottom: 10px;
-      }
-      &:hover {
-        .active {
-          background-color: $darker-primary-color;
-        }
-        .circle-skill {
-          background-color: $darker-primary-color;
-        }
-      }
-      p.skill-details {
-        margin-top: 40px;
-      }
-
-    }
-    li.show-more {
-      -webkit-border-radius: 5px;
-      -moz-border-radius: 5px;
-      border-radius: 5px;
-      background-color: $primary-color;
-      color: $white;
-      .circle-skill {
-        color: $primary-color;
-        background-color: $white;
-      }
-      .stars {
-        .unit {
-          background-color: $light-primary-color;
-        }
-        .active {
-          background-color: $white;
-        }
-      }
-    }
-    li.show-more + li.show-more {
-      margin-top: 10px;
     }
   }
 }

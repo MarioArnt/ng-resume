@@ -562,18 +562,21 @@
           "id": 3,
           "name": "TCP/IP Networks",
           "icon": "mdi mdi-earth",
+          "details": "Thanks to my studies, I have a good theoretical knowledge about routing, DNS, model OSI and so on.",
           "stars": 1
         },
         {
           "id": 2,
           "name": "Servers Adminstration",
           "icon": "tech-icon-server-alt",
+          "details": "I'm not precisely a sysadmin. Though I can deploy web applications in production, manage logs, document configuration of the system etc...",
           "stars": 2
         },
         {
           "id": 1,
           "name": "Unix",
           "icon": "tech-icon-linux",
+          "details": "I'm very comfortable with Linux operating systems and unix commands. My favorite shell is ZSH. I like creating shell scripts to automate repetitive tasks. The main distribution I used for production servers are Debian and CentOS.",
           "stars": 4
         }
       ]
@@ -586,14 +589,14 @@
           "id": 1,
           "name": "LaTeX",
           "icon": "tech-icon-tex",
-          "details": "The best way to produce scientific documents.",
+          "details": "The best way to produce scientific documents. Way more complete and robust than classical word processing programs. I used it during all my scholarship.",
           "stars": 3
         },
         {
           "id": 2,
           "name": "PCRE Regex",
           "icon": "tech-icon-regex",
-          "details": "A good developer has to know how to build complex regular expression.",
+          "details": "A good developer has to know how to build complex regular expression. I use the excellent <a target=\"__blank\" href=\"https://regexr.com\">RegExr</a> to validate my RegExp.",
           "stars": 4
         }
       ]
@@ -623,6 +626,10 @@
         {
           "name": "CSS3",
           "icon": "tech-icon-css3"
+        },
+        {
+          "name": "Material Design",
+          "icon": "tech-icon-material-design-lite"
         },
         {
           "name": "Webpack",
