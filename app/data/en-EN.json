@@ -164,7 +164,8 @@
       "month": 2,
       "year": 2016,
       "period": "February 2016 - August 2016",
-      "details": "Build a tool that performs several checks to ensure the software embedded in Airbus aircrafts will be consistent and respect real-time constraints. The tool is mostly used in research and development phase and is useful to detect potential errors and fix it before ground and flight tests. The software was developed in C++ with the library QT version 5. The parsing engine can support SCADE sheets used to develop critic systems software."
+      "details": "Build a tool that performs several checks to ensure the software embedded in Airbus aircrafts will be consistent and respect real-time constraints. The tool is mostly used in research and development phase and is useful to detect potential errors and fix it before ground and flight tests. The software was developed in C++ with the library QT version 5. The parsing engine can support SCADE sheets used to develop critic systems software.",
+      "anchor": "flight-controls"
     },
     {
       "type": "job",
@@ -172,7 +173,8 @@
       "month": 1,
       "year": 2017,
       "period": "January 2017 - September 2017",
-      "details": "Full stack developer and technical consultant for IT projects. I mainly worked on the AGEDI project. AGEDI is a payroll and accounting software for the French regional and local authorities. Technologies used : Back-end development with J2E / Spring, front-end with Angular and PostGreSQL databases. Team work, Agile project management with SCRUM, versioning management with Git and continuous integration with Jenkins."
+      "details": "Full stack developer and technical consultant for IT projects. I mainly worked on the AGEDI project. AGEDI is a payroll and accounting software for the French regional and local authorities. Technologies used : Back-end development with J2E / Spring, front-end with Angular and PostGreSQL databases. Team work, Agile project management with SCRUM, versioning management with Git and continuous integration with Jenkins.",
+      "anchor": "agedi"
     }
   ],
   "skills_legend": [
@@ -712,6 +714,10 @@
           "icon": "tech-icon-css3"
         },
         {
+          "name": "Bootstrap",
+          "icon": "tech-icon-bootstrap"
+        },
+        {
           "name": "SQL",
           "icon": "tech-icon-database"
         },
@@ -730,7 +736,7 @@
       ],
       "begin-date": "January 2017",
       "end-date": "September 2017",
-      "details": ""
+      "details": "AGEDI is a project develop by Altran South-West. I was working as full stack developer. We used the following stack: Spring as back-end framework, AngularJS as front-end framework. The database was a SQL database. It was a very interesting project. With my teammates we've had a lot of interesting-to-solve problems. In the beginning, I thought it will be just some CRUD app, nothing that challenging. But the French administration payroll and accounting rules are really wicked and this distinctiveness brought some complex problems. I also learnt more general things, like managing timezones or use a multi-tenant database architecture, which will be useful in the future. I am thankful to my former more experimented colleagues that gave me valuable advice and tips. For the project management side, we used a SCRUM tool called Tuleap, which is not my favourite, but still ergonomic enough."
     },
     {
       "title": "Flight Controls Anomalies Detection tools",
@@ -751,7 +757,7 @@
       ],
       "begin-date": "February 2016",
       "end-date": "September 2016",
-      "details": ""
+      "details": "This software was developed during my end of studies internship at Airbus. My missions were multiple. First I had to meet the research and development team responsible of designing the part of software dedicated for flight controls which is embedded in Airbus aircafts. We identified together various needs which required the development of a specific tool that did not exist yet at Airbus. Airbus engineers worked with SCADE sheets. SCADE (Safety Critical Application Development Environment) is an integrated development environment intended for the design of critical systems. The needed a tool that permits to detect several anomalies (inconsistencies between I/O signals) and improved navigation in sheets collections (for instance find upstream signals). I set-up an Agile tool, Taiga, and began to fill the product backlog with the user stories related to these needs. Then I started development using QT library, which was, at Airbus, the predominant technology for internal software. I meet regularly the team for which the software is intended to make the backlog evolve with their new needs and feedback. The software was composed of many software bricks including, among others, a SCADE sheet parsing engine and an analysis engine. The analysis engine was a very interesting aspect as it required graph theory and recursive algorithms. The software was developed in six months and filled most of the targeted features."
     },
     {
       "title": "San Francisco Crime Classification",
