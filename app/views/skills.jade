@@ -21,7 +21,12 @@ section.skills
           h5 {{skill.name}}
           div.stars
             div.unit.wow.fadeIn(ng-repeat="i in [0.2, 0.4, 0.6, 0.8]" ng-class="{active: $index + 1 <= skill.stars}" data-wow-delay="{{i}}s")
-          //p.show-less(ng-if="skill.showMore") - Show less
-          //p.show-more(ng-if="!skill.showMore") + Show more
-          p.skill-details(ng-if="skill.showMore === true") {{skill.details}}
+          div.skill-details(ng-if="skill.showMore === true")
+            p {{skill.details}}
+            p Related skills:
+            ul.skills-related(ng-if="skill.related")
+              li(ng-repeat="relatedSkill in skill.related")
+                div.circle-skill(bs-tooltip="relatedSkill.name")
+                  i(ng-if="relatedSkill.icon" class="{{relatedSkill.icon}}")
+                  i.mdi.mdi-star(ng-if="!relatedSkill.icon")
 

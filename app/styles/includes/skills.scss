@@ -56,6 +56,17 @@ section.skills {
       }
     }
   }
+  .skills-related {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    li {
+      margin-left: 40px;
+    }
+    li:first-child {
+      margin-left: 0;
+    }
+  }
   .stars {
     margin-left: $circle-skill-size + 10px;
     .unit {

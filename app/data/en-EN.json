@@ -211,7 +211,7 @@
           "related": [
             {
               "name": "Pug",
-              "icon": "tech-pug"
+              "icon": "tech-icon-pug"
             }
           ]
         },
@@ -501,29 +501,36 @@
           "id": 1,
           "name": "Git",
           "icon": "tech-icon-git",
-          "details": "",
+          "details": "My favourite source code management tool. I know all the basics and some more advanced concepts and commands (hooks, reflog, partial adds, interactive rebase to edit commits historic). I try my best to have a clean historic with atomic commits event if it sometimes hard to achieve when coding fast.",
           "stars": 4
         },
         {
           "id": 2,
           "name": "Agile methods",
           "icon": "tech-icon-jira",
-          "details": "",
+          "details": "I am an Agile enthusiast. The method I used the most is SCRUM. I also know concepts of other methods like Xtrem Programming (XP). I used different tools within the projects I contributed. The proprietary software JIRA and then open-source solutions Tuleap and Taiga.",
           "stars": 3
         },
         {
           "id": 3,
-          "name": "Jenkins",
+          "name": "Continuous Integration",
           "icon": "tech-icon-jenkins",
-          "details": "",
+          "details": "I can deploy a continuous integration server with Jenkins. When code is merged on master branch in the project's git repository, a build is automatically triggered. Then the new version is deployed unless unit tests are broken.",
           "stars": 2
         },
         {
           "id": 5,
           "name": "UML",
           "icon": "tech-icon-compas",
-          "details": "",
-          "stars": 2
+          "details": "During the conception phase of a software, I use to draw UML diagrams (class diagram, state machine diagram, activity diagram and so on) to better understand what I have to implement before coding it. It's also an universal method to communicate between developers.",
+          "stars": 3
+        },
+        {
+          "id": 5,
+          "name": "Unit Testing",
+          "icon": "tech-icon-two-test-tubes",
+          "details": "Unit testing is important to avoid regression and gain time on medium to large projects. I've already written jUnit tests in a spring environment and Javascript unit tests using dedicated libraries (Mocha, Karma, Jasmine). However I'm novice to E2E testing and I would like to progress on this point.",
+          "stars": 3
         }
       ]
     },
