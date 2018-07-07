@@ -195,4 +195,8 @@ module.exports = function(grunt) {
     'copy:fonts',
     'concat:dist'
   ]);
+
+  grunt.registerTask('heroku',
+    ['build']);
+
 };
