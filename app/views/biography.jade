@@ -15,7 +15,7 @@ section.biography
         div.social-element
           i.mdi.mdi-cellphone
       a(ng-if="network.url" href="{{network.url}}" target="_blank")
-        div.social-element(ng-switch="network.name")
+        div.social-element(ng-switch="network.name" bs-tooltip="network.name")
           i.mdi.mdi-github-circle(ng-switch-when="github")
           i.mdi.mdi-linkedin(ng-switch-when="linkedin")
           i.mdi.mdi-twitter(ng-switch-when="twitter")
