@@ -18,36 +18,36 @@
     }
   ],
   "social": [
-  {
-    "name": "linkedin",
-    "url": "https://fr.linkedin.com/in/mario-arnautou-pages-722a51108"
-  },
-  {
-    "name": "github",
-    "url": "https://github.com/MarioArnt"
-  },
-  {
-    "name": "codepen",
-    "url": "http://codepen.io/MarioArnt"
-  },
-  {
-    "name": "twitter",
-    "url": "https://twitter.com/marioarnt"
-  },
-  {
-    "name": "email",
-    "anchor": "contact"
-  },
-  {
-    "name": "phone",
-    "modal": {
-      "title": "Call me",
-      "content": "<img src=\"images/phone.png\" />"
+    {
+      "name": "linkedin",
+      "url": "https://fr.linkedin.com/in/mario-arnautou-pages-722a51108"
+    },
+    {
+      "name": "github",
+      "url": "https://github.com/MarioArnt"
+    },
+    {
+      "name": "codepen",
+      "url": "http://codepen.io/MarioArnt"
+    },
+    {
+      "name": "twitter",
+      "url": "https://twitter.com/marioarnt"
+    },
+    {
+      "name": "email",
+      "anchor": "contact"
+    },
+    {
+      "name": "phone",
+      "modal": {
+        "title": "Call me",
+        "content": "<img src=\"images/phone.png\" />"
+      }
     }
-  }
-],
-"events": [
-  {
+  ],
+  "events": [
+    {
       "type": "diploma",
       "title": "Bachillerato científico",
       "month": 7,
@@ -55,8 +55,8 @@
       "period": "Julio 2010",
       "location": "Pontcharra-sur-Bréda, France",
       "details": "Especialidad biología y geología. Obtenido con las máximas cualificaciones"
-  },
-  {
+    },
+    {
       "type": "university",
       "title": "Entrada en clase preparatoria",
       "month": 9,
@@ -65,8 +65,8 @@
       "location": "Grenoble, France",
       "details": "Especialidad física y química. Las clases preparatorias científica son clases intensivas para preparar los concursos de admisión en las grandes escuelas de ingeniería francesas. Equivalente a una licencia de ciencias",
       "more": "<p>Ofrece conocimientos científicos generales en los ámbitos siguientes:</p><ul><li>Matemáticas: algebra lineal, análisis diferencial, geometría</li><li>Física: Electromagnetismo, mecánica de fluidos, óptica, electrónica, termodinámica</li><li>Química: química orgánica, termoquímica</li></ul>"
-  },
-  {
+    },
+    {
       "type": "university",
       "title": "Entrada en Télécom SudParis",
       "month": 9,
@@ -75,8 +75,8 @@
       "location": "Evry, France",
       "details": "Grande escuela de ingeniería especializada en las tecnologías de las informaciones, miembro del instituto Mines-Télécom y de la Universidad Paris-Saclay",
       "more": "<p>El plan de estudio académico se compone de 4 partes:</p><ul><li>El tronco común (3 semestres). Las bases técnicas están enseñadas a los estudiantes en numerosos ámbitos (Probabilidad, estadística, análisis de datos, procesamiento de señal, algorítmica, programación orientada a objetos, teoría de la información, electrónica, comunicaciones, redes TCP/IP, redes para los móviles)</li><li>Cursos opcionales de apertura, elegidos por los estudiantes (1/2 semestre). Elegí los cursos siguientes: programación bajo nivel en lenguaje ensamblador, método formal y algoritmos genéticos</li><li>Cursos de especialización. Elegí una especialidad en sistemas embebidos con los curos siguientes: programación en tiempo real, identificación por radio-frecuencia (RFID), principios físico de los sensores, lenguajes de descripción de circuitos (VHDL), buses de comunicación (CAN, FlexRay)</li><li>Una pasantilla de seis meses</li></ul>"
-  },
-  {
+    },
+    {
       "type": "project",
       "title": "Desarrollo del sitio web de la oficina de los estudiantes",
       "month": 11,
@@ -84,8 +84,8 @@
       "period": "Noviembre 2012 - Febrero 2013",
       "details": "Durante las elecciones de la oficina de los estudiantes, desarrollé el sitio web escaparate de mi equipo",
       "anchor": "student-office-website"
-  },
-  {
+    },
+    {
       "type": "job",
       "title": "Enseñanza de la informática",
       "month": 6,
@@ -93,8 +93,8 @@
       "period": "Junio 2013",
       "location": "Envigado, Colombia",
       "details": "Con tres compañeros estudiantes, preparemos y enseñamos cursos en español sobre el desarrollo web y el uso de los sistemas operativo Linux en una escuela secundaria."
-  },
-  {
+    },
+    {
       "type": "job",
       "title": "Técnico en informática",
       "month": 7,
@@ -102,16 +102,16 @@
       "period": "Julio 2013 - Agosto 2013",
       "location": "Medellin, Colombia",
       "details": "Práctica de verano dentro del departamento de tecnologías de la información en la Escuela de Ingeniería de Antioquia. Las tareas principales fueron de organizar charlas y curos sobre las tecnologías libres (i.e. de código abierto) y el mantenimiento del parque informático."
-  },
-  {
+    },
+    {
       "type": "diploma",
       "title": "Cursos en-línea de aprendizaje automático",
       "month": 11,
       "year": 2014,
       "period": "Noviembre 2014",
       "details": "Obtuve una certificación en aprendizaje automático entregado por la universidad de Stanford después de haber seguido cursos y hecho proyectos de programación. Aprendí numerosos algoritmos de aprendizaje automático supervisados y sin supervisión incluyendo las máquinas de vectores de soporte, algoritmos de agrupamiento y redes neurales artificiales."
-  },
-  {
+    },
+    {
       "type": "job",
       "title": "Desarrollo de un coche miniatura autónomo",
       "month": 1,
@@ -120,8 +120,8 @@
       "location": "Evry, France",
       "details": "Ingeniería de control para un coche teledirigido gracias a un micro-controlador de 8 bits y numerosos sensores y actuadores. Hicimos un control de velocidad y de dirección para que el coche sigua de manera autónoma la pista de carrera.",
       "anchor": "autonomous-car"
-  },
-  {
+    },
+    {
       "type": "project",
       "title": "Proyecto de creación de empresa",
       "month": 4,
@@ -130,8 +130,8 @@
       "location": "Evry, France",
       "details": "Participación a una competición de creación de empresa con dos otros estudiantes en ingeniería y dos estudiantes en administración. Tenemos una semana para imaginar una empresa innovadora y trabajar sobre los aspectos técnicos y financieros. Nuestro proyecto fue cualificado para las semifinales (16 proyectos sobre 116)",
       "anchor": "entrepreneurship-competition"
-  },
-  {
+    },
+    {
       "type": "job",
       "title": "",
       "month": 6,
@@ -140,8 +140,8 @@
       "location": "Paris, France",
       "details": "Practica de verano como desarrollador web. Con un equipo internacional, trabajamos sobre una red social de código abierto especialmente designado por las empresas. Utilizamos una pila de desarrollo MEAN (MongoDB, ExpressJS, AngularJS y NodeJS) y herramientas de trabajo en equipo, de integración continua y de desarrollo ágil. Fue una experiencia de programación en un contexto profesional muy enriquecedora",
       "anchor": "openpaas-esn"
-  },
-  {
+    },
+    {
       "type": "project",
       "title": "Kaggle SF crime classification",
       "month": 10,
@@ -149,446 +149,773 @@
       "period": "October 2015 - January 2016",
       "details": "With a fellow student, we participate to a data science competition on Kaggle. The aim of the competition is to predict a crime category given numerous parameters (geographic coordinates, date, time and so on). To achieve these predictions we use a 12-years dataset of police records.",
       "anchor": "san-francisco"
-  },
-  {
+    },
+    {
       "type": "project",
       "title": "Engineer’s degree final project",
       "month": 10,
       "year": 2015,
       "period": "October 2015 - January 2016",
       "details": "Implement an asymmetric cyphering protocol on a Raspberry Pi and realize a benchmark. The algorithm is a Post-quantum cryptography algorithm based on errors detection and correction codes especially designed for constraint environment. "
-  }
-],
-"skills": [
-  {
-    "id": 1,
-    "title": "Web Development",
-    "skills": [
-      {
-      "id": 1,
-      "name": "HTML5",
-      "icon": "tech-html5-text",
-      "stars": 4
-      },
-      {
-      "id": 2,
-      "name": "CSS3",
-      "icon": "tech-css3",
-      "stars": 4
-      },
-      {
-      "id": 3,
-      "name": "Javascript",
-      "icon": "tech-javascript",
-      "stars": 4
-      },
-      {
-      "id": 4,
-      "name": "PHP",
-      "icon": "tech-php-elephant",
-      "stars": 3
-      },
-      {
-      "id": 5,
-      "name": "AngularJS",
-      "icon": "tech-angular-outline",
-      "stars": 3
-      },
-      {
-      "id": 6,
-      "name": "ExpressJS",
-      "icon": "tech-express",
-      "stars": 3
-      },
-      {
-      "id": 7,
-      "name": "NodeJS",
-      "icon": "tech-node-js",
-      "stars": 3
-      },
-      {
-      "id": 7,
-      "name": "Symfony",
-      "icon": "tech-symfony",
-      "stars": 2
-      },
-      {
-      "id": 8,
-      "name": "Twitter Bootstrap",
-      "icon": "tech-bootstrap",
-      "stars": 4
-      },
-      {
-      "id": 9,
-      "name": "Web Scrapping",
-      "icon": "tech-tag-search",
-      "stars": 4
-      }
-    ]
-  },
-  {
-    "id": "2",
-    "title": "Software Develoment",
-    "skills": [
-      {
-      "id": 1,
-      "name": "C/C++",
-      "icon": "tech-c-cpp",
-      "stars": 3
-      },
-      {
-      "id": 2,
-      "name": "Java",
-      "icon": "tech-java",
-      "stars": 1
-      },
-      {
-      "id": 41,
-      "name": "Python",
-      "icon": "tech-python",
-      "stars": 3
-      },
+    },
     {
-      "id": 42,
-      "name": "QT",
-      "icon": "",
-      "stars": 4
+      "type": "job",
+      "title": "Software Developer @ Airbus",
+      "month": 2,
+      "year": 2016,
+      "period": "February 2016 - August 2016",
+      "details": "Build a tool that performs several checks to ensure the software embedded in Airbus aircrafts will be consistent and respect real-time constraints. The tool is mostly used in research and development phase and is useful to detect potential errors and fix it before ground and flight tests. The software was developed in C++ with the library QT version 5. The parsing engine can support SCADE sheets used to develop critic systems software.",
+      "anchor": "flight-controls"
+    },
+    {
+      "type": "job",
+      "title": "Technical Consultant @ Altran",
+      "month": 1,
+      "year": 2017,
+      "period": "January 2017 - September 2017",
+      "details": "Full stack developer and technical consultant for IT projects. I mainly worked on the AGEDI project. AGEDI is a payroll and accounting software for the French regional and local authorities. Technologies used : Back-end development with J2E / Spring, front-end with Angular and PostGreSQL databases. Team work, Agile project management with SCRUM, versioning management with Git and continuous integration with Jenkins.",
+      "anchor": "agedi"
     }
-    ]
-  },
-  {
-    "id": "3",
-    "title": "Databases",
-    "skills": [
-      {
-      "id": 31,
-      "name": "MongoDB",
-      "icon": "tech-mongo",
-      "stars": 2
-      },
-      {
-      "id": 32,
-      "name": "SQL",
-      "icon": "tech-db",
-      "stars": 3
-      }
-    ]
-  },
-  {
-    "id": "4",
-    "title": "Data Analytics",
-    "skills": [
-      {
+  ],
+  "skills_legend": [
+    {
+      "stars": 1,
+      "label": "Theoretical knowledge",
+      "details": "I am aware this technology exists. I read articles about it and I know the concepts and how it works. Though I never experiment it on a project. But I will be very glad to learn it and use it."
+    },
+    {
+      "stars": 2,
+      "label": "Basic knowledge",
+      "details": "I used this technology in personal and school projects. I am comfortable using it for basic use cases. However I need support or further research to solve more advanced problems"
+    },
+    {
+      "stars": 3,
+      "label": "Intermediate knowledge",
+      "details": "I used this technology in professional projects. I am autonomous and can get through documentation to solve most of the problems. My experience allow me to avoid current mistakes so I can develop quickly and efficiently."
+    },
+    {
+      "stars": 4,
+      "label": "Advanced knowledge",
+      "details": "I've used this technology since a long time. I can solve complex problems using it and support people who need help."
+    }
+  ],
+  "skills": [
+    {
       "id": 1,
-      "name": "R",
-      "icon": "tech-r",
-      "stars": 2
-      },
-      {
-      "id": 3,
-      "name": "Machine Learning",
-      "icon": "tech-brain-outline",
-      "stars": 3
-      },
-      {
+      "title": "Front-end",
+      "skills": [
+        {
+          "id": 1,
+          "name": "HTML5",
+          "icon": "tech-icon-html5",
+          "details": "New best practices with new tags. I generally use preprocessors to make it less verbose (e.g. Pug, EJS, HAML, Handlebars). I also have a good knowledge of Audio and Canvas APIs.",
+          "stars": 4,
+          "documentation": "https://www.w3schools.com/tags/default.asp",
+          "related": [
+            {
+              "name": "Pug",
+              "icon": "tech-icon-pug"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "CSS3",
+          "icon": "tech-icon-css3",
+          "details": "Even if using CSS can be frustrating I still love it. I have a strong knowledge (use of advanced selectors, flex positioning, awareness of best practices (BEM, OOCSS). I use preprocessors (Stylus, SASS, LESS) for mixins, includes and more to make the code shorter and clearer.",
+          "stars": 4,
+          "documentation": "https://www.w3schools.com/tags/default.asp",
+          "related": [
+            {
+              "name": "SASS",
+              "icon": "tech-icon-sass"
+            },
+            {
+              "name": "Less",
+              "icon": "tech-icon-less"
+            },
+            {
+              "name": "Stylus",
+              "icon": "tech-icon-stylus"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Javascript",
+          "icon": "tech-icon-javascript",
+          "details": "I love the Javascript ecosystem which is, in my opinion, one of the most innovative nowadays. It's very rich and evolve quickly, thus Javascript developers have to constantly keep learning new stuffs. Currently using ES6 syntax, I tried several derived languages and supersets such as Typescript or Dart. I'm also comfortable with module bundlers like Webpack or task runners like Gulp or Grunt. The syntax is quite easy and high level but that does not mean Javascript is easy. Rather the opposite, you have to know how the engine works for complex debugging.",
+          "stars": 3,
+          "documentation": "https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference",
+          "related": [
+            {
+              "name": "Typescript",
+              "icon": "tech-icon-typescript"
+            },
+            {
+              "name": "D3JS",
+              "icon": "tech-icon-d3"
+            },
+            {
+              "name": "NPM",
+              "icon": "tech-icon-npm"
+            },
+            {
+              "name": "Yarn",
+              "icon": "tech-icon-yarn"
+            },
+            {
+              "name": "Webpack",
+              "icon": "tech-icon-webpack"
+            },
+            {
+              "name": "Grunt",
+              "icon": "tech-icon-grunt"
+            },
+            {
+              "name": "Gulp",
+              "icon": "tech-icon-gulp"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "AngularJS",
+          "icon": "tech-icon-angularjs",
+          "details": "I loved working the good old AngularJS. This was my first real professional JS framework and I really learned to use it properly by making my own directive/services. I couldn't say I'm an expert as the beast is quite big and complex. I always need to keep an eye on the doc to know what it is possible to do with the different components (router, built-in service as $http). Moreover I'm comfortable at unit testing but far less with E2E testing. In the future I would prefer using Angular2+ but I still have the knowledge to maintain legacy AngularJS apps.",
+          "stars": 3,
+          "documentation": "https://docs.angularjs.org/api"
+        },
+        {
+          "id": 5,
+          "name": "Angular",
+          "icon": "tech-icon-angular2",
+          "details": "I mean Angular2 and beyond here. I definitely love the new versions of the framework. The use of TypeScript make the code more maintainable and clear in my opinion. The integration of RxJS in Angular make async code management smoother and more elegant. Even if I'm a bit novice at it, I'm eager to learn and progress.",
+          "stars": 2,
+          "documentation": "https://angular.io/api"
+        },
+        {
+          "id": 5,
+          "name": "React",
+          "icon": "tech-icon-react",
+          "details": "I tried react in personal projects and I loved it. Making is own little components and compose them is so satisfying ! The Flux/Redux philosophy is also a great way to manage async code using only pure functions as reducers. I think coding in react make it easier to scale up to complex projects, but I never had the chance to use it in a professional context to verify this. I would be glad if this opportunity would happen in the future.",
+          "stars": 2,
+          "documentation": "https://reactjs.org/docs/getting-started.html"
+        },
+        {
+          "id": 5,
+          "name": "VueJS",
+          "icon": "tech-icon-vuejs",
+          "details": "I'm very interested by this UI framework. I played a bit with Vue when it was released but I never had the chance to work with it in real project. I really liked the lightweight approach. I feel Vue manage to offer the efficiency of modern UI framework features (virtual DOM, reusable components) while keeping in mind performance.",
+          "stars": 1,
+          "documentation": "https://vuejs.org/v2/api/"
+        },
+        {
+          "id": 8,
+          "name": "Bootstrap",
+          "icon": "tech-icon-bootstrap",
+          "details": "I used Bootstrap a lot in the past for all kind of projects. I'm used to deal with the grid system and the different CSS and JS components. However, I now prefer material design aesthetically speaking.",
+          "documentation": "https://getbootstrap.com/docs/4.1/getting-started/introduction/",
+          "stars": 4
+        },
+        {
+          "id": 8,
+          "name": "Material Design Lite",
+          "icon": "tech-icon-material-design-lite",
+          "details": "I know it's subjective but Material Design is my favorite webdesign trend. It's always satisfying to develop beautiful UI. I used several implementations of Google Material Design guidelines. Among them Material Design Lite and MaterializeCSS appears to be the most mature projects.",
+          "stars": 3,
+          "documentation": "https://getmdl.io/started/index.html"
+        }
+      ]
+    },
+    {
       "id": 2,
-      "name": "Matlab/Octave",
-      "icon": "tech-maths-function",
-      "stars": 2
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Embedded Systems",
-    "skills": [
-      {
-        "id": 1,
-        "name": "A51 Assembly Language",
-        "icon": "",
-        "stars": 2
-      },
-      {
-        "id": 2,
-        "name": "Raspberry",
-        "icon": "",
-        "stars": 3
-      },
-      {
-        "id": 2,
-        "name": "Arduino",
-        "icon": "",
-        "stars": 1
-      },
-      {
-        "id": 1,
-        "name": "VHDL",
-        "icon": "",
-        "stars": 1
-      },
-      {
-        "id": 1,
-        "name": "Real-Time Computing",
-        "icon": "",
-        "stars": 2
-      }
-    ]
-  },
-  {
-    "id": "5",
-    "title": "Workflow",
-    "skills": [
-      {
-      "id": 2,
-      "name": "Agile methods",
-      "icon": "tech-jira",
-      "stars": 3
-      },
-      {
-      "id": 3,
-      "name": "Jenkins",
-      "icon": "tech-jenkins",
-      "stars": 2
-      },
-      {
-      "id": 1,
-      "name": "Git",
-      "icon": "tech-git",
-      "stars": 4
-      },
-      {
+      "title": "Back-end",
+      "skills": [
+        {
+          "id": 6,
+          "name": "Spring",
+          "icon": "tech-icon-spring",
+          "details": "I discovered Spring and J2E when I worked in Altran. Before that I used ExpressJS or Symphony as back-end framework. I understand now why J2E/Spring is so widely used in the industry. It's very mature technology and it works just perfectly with relational databases thanks to hibernate. IMO, the static typing and the oriented-object aspect of Java force the developer to produce code more rigorously and improve maintainability. Besides, I like the new stream features in Java 8.",
+          "stars": 3,
+          "documentation": "https://spring.io/guides"
+        },
+        {
+          "id": 7,
+          "name": "NodeJS",
+          "icon": "tech-icon-node",
+          "details": "Isn't it pleasant to use the same programming language server-side and client-side ? Besides the non-blocking IO system handle more request on a single thread than other languages. However, there is less third party library so you have to do more development yourself. That challenging but quite time-wasting. I haven't use NodeJS in a professional context since a long time, so I'll probably need to update but I still love it.",
+          "stars": 2,
+          "documentation": "https://nodejs.org/en/docs/"
+        },
+        {
+          "id": 9,
+          "name": "Web Scrapping",
+          "icon": "tech-icon-tag-search",
+          "details": "I love building bots scrapping the web and extracting data by parsing HTTP response with RegExp. I use CasperJS to build quickly bots. This awesome lib make the use of cookies, clicks, scrolls and so on easier.",
+          "stars": 3,
+          "documentation": "http://docs.casperjs.org/en/latest/"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Databases",
+      "skills": [
+        {
+          "id": 31,
+          "name": "MongoDB",
+          "icon": "tech-icon-mongo",
+          "details": "The first NoSQL database I used. This document-oriented database allow high scalability but breaks with traditional relational database ease of use and possibility of complex requests.",
+          "stars": 2,
+          "documentation": "https://docs.mongodb.com/"
+        },
+        {
+          "id": 7,
+          "name": "ElasticSearch",
+          "icon": "tech-icon-elasticsearch",
+          "details": "I used ElasticSearch in professional projects but only as user rather than architect. It means I can index and request documents. Yet, I couldn't deploy and parametrize an elastic search cluster. Well I probably could, but I need to spend time to learn this technology more thoroughly.",
+          "stars": 2,
+          "documentation": "https://www.elastic.co/guide/index.html"
+        },
+        {
+          "id": 32,
+          "name": "SQL",
+          "icon": "tech-icon-database",
+          "details": "Most of the projects on which I worked use a SQL database. I'm able to build complex requests and optimize performances. I can also design data-models connecting entities with different relationships (one-to-many etc...) and implement the corresponding schema in SQL.",
+          "stars": 3,
+          "documentation": "http://sql.sh/"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Software Development",
+      "skills": [
+        {
+          "id": 1,
+          "name": "C/C++",
+          "icon": "tech-icon-c",
+          "details": "Even though my early career has rather taken the direction of web development, I still have a strong knowledge in C/C++. C was the most used language at university during my specialization in embedded systems. In my opinion, it's important for a programmer to know how to manage the memory. It allows to better understand higher-level language memory management mechanisms (garbage collection, referencing/dereferencing and so on).",
+          "stars": 3,
+          "documentation": "https://en.cppreference.com/w/"
+        },
+        {
+          "id": 42,
+          "name": "QT",
+          "icon": "tech-icon-qt",
+          "details": "QT is a framework useful to develop a desktop application. It handles both GUI creation and business logic. It also comes with a lot of helpers and collections such as HashMap. Event programming is managed with Observer pattern. I used QT5 during my internship at Airbus and I'm now comfortable using it.",
+          "stars": 4,
+          "documentation": "http://doc.qt.io"
+        },
+        {
+          "id": 42,
+          "name": "Electron",
+          "icon": "tech-icon-electron",
+          "details": "Electron permits to build desktop applications with the web world technologies (JS/HTML/CSS). I don't have professional experience with electron, but I tried it and I think I could be a productive Electron programmer quickly if I work on it in a professional context.",
+          "stars": 1,
+          "documentation": "https://electronjs.org/docs"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Mobile App Development",
+      "skills": [
+        {
+          "id": 1,
+          "name": "Android SDK",
+          "icon": "tech-icon-android",
+          "details": "I already developed basic Android apps with the official SDK at school. I would be glad to improve my skills by working on a professional project.",
+          "stars": 1,
+          "documentation": "https://developer.android.com/guide/"
+        },
+        {
+          "id": 2,
+          "name": "Ionic",
+          "icon": "tech-icon-ionic",
+          "details": "Ionic permits to develop hybrid mobile apps. I never tried but I think I could learn it quickly as I already know most of the technologies Ionic is based on (HTML/CSS/JS). I would glad to work with Ionic and I'm thinking of doing a personal project with it.",
+          "stars": 1,
+          "documentation": "https://ionicframework.com/docs/"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Data Analytics",
+      "skills": [
+        {
+          "id": 41,
+          "name": "Python",
+          "icon": "tech-icon-python",
+          "details": "I mainly use Python for machine learning. As far as I know, it's the most suitable tool for this using the awesome library SciPy based on Numpy. Python is useful for data cleaning and processing using the Python API of ML libraries such as Scikit-learn or Tensorflow. I never used Python for web development (Django).",
+          "stars": 3,
+          "documentation": "https://docs.python.org/3.7/reference/index.html"
+        },
+        {
+          "id": 3,
+          "name": "Machine Learning",
+          "icon": "tech-icon-brain-outline",
+          "details": "Although I'm not an expert, I'm passionate about IA. I learned machine learning basics and I try to stay informed of new things. I worked on several student projects with a good friend now studying IA PhD. I don't have a great expertise of mathematical in and outs, so my approach is a bit empirical. But it often give satisfying results.",
+          "stars": 2,
+          "documentation": "http://ml-cheatsheet.readthedocs.io"
+        },
+        {
+          "id": 1,
+          "name": "R",
+          "icon": "tech-icon-r",
+          "details": "I mainly use R for data visualisation. It allows me to better understand data and clean it before using it.",
+          "stars": 2,
+          "documentation": "https://www.r-project.org/"
+        },
+        {
+          "id": 2,
+          "name": "Matlab/Octave",
+          "icon": "tech-icon-maths-function",
+          "details": "I used Matlab a lot as a student for matrix calculation. It now permits me to quickly validate a model before implementing it.",
+          "stars": 2,
+          "documentation": "https://www.mathworks.com/help/matlab/"
+        },
+        {
+          "id": 2,
+          "name": "Tensorflow",
+          "icon": "tech-icon-tensorflow",
+          "details": "Tensorflow is a Deep learning library that make easier the use deep neural networks. I used it at school for handwritten digits recognition (MNIST database) and during the project Kaggle SF Crimes Classification.",
+          "stars": 2,
+          "documentation": "https://www.tensorflow.org/"
+        },
+        {
+          "id": 2,
+          "name": "ScikitLearn",
+          "icon": "tech-icon-artificial-intelligence",
+          "details": "Great library for numerous machine learning techniques, supervised and unsupervised: SVN, K-Mean, Logistic Regressions. Also provide good helpers for pre-processing.",
+          "stars": 2,
+          "documentation": "http://scikit-learn.org/stable/"
+        }
+      ]
+    },
+    {
       "id": 5,
-      "name": "UML",
-      "icon": "tech-compas",
-      "stars": 2
-      },
-      {
-        "id": 4,
-        "name": "Grunt",
-        "icon": "tech-grunt",
-        "stars": 3
-      }
-    ]
-  },
-  {
-    "id": "6",
-    "title": "Design",
-    "skills": [
-      {
-      "id": 1,
-      "name": "Adobe Photoshop",
-      "icon": "tech-photoshop",
-      "stars": 4
-      },
-      {
-      "id": 2,
-      "name": "Adobe Illustrator",
-      "icon": "tech-illustrator",
-      "stars": 2
-      },
-      {
-      "id": 3,
-      "name": "Adobe InDesign",
-      "icon": "tech-indesign",
-      "stars": 2
-      },
-      {
-      "id": 4,
-      "name": "Adobe After Effect",
-      "icon": "tech-after-effect",
-      "stars": 1
-      }
-    ]
-  },
-  {
-    "id": "7",
-    "title": "Systems Administration",
-    "skills": [
-      {
-      "id": 3,
-      "name": "TCP/IP Networks",
-      "icon": "mdi mdi-earth",
-      "stars": 2
-      },
-      {
-      "id": 2,
-      "name": "Servers Adminstration",
-      "icon": "tech-server",
-      "stars": 3
-      },
-      {
-      "id": 1,
-      "name": "Unix",
-      "icon": "tech-linux",
-      "stars": 4
-      }
-    ]
-  },
-  {
-    "id": "8",
-    "title": "Miscellaneous",
-    "skills": [
-      {
-      "id": 1,
-      "name": "LaTeX",
-      "icon": "tech-tex",
-      "stars": 4
-      },
-      {
-      "id": 2,
-      "name": "PCRE Regex",
-      "icon": "tech-regex-alt",
-      "stars": 4
-      }
-    ]
-  }
-],
+      "title": "Embedded Systems",
+      "skills": [
+        {
+          "id": 1,
+          "name": "Assembly Language",
+          "icon": "tech-icon-random-access-memory-chip",
+          "details": "I used this low-level language to program 8 bits micro-controllers during school projects. Long jump to projects section for more details ;-)",
+          "stars": 2,
+          "documentation": "http://ref.x86asm.net/"
+        },
+        {
+          "id": 2,
+          "name": "Raspberry",
+          "icon": "tech-icon-raspberry",
+          "details": "I am the proud owner of a Raspberry Pi 3 Model B. I've turned it in bluetooth audio system. Plug the jack in your hifi stereo and pair your phone: you have a DIY bluetooth speaker at home. I also implemented an asymmetric cyphering protocol on a raspberry for my Engineer’s degree final project.",
+          "stars": 3,
+          "documentation": "https://www.raspberrypi.org/documentation/"
+        },
+        {
+          "id": 1,
+          "name": "Real-Time Computing",
+          "icon": "tech-icon-clock",
+          "details": "I have theoretical knowledge of critic systems. I can solve problems such as how to schedule jobs to respect real time constraints.",
+          "stars": 1
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Workflow",
+      "skills": [
+        {
+          "id": 1,
+          "name": "Git",
+          "icon": "tech-icon-git",
+          "details": "My favourite source code management tool. I know all the basics and some more advanced concepts and commands (hooks, reflog, partial adds, interactive rebase to edit commits historic). I try my best to have a clean historic with atomic commits event if it sometimes hard to achieve when coding fast.",
+          "stars": 4,
+          "documentation": "https://git-scm.com/book/en/v2"
+        },
+        {
+          "id": 2,
+          "name": "Agile methods",
+          "icon": "tech-icon-jira",
+          "details": "I am an Agile enthusiast. The method I used the most is SCRUM. I also know concepts of other methods like Xtrem Programming (XP). I used different tools within the projects I contributed. The proprietary software JIRA and then open-source solutions Tuleap and Taiga.",
+          "stars": 3,
+          "documentation": "https://www.scrumguides.org/scrum-guide.html"
+        },
+        {
+          "id": 3,
+          "name": "Continuous Integration",
+          "icon": "tech-icon-jenkins",
+          "details": "I can deploy a continuous integration server with Jenkins. When code is merged on master branch in the project's git repository, a build is automatically triggered. Then the new version is deployed unless unit tests are broken.",
+          "stars": 2,
+          "documentation": "https://jenkins.io/doc/"
+        },
+        {
+          "id": 5,
+          "name": "UML",
+          "icon": "tech-icon-compas",
+          "details": "During the conception phase of a software, I use to draw UML diagrams (class diagram, state machine diagram, activity diagram and so on) to better understand what I have to implement before coding it. It's also an universal method to communicate between developers.",
+          "stars": 3
+        },
+        {
+          "id": 5,
+          "name": "Unit Testing",
+          "icon": "tech-icon-two-test-tubes",
+          "details": "Unit testing is important to avoid regression and gain time on medium to large projects. I've already written jUnit tests in a spring environment and Javascript unit tests using dedicated libraries (Mocha, Karma, Jasmine). However I'm novice to E2E testing and I would like to progress on this point.",
+          "stars": 3
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Design",
+      "skills": [
+        {
+          "id": 2,
+          "name": "Adobe Illustrator",
+          "icon": "tech-icon-illustrator",
+          "details": "Well, I'm not an artist but I have some skills in vectorial drawing. I can produce graphical resources for a project without dedicated graphic designer.",
+          "stars": 2
+        },
+        {
+          "id": 3,
+          "name": "Adobe InDesign",
+          "icon": "tech-icon-indesign",
+          "details": "Same as above. I can produce decent documents with InDesign. Still less austere than a word document.",
+          "stars": 2
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Systems Administration",
+      "skills": [
+        {
+          "id": 3,
+          "name": "TCP/IP Networks",
+          "icon": "mdi mdi-earth",
+          "details": "Thanks to my studies, I have a good theoretical knowledge about routing, DNS, model OSI and so on.",
+          "stars": 1
+        },
+        {
+          "id": 2,
+          "name": "Servers Adminstration",
+          "icon": "tech-icon-server-alt",
+          "details": "I'm not precisely a sysadmin. Though I can deploy web applications in production, manage logs, document configuration of the system etc...",
+          "stars": 2
+        },
+        {
+          "id": 1,
+          "name": "Unix",
+          "icon": "tech-icon-linux",
+          "details": "I'm very comfortable with Linux operating systems and unix commands. My favorite shell is ZSH. I like creating shell scripts to automate repetitive tasks. The main distribution I used for production servers are Debian and CentOS.",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Miscellaneous",
+      "skills": [
+        {
+          "id": 1,
+          "name": "LaTeX",
+          "icon": "tech-icon-tex",
+          "details": "The best way to produce scientific documents. Way more complete and robust than classical word processing programs. I used it during all my scholarship.",
+          "stars": 3
+        },
+        {
+          "id": 2,
+          "name": "PCRE Regex",
+          "icon": "tech-icon-regex",
+          "details": "A good developer has to know how to build complex regular expression. I use the excellent <a target=\"__blank\" href=\"https://regexr.com\">RegExr</a> to validate my RegExp.",
+          "stars": 4
+        }
+      ]
+    }
+  ],
   "projects": [
     {
-    "title": "San Francisco Crime Classification",
-    "link": "http://kaggle.com/SF",
-    "anchor": "san-francisco",
-    "skills": [
-      {
-      "name": "R",
-      "icon": "tech-r"
-      },
-      {
-      "name": "Machine Learning",
-      "icon": "tech-brain-outline"
-      },
-      {
-      "name": "Python",
-      "icon": "tech-python"
-      }
-    ],
-    "begin-date": "October 2015",
-    "end-date": "January 2016",
-    "details": "With a friend from Telecom SudParis, we particpate to a machine learning competition on the data-science website kaggle. The aim of the competition is to predict the category of a crime given several parameters such as the location, the precise datetime or the police station that investigate on it. To feed our machine-learning system we have access to 12 years police records. We have now visualized the data thanks to R language and we will use several unsupervised and supervised machine learning technics to predict the crime category including Support vectors machines, Neural Networks and Random Forrest. Find more information about the competition on the <a href=”https://www.kaggle.com/c/sf-crime/”>Kaggle website<a>."
-    },
-    {
-    "title": "Student Office Campaign Website",
-    "link": "",
-    "anchor": "student-office-website",
-    "skills": [
-      {
-      "name": "HTML5",
-      "icon": "tech-html5-text"
-      },
-      {
-      "name": "CSS3",
-      "icon": "tech-css3"
-      },
-      {
-      "name": "Javascript",
-      "icon": "tech-javascript"
-      },
-      {
-      "name": "PHP",
-      "icon": "tech-php-elephant"
-      },
-      {
-      "name": "Symfony",
-      "icon": "tech-symfony"
-      },
-      {
-      "name": "SQL",
-      "icon": "tech-db"
-      }
-    ],
-    "begin-date": "November 2012",
-    "end-date": "January 2013",
-    "details": "I developed the showcase website for my team during the student office election. I used a symphony-based PHP backend, SQL databases managed with PostgreSQL. The front-end was developed using Twitter Bootstrap CSS framework, HTML5 and the jQuery library for client-side interactivity and asynchronous server communication with AJAX requests. I also integrated Facebook social feature."
-    },
-    {
-    "title": "Autonomous Remote-Controlled Car",
-    "anchor": "autonomous-car",
-    "link": "",
-    "skills": [
-      {
-        "name": "A51 Assembly language",
-        "icon": ""
+      "title": "Pictrip",
+      "anchor": "agedi",
+      "skills": [
+        {
+          "name": "J2E",
+          "icon": "tech-icon-java"
+        },
+        {
+          "name": "Spring",
+          "icon": "tech-icon-spring"
+        },
+        {
+          "name": "Angular 2+",
+          "icon": "tech-icon-angular2"
+        },
+        {
+          "name": "HTML5",
+          "icon": "tech-icon-html5"
+        },
+        {
+          "name": "CSS3",
+          "icon": "tech-icon-css3"
+        },
+        {
+          "name": "Material Design",
+          "icon": "tech-icon-material-design-lite"
+        },
+        {
+          "name": "Webpack",
+          "icon": "tech-icon-webpack"
+        },
+        {
+          "name": "Google Maps API",
+          "icon": "tech-icon-map"
+        },
+        {
+          "name": "SQL",
+          "icon": "tech-icon-database"
+        },
+        {
+          "name": "Git",
+          "icon": "tech-icon-git"
         }
-    ],
-    "begin-date": "Fevrier 2015",
-    "end-date": "",
-    "details": "As part of Telecom SudParis micro-electronics and low-level programming project, we built an autonomous miniature car. The car, originally radio-controlled, was equipped with an electrical motor for the propulsion and several servomotors for the direction. All of them were controllable with Pulse Width Modulation. We did control engineering for speed and direction so that the car could follow autonomously a racetrack. Optical sensors gave us the possibility to know the position of the car on the track. This information was transmitted to an 8-bits microprocessor that calculated in real-time the actions to perform on the main motor and on the direction servomotors. Our control engineering algorithm was written in assembly language."
+      ],
+      "begin-date": "August 2017",
+      "end-date": "September 2017",
+      "details": "A side project I began to develop before my trip in South-East Asia. Unfortunately I didn't have time to finish it. The idea was to build a single page app that allow the user to draw his trip on the world map. The user can add step and connect them by precising the transportation mode used. At each step he can upload pictures. The project was scaffold using jHipster, a nice tool that generate the backbone of an Spring/Angular4 project. As I said I didn't finish it, but it was a good exercise. I updated my skills on angular4, learned TypeScript, created my data-model and played with GoogleMaps API. I released the source code on <a target=\"_blank\" href=\"https://github.com/MarioArnt/pictrip\">Github</a>. Maybe I'll finish it one day."
     },
     {
-    "title": "Entrepreneurship Competition",
-    "anchor": "entrepreneurship-competition",
-    "link": "",
-    "skills": [
-      {
-        "name": "Photoshop",
-        "icon": "tech-photoshop"
-      },
-      {
-        "name": "After Effect",
-        "icon": "tech-after-effect"
-      },
-      {
-        "name": "InDesign",
-        "icon": "tech-indesign"
-      }
-    ],
-    "begin-date": "October 2015",
-    "end-date": "January 2016",
-    "details": "With a team composed by 2 in engineering school and 2 students in business school, we participate to a start-up creation competition. We had one week to imagine an innovating concept leading to the creation of an economically viable start-up. Our idea was to create a comparator for European land transportation, in other words, bus, train and carpooling. This market is very competitive in Europe and the is an over-abundance of offers. And we think that the final customer is more inclined to buy a ticket when he have an exhaustive information about the offers. We worked on the company business model and the communication to potential investors. We realized an 8-minutes video that explain the need from the costumer, our product, the state of the market and the legal and economical context. Our project was qualified for semi-finals (16 projects on 116)."
+      "title": "AGEDI Accounting and Payrol",
+      "anchor": "agedi",
+      "skills": [
+        {
+          "name": "J2E",
+          "icon": "tech-icon-java"
+        },
+        {
+          "name": "Spring",
+          "icon": "tech-icon-spring"
+        },
+        {
+          "name": "AngularJS",
+          "icon": "tech-icon-angularjs"
+        },
+        {
+          "name": "Gulp",
+          "icon": "tech-icon-gulp"
+        },
+        {
+          "name": "HTML5",
+          "icon": "tech-icon-html5"
+        },
+        {
+          "name": "CSS3",
+          "icon": "tech-icon-css3"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "tech-icon-bootstrap"
+        },
+        {
+          "name": "SQL",
+          "icon": "tech-icon-database"
+        },
+        {
+          "name": "Git",
+          "icon": "tech-icon-git"
+        },
+        {
+          "name": "Agile Methods",
+          "icon": "tech-icon-jira"
+        },
+        {
+          "name": "Continuous Integration",
+          "icon": "tech-icon-jenkins"
+        }
+      ],
+      "begin-date": "January 2017",
+      "end-date": "September 2017",
+      "details": "AGEDI is a project develop by Altran South-West. I was working as full stack developer. We used the following stack: Spring as back-end framework, AngularJS as front-end framework. The database was a SQL database. It was a very interesting project. With my teammates we've had a lot of interesting-to-solve problems. In the beginning, I thought it will be just some CRUD app, nothing that challenging. But the French administration payroll and accounting rules are really wicked and this distinctiveness brought some complex problems. I also learnt more general things, like managing timezones or use a multi-tenant database architecture, which will be useful in the future. I am thankful to my former more experimented colleagues that gave me valuable advice and tips. For the project management side, we used a SCRUM tool called Tuleap, which is not my favourite, but still ergonomic enough."
     },
     {
-    "title": "OpenPaaS - Entreprise Social Network",
-    "anchor": "openpaas-esn",
-    "link": "http://open-paas.org/",
-    "skills": [
-      {
-        "name": "Javascript",
-        "icon": "tech-javascript"
-      },
-      {
-        "name": "MongoDB",
-        "icon": "tech-mongo"
-      },
-      {
-        "name": "ExpressJS",
-        "icon": "tech-express"
-      },
-      {
-        "name": "AngularJS",
-        "icon": "tech-angular-outline"
-      },
-      {
-        "name": "NodeJS",
-        "icon": "tech-node-js"
-      },
-      {
-        "name": "HTML5",
-        "icon": "tech-html5"
-      },
-      {
-        "name": "CSS3",
-        "icon": "tech-css3"
-      },
-      {
-        "name": "Git",
-        "icon": "tech-git"
-      },
-      {
-        "name": "Jira",
-        "icon": "tech-jira"
-      },
-      {
-        "name": "Jenkins",
-        "icon": "tech-jenkins"
-      },
-      {
-        "name": "Server Adminstration",
-        "icon": "tech-server"
-      }
-    ],
-    "begin-date": "June 2015",
-    "end-date": "September 2015",
-    "details": "OpenPaaS is an open-source Enterprise Social Network with the ambition of competing with the greatest commercial software and becoming a reference on this market. The advantage for the companies is the control of their data. In addition to the classical features – calendar, contacts, email – OpenPaaS implement social features, such as likes, comments, re-post. An innovating recommender system suggest to the employees the relevant information according to their job in the company. Finally OpenPaaS includes a visio-conference service called <a href=”http://hubl.in/”>Hubl.in</a>, that works directly in the web browser without plugin, and that can host conferences for 9 attendees. You can see these projects code on Github : <a href=”https://github.com/linagora/openpaas-esn”>OpenPaaS ESN</a> and <a href=”https://github.com/linagora/hublin”>Hubl.in</a>"
+      "title": "Flight Controls Anomalies Detection tools",
+      "anchor": "flight-controls",
+      "skills": [
+        {
+          "name": "C/C++",
+          "icon": "tech-icon-c"
+        },
+        {
+          "name": "QT",
+          "icon": "tech-icon-qt"
+        },
+        {
+          "name": "Agile Methods",
+          "icon": "tech-icon-jira"
+        }
+      ],
+      "begin-date": "February 2016",
+      "end-date": "September 2016",
+      "details": "This software was developed during my end of studies internship at Airbus. My missions were multiple. First I had to meet the research and development team responsible of designing the part of software dedicated for flight controls which is embedded in Airbus aircafts. We identified together various needs which required the development of a specific tool that did not exist yet at Airbus. Airbus engineers worked with SCADE sheets. SCADE (Safety Critical Application Development Environment) is an integrated development environment intended for the design of critical systems. The needed a tool that permits to detect several anomalies (inconsistencies between I/O signals) and improved navigation in sheets collections (for instance find upstream signals). I set-up an Agile tool, Taiga, and began to fill the product backlog with the user stories related to these needs. Then I started development using QT library, which was, at Airbus, the predominant technology for internal software. I meet regularly the team for which the software is intended to make the backlog evolve with their new needs and feedback. The software was composed of many software bricks including, among others, a SCADE sheet parsing engine and an analysis engine. The analysis engine was a very interesting aspect as it required graph theory and recursive algorithms. The software was developed in six months and filled most of the targeted features."
+    },
+    {
+      "title": "San Francisco Crime Classification",
+      "link": "http://kaggle.com/SF",
+      "anchor": "san-francisco",
+      "skills": [
+        {
+          "name": "R",
+          "icon": "tech-icon-r"
+        },
+        {
+          "name": "Machine Learning",
+          "icon": "tech-icon-brain-outline"
+        },
+        {
+          "name": "Python",
+          "icon": "tech-icon-python"
+        },
+        {
+          "name": "Scikit Learn",
+          "icon": "tech-icon-artificial-intelligence"
+        },
+        {
+          "name": "Tensorflow",
+          "icon": "tech-icon-tensorflow"
+        }
+      ],
+      "begin-date": "October 2015",
+      "end-date": "January 2016",
+      "details": "With a friend from Telecom SudParis, we particpate to a machine learning competition on the data-science website kaggle. The aim of the competition is to predict the category of a crime given several parameters such as the location, the precise datetime or the police station that investigate on it. To feed our machine-learning system we have access to 12 years police records. We have now visualized the data thanks to R language and we will use several unsupervised and supervised machine learning technics to predict the crime category including Support vectors machines, Neural Networks and Random Forrest. Find more information about the competition on the <a href=”https://www.kaggle.com/c/sf-crime/”>Kaggle website<a>."
+    },
+    {
+      "title": "Student Office Campaign Website",
+      "link": "",
+      "anchor": "student-office-website",
+      "skills": [
+        {
+          "name": "HTML5",
+          "icon": "tech-icon-html5"
+        },
+        {
+          "name": "CSS3",
+          "icon": "tech-icon-css3"
+        },
+        {
+          "name": "Javascript",
+          "icon": "tech-icon-javascript"
+        },
+        {
+          "name": "PHP",
+          "icon": "tech-icon-php"
+        },
+        {
+          "name": "Symfony",
+          "icon": "tech-icon-symfony"
+        },
+        {
+          "name": "SQL",
+          "icon": "tech-icon-database"
+        }
+      ],
+      "begin-date": "November 2012",
+      "end-date": "January 2013",
+      "details": "I developed the showcase website for my team during the student office election. I used a symphony-based PHP backend, SQL databases managed with PostgreSQL. The front-end was developed using Twitter Bootstrap CSS framework, HTML5 and the jQuery library for client-side interactivity and asynchronous server communication with AJAX requests. I also integrated Facebook social feature."
+    },
+    {
+      "title": "Autonomous Remote-Controlled Car",
+      "anchor": "autonomous-car",
+      "link": "",
+      "skills": [
+        {
+          "name": "A51 Assembly language",
+          "icon": "tech-icon-random-access-memory-chip"
+        }
+      ],
+      "begin-date": "Fevrier 2015",
+      "end-date": "",
+      "details": "As part of Telecom SudParis micro-electronics and low-level programming project, we built an autonomous miniature car. The car, originally radio-controlled, was equipped with an electrical motor for the propulsion and several servomotors for the direction. All of them were controllable with Pulse Width Modulation. We did control engineering for speed and direction so that the car could follow autonomously a racetrack. Optical sensors gave us the possibility to know the position of the car on the track. This information was transmitted to an 8-bits microprocessor that calculated in real-time the actions to perform on the main motor and on the direction servomotors. Our control engineering algorithm was written in assembly language."
+    },
+    {
+      "title": "Entrepreneurship Competition",
+      "anchor": "entrepreneurship-competition",
+      "link": "",
+      "skills": [
+        {
+          "name": "Photoshop",
+          "icon": "tech-icon-photoshop"
+        },
+        {
+          "name": "Illustrator",
+          "icon": "tech-icon-illustrator"
+        },
+        {
+          "name": "After Effect",
+          "icon": "tech-icon-after-effect"
+        },
+        {
+          "name": "InDesign",
+          "icon": "tech-icon-indesign"
+        }
+      ],
+      "begin-date": "October 2015",
+      "end-date": "January 2016",
+      "details": "With a team composed by 2 in engineering school and 2 students in business school, we participate to a start-up creation competition. We had one week to imagine an innovating concept leading to the creation of an economically viable start-up. Our idea was to create a comparator for European land transportation, in other words, bus, train and carpooling. This market is very competitive in Europe and the is an over-abundance of offers. And we think that the final customer is more inclined to buy a ticket when he have an exhaustive information about the offers. We worked on the company business model and the communication to potential investors. We realized an 8-minutes video that explain the need from the costumer, our product, the state of the market and the legal and economical context. Our project was qualified for semi-finals (16 projects on 116)."
+    },
+    {
+      "title": "OpenPaaS - Entreprise Social Network",
+      "anchor": "openpaas-esn",
+      "link": "http://open-paas.org/",
+      "skills": [
+        {
+          "name": "Javascript",
+          "icon": "tech-icon-javascript"
+        },
+        {
+          "name": "MongoDB",
+          "icon": "tech-icon-mongo"
+        },
+        {
+          "name": "ExpressJS",
+          "icon": "tech-icon-express"
+        },
+        {
+          "name": "AngularJS",
+          "icon": "tech-icon-angularjs"
+        },
+        {
+          "name": "NodeJS",
+          "icon": "tech-icon-node"
+        },
+        {
+          "name": "HTML5",
+          "icon": "tech-icon-html5"
+        },
+        {
+          "name": "CSS3",
+          "icon": "tech-icon-css3"
+        },
+        {
+          "name": "Git",
+          "icon": "tech-icon-git"
+        },
+        {
+          "name": "Jira",
+          "icon": "tech-icon-jira"
+        },
+        {
+          "name": "Jenkins",
+          "icon": "tech-icon-jenkins"
+        },
+        {
+          "name": "Server Adminstration",
+          "icon": "tech-icon-server-alt"
+        }
+      ],
+      "begin-date": "June 2015",
+      "end-date": "September 2015",
+      "details": "OpenPaaS is an open-source Enterprise Social Network with the ambition of competing with the greatest commercial software and becoming a reference on this market. The advantage for the companies is the control of their data. In addition to the classical features – calendar, contacts, email – OpenPaaS implement social features, such as likes, comments, re-post. An innovating recommender system suggest to the employees the relevant information according to their job in the company. Finally OpenPaaS includes a visio-conference service called <a href=”http://hubl.in/”>Hubl.in</a>, that works directly in the web browser without plugin, and that can host conferences for 9 attendees. You can see these projects code on Github : <a href=”https://github.com/linagora/openpaas-esn”>OpenPaaS ESN</a> and <a href=”https://github.com/linagora/hublin”>Hubl.in</a>"
     }
-    ]
+  ]
 }
