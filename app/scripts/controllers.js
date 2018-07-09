@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('ngResume')
-.controller('MainCtrl', function($scope, $anchorScroll, Notification, $location, $http, vcRecaptchaService, profile, $window, $rootScope) {
+.controller('MainCtrl', function($scope, $anchorScroll, toastr, $location, $http, vcRecaptchaService, profile, $window, $rootScope) {
   $rootScope.loadingFinished = true;
   $scope.me = profile.data;
   $scope.me.events.sort((a, b) => (100*b.year) + b.month - (100*a.year) - a.month);
@@ -56,11 +56,7 @@ angular.module('ngResume')
         return;
       }
       if(vcRecaptchaService.getResponse() === '') {
-        Notification.error({
-          message: 'Please fill the captcha',
-          title: 'Missing fields',
-          positionX: 'center'
-        });
+        toastr.error('Please fill the captcha', 'Missing fields');
         return;
       }
       $http({
@@ -74,17 +70,9 @@ angular.module('ngResume')
          }),
          headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
       }).then(() => {
-        Notification.success({
-          message: 'Your email have been successfully sent',
-          title: 'Success',
-          positionX: 'center'
-        });
+        toastr.success('Your email have been successfully sent', 'Success');
       }, () => {
-        Notification.error({
-          message: 'Your email could not be delivered',
-          title: 'Error while sending email',
-          positionX: 'center'
-        });
+        toastr.error('Your email could not be delivered', 'Error while sending email');
       });
     }
   };

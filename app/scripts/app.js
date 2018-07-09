@@ -9,7 +9,7 @@ var app = angular.module('ngResume', [
   'ngTouch',
   'mgcrea.ngStrap',
   'vcRecaptcha',
-  'ui-notification'
+  'toastr'
 ]);
 
 app.config(['$routeProvider', function($routeProvider) {
