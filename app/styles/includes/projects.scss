@@ -2,9 +2,11 @@ section.projects {
   background-color: $white-primary-color;
   ul {
     padding: 0;
+    margin-left: -5px;
     li {
       float: left;
       margin-left: 5px;
+      margin-bottom: 5px;
       .circle-project {
         height: 25pt;
         cursor: pointer;

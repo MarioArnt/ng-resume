@@ -4,9 +4,9 @@ $biography-offset: 15vmax;
 $full-name-text-size: 80pt;
 $social-offset: 30px;
 $social-button-margin: 5px;
-$foreground-color:$primary-color;
-$background-color:$white;
-$shadow-color:$lighter-primary-color;
+$foreground-color: $primary-color;
+$background-color: $white;
+$shadow-color: $lightest-primary-color;
 $distance:1vmax;
 $cut-distance:0.5vmax;
 $strips-size:5px;
@@ -27,41 +27,6 @@ section.biography {
   left:$distance;
   display:inline-block;
   color:$shadow-color;
-}
-@keyframes dash-animation{
-  0% {background-position:0 0};
-  100% {background-position:100% 0};
-}
-.dashed-shadow:before{
-  content:" ";
-  display:block;
-  position:absolute;
-  $bleeding-horizontal:1vmax;
-  $bleeding-vertical:0vmax;
-  top:-$bleeding-vertical - $distance;
-  left:-$bleeding-vertical - $distance;
-  bottom:-$bleeding-horizontal + $distance;
-  right:-$bleeding-horizontal + $distance;
-  z-index:1;
-  $color:$background-color;
-  $size:$strips-ratio/2;
-  $halfSize:$size/2;
-  $p1:$halfSize;
-  $p2:50%-$halfSize;
-  $p3:50%+$halfSize;
-  $p4:100%-$halfSize;
-  $transparent:transparentize($color,1);
-  @include background-image(linear-gradient($strips-angle,$color $p1, $transparent $p1, $transparent $p2,$color $p2, $color $p3, $transparent $p3, $transparent $p4, $color $p4));
-  background-size:$strips-size $strips-size;
-  @if($animate){
-    animation:dash-animation 30s infinite linear;
-  }
-  @if($fixed){
-    background-attachment:fixed;
-  }
-}
-.dashed-shadow:hover:before{
-  animation:dash-animation 30s infinite linear;
 }
 .dashed-shadow:after{
   z-index:2;

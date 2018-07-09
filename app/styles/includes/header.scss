@@ -18,9 +18,15 @@ header {
   .btn-group {
     z-index: 3;
     position: absolute;
+    &.cv {
+      li {
+        margin-left: 10px;
+      }
+    }
     button {
       background-color: $white;
       color: $darker-primary-color;
+      margin: 0 2px;
       &:hover {
         background-color: $white-primary-color;
       }

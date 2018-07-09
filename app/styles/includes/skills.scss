@@ -80,13 +80,10 @@ section.skills {
           h5 {
             margin-left: $circle-skill-size + $circle-padding;
             margin-bottom: 10px;
+            margin-top: 5px;
             text-overflow: ellipsis;
             white-space: nowrap;
-          }
-          p.show-more, p.show-less {
-            font-size: 8pt;
-            line-height: 8pt;
-            margin-bottom: 10px;
+            font-size: 16px;
           }
           &:hover {
             .active {
@@ -144,11 +141,11 @@ section.skills {
           width: 35px;
           font-size: 18pt;
         }
-        li {
-          margin-left: 25px;
-        }
-        li:first-child {
-          margin-left: 0;
+        ul {
+          margin-left: -25px;
+          li {
+            margin-left: 25px;
+          }
         }
       }
     }
