@@ -5,7 +5,7 @@ section.timeline
     li.wow.fadeIn(ng-repeat="event in me.events" ng-class="{even: $even, odd:$odd}")
       div.circle.circle-year(ng-if="me.events[$index-1].year !== event.year || $first")
         | {{event.year}}
-      div.circle(ng-switch="event.type" bs-tooltip="event.type" ng-class="{newyear: (me.events[$index-1].year !== event.year || $first)}")
+      div.circle(ng-switch="event.type" data-toggle="tooltip" data-placement="top" title="{{event.type}}" ng-class="{newyear: (me.events[$index-1].year !== event.year || $first)}")
         i.tech-icon-diploma(ng-switch-when="diploma")
         i.mdi.mdi-bank(ng-switch-when="university")
         i.mdi.mdi-package-variant(ng-switch-when="project")

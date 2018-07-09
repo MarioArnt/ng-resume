@@ -18,14 +18,6 @@ angular.module('ngResume')
   $scope.me.skills.forEach((cat) => cat.skills.forEach((skill) => skill.showMore = false));
   $scope.me.skills.allCollapsed = true;
 
-  $scope.me.projects.forEach((project) => {
-    project.skills.forEach((skill) => {
-      skill.tooltip = {
-        'title': skill.name,
-      };
-    });
-  });
-
   $scope.expandAll = () => {
     $scope.me.skills.forEach((cat) => cat.skills.forEach((skill) => skill.showMore = $scope.me.skills.allCollapsed));
     $scope.me.skills.allCollapsed = !$scope.me.skills.allCollapsed;
