@@ -71,4 +71,6 @@ function verifyRecaptcha(key, callback) {
   });
 }
 
-app.listen(8081);
+app.listen(process.env.PORT || 8081, function() {
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+});
