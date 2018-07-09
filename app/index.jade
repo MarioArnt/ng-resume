@@ -34,6 +34,7 @@ html.no-js(lang="en" ng-app="ngResume")
     script(src="https://www.google.com/recaptcha/api.js" async defer)
     script(src="vendors/angular-recaptcha/release/angular-recaptcha.min.js")
     script(src="js/app.js")
+    script(type="text/javascript") !function(name,path,ctx){var latest,prev=name!=='Keen'&&window.Keen?window.Keen:false;ctx[name]=ctx[name]||{ready:function(fn){var h=document.getElementsByTagName('head')[0],s=document.createElement('script'),w=window,loaded;s.onload=s.onerror=s.onreadystatechange=function(){if((s.readyState&&!(/^c|loade/.test(s.readyState)))||loaded){return}s.onload=s.onreadystatechange=null;loaded=1;latest=w.Keen;if(prev){w.Keen=prev}else{try{delete w.Keen}catch(e){w.Keen=void 0}}ctx[name]=latest;ctx[name].ready(fn)};s.async=1;s.src=path;h.parentNode.insertBefore(s,h)}}}('KeenAsync','https://d26b395fwzu5fz.cloudfront.net/keen-tracking-1.4.2.min.js',this); KeenAsync.ready(function(){var client = new KeenAsync({projectId: '5b43991dc9e77c00010b6248',writeKey: '86EE0EFDE9121B7AE9A236E8011722950A527A41A73463786EBF86FE0135507B49C32DC3B57A8D0B22F79C29B74B3D168436034222EC6D7FF888C1B1BE4DA65121A991EF80AF5C119C58E4BAC6BE782F41AAFF2774427B3746650BF2DACFFB60'});client.recordEvent('pageviews', {title: document.title});});
   body
     <!--[if lt IE 7]>
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
