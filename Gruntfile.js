@@ -112,6 +112,7 @@ module.exports = function(grunt) {
       },
       server: {
         options: {
+          importPath: '/app/bower_components',
           sourcemap: true
         }
       }
@@ -196,7 +197,16 @@ module.exports = function(grunt) {
     'concat:dist'
   ]);
 
-  grunt.registerTask('heroku',
-    ['build']);
+  grunt.registerTask('heroku', [
+  'jshint:all',
+    'clean:dist',
+    'compass:server',
+    'jade:templates',
+    'copy:images',
+    'copy:data',
+    'copy:vendors',
+    'copy:fonts',
+    'concat:dist'
+  ]);
 
 };

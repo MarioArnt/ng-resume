@@ -48,7 +48,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "postinstall": "grunt build",
+    "postinstall": "./node_modules/bower/bin/bower install && grunt heroku",
     "test": "grunt test"
   }
 }
