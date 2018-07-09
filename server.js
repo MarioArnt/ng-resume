@@ -4,15 +4,25 @@ const nodemailer = require('nodemailer');
 const smtpTransport = require('nodemailer-smtp-transport');
 const https = require('https');
 const logger = require('morgan');
-const config = require('./config.json');
 
-let app  = express();
+let config = {};
 
-app.use(bodyParser.urlencoded({ extended: false }));
+try {
+  config = require('./config.json');
+} catch (e) {
+  config.email = process.env.email;
+  config.recaptcha_secret_key = process.env.recaptcha_secret_key;
+  config.nodemailer_transport = JSON.parse(process.env.nodemailer_transport);
+  config.downloads = JSON.parse(process.env.downloads);
+}
+
+let app = express();
+
+app.use(bodyParser.urlencoded({extended: false}));
 app.use(express.static(__dirname + '/dist'));
 
 app.get('/', (req, res) => {
-    res.sendFile('./dist/index.html', {root: __dirname});
+  res.sendFile('./dist/index.html', {root: __dirname});
 });
 
 config.downloads.forEach((dl) => {
@@ -28,18 +38,18 @@ app.post('/mail', (req, res) => {
     if (success) {
       const transporter = nodemailer.createTransport(config.nodemailer_transport);
       const mailOptions = {
-        from: req.body.from +' ✔ <' + req.body.from + '>', // sender address
+        from: req.body.from + ' ✔ <' + req.body.from + '>', // sender address
         to: config.email,
         subject: req.body.object,
         text: 'sender:' + req.body.from + ' message:' + req.body.content
       };
       transporter.sendMail(mailOptions, (error, info) => {
-        if(error){
+        if (error) {
           console.log(error);
           res.status(500);
           res.json({"success": false, "error": "Internal server error"});
         }
-        else{
+        else {
           console.log('Message sent: ' + info.response);
           res.status(200);
           res.json({"success": true});
@@ -64,13 +74,13 @@ function verifyRecaptcha(key, callback) {
         let parsedData = JSON.parse(data);
         console.log(parsedData);
         callback(parsedData.success);
-        } catch (e) {
+      } catch (e) {
         callback(false);
-        }
+      }
     });
   });
 }
 
-app.listen(process.env.PORT || 8081, function() {
+app.listen(process.env.PORT || 8081, function () {
   console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
