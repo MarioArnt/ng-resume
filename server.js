@@ -27,7 +27,7 @@ app.get('/', (req, res) => {
 
 config.downloads.forEach((dl) => {
   let url = `/download/cv/${dl.lang}`;
-  let file = __dirname + dl.src;
+  let file = __dirname + dl.url;
   app.get(url, (req, res) => {
     res.download(file);
   });
