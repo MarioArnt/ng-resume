@@ -48,7 +48,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "postinstall": "./node_modules/bower/bin/bower install && grunt heroku",
+    "heroku-postbuild": "bower cache clean && bower install && grunt heroku",
     "test": "grunt test"
   }
 }
