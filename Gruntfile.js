@@ -97,7 +97,6 @@ module.exports = function(grunt) {
         imagesDir: 'app/images',
         javascriptsDir: 'app/scripts',
         fontsDir: 'app/styles/fonts',
-        importPath: './bower_components',
         httpImagesPath: '/img',
         httpGeneratedImagesPath: '/img/generated',
         httpFontsPath: '/styles/fonts',
@@ -198,15 +197,7 @@ module.exports = function(grunt) {
   ]);
 
   grunt.registerTask('heroku', [
-  'jshint:all',
-    'clean:dist',
-    'compass:server',
-    'jade:templates',
-    'copy:images',
-    'copy:data',
-    'copy:vendors',
-    'copy:fonts',
-    'concat:dist'
+  'build'
   ]);
 
 };
