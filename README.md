@@ -18,9 +18,17 @@ npm install && bower install
 grunt build
 ````
 
-Rename the config.example.json to config.json and fill it with relevant informations.
+The project is installed locally. You start the app using ``npm start`` and see the result at http://localhost:8081/
 
-## Deployment
+## Deployment on Heroku
+
+Fork the repo and create an app on heroku.
+
+``heroku create your-app-name``
+
+
+
+## Deployment on your own server
 
 If you use nginx and passenger use the following configuration.
 
@@ -40,5 +48,7 @@ server {
 }
 ````
 And restart nginx ``sudo service nginx restart``
+
+Rename the config.example.json to config.json and fill it with relevant informations.
 
 Enjoy
