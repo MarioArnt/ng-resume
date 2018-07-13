@@ -164,7 +164,7 @@
       "month": 10,
       "year": 2015,
       "period": "Octobre 2015 - Janvier 2016",
-      "details": "Implémentation sur une Raspberry Pi d’un protocole de chiffrement asymétrique pour les systèmes contraints basé sur les codes correcteurs d’erreurs."
+      "details": "Implémentation sur une Raspberry Pi d’un protocole de chiffrement asymétrique pour les systèmes contraints basé sur les codes correcteurs d’erreurs. Vous pouvez consulter le <a href=\"https://drive.google.com/file/d/1ZGPOJ9w_sIGEhjBzx9PgtIJ4PTPPIUBE/view?usp=sharing\" target=\"_blank\">rapport du projet</a> en ligne."
     },
     {
       "type": "job",
@@ -795,7 +795,7 @@
       ],
       "begin-date": "October 2015",
       "end-date": "January 2016",
-      "details": "Avec un ami de Télécom SudParis nous partcipons à une compétition de Machine Learning sur la plateforme de data science kaggle. Le but du projet est de prédire la catégorie d'un délit qui a eu lieu à San Francsico en se basant sur 12 ans d'archive de la police. Les données dont nous disposons sont multiples et variées: coordonnées GPS, adresse exacte, date et heure et bien plus. Nous avons développé des scripts de visualisation spatiale et temporelle des données grâce au langage R et nous allons mettre en place, après avoir traité les données en amont, différentes techniques de machine learning supervisé et non-supervisé afin d'effectuer nos prédictions. Plus d'information sur la compétition <a href=\"https://www.kaggle.com/c/sf-crime/\">sur le site internet de Kaggle</a>"
+      "details": "Avec un ami de Télécom SudParis nous partcipons à une compétition de Machine Learning sur la plateforme de data science kaggle. Le but du projet est de prédire la catégorie d'un délit qui a eu lieu à San Francsico en se basant sur 12 ans d'archive de la police. Les données dont nous disposons sont multiples et variées: coordonnées GPS, adresse exacte, date et heure et bien plus. Nous avons développé des scripts de visualisation spatiale et temporelle des données grâce au langage R et nous allons mettre en place, après avoir traité les données en amont, différentes techniques de machine learning supervisé et non-supervisé afin d'effectuer nos prédictions. Plus d'information sur la compétition <a href=\"https://www.kaggle.com/c/sf-crime/\">sur le site internet de Kaggle</a>. Vous pouvez également consulter le <a href=\"https://drive.google.com/file/d/1LkL5VjEi8jOQi6MAuvvQu5MQ66W5cu8B/view?usp=sharing\" target=\"blank\">rapport de projet.</a>"
     },
     {
       "title": "Student Office Campaign Website",

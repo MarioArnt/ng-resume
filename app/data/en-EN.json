@@ -156,7 +156,7 @@
       "month": 10,
       "year": 2015,
       "period": "October 2015 - January 2016",
-      "details": "Implement an asymmetric cyphering protocol on a Raspberry Pi and realize a benchmark. The algorithm is a Post-quantum cryptography algorithm based on errors detection and correction codes especially designed for constraint environment. "
+      "details": "Implement an asymmetric cyphering protocol on a Raspberry Pi and realize a benchmark. The algorithm is a Post-quantum cryptography algorithm based on errors detection and correction codes especially designed for constraint environment. You can read the <a href=\"https://drive.google.com/file/d/1ZGPOJ9w_sIGEhjBzx9PgtIJ4PTPPIUBE/view?usp=sharing\" target=\"_blank\">project report</a> online [fr]."
     },
     {
       "type": "job",
@@ -786,7 +786,7 @@
       ],
       "begin-date": "October 2015",
       "end-date": "January 2016",
-      "details": "With a friend from Telecom SudParis, we particpate to a machine learning competition on the data-science website kaggle. The aim of the competition is to predict the category of a crime given several parameters such as the location, the precise datetime or the police station that investigate on it. To feed our machine-learning system we have access to 12 years police records. We have now visualized the data thanks to R language and we will use several unsupervised and supervised machine learning technics to predict the crime category including Support vectors machines, Neural Networks and Random Forrest. Find more information about the competition on the <a target=\"_blank\" href=”https://www.kaggle.com/c/sf-crime/”>Kaggle website<a>."
+      "details": "With a friend from Telecom SudParis, we particpate to a machine learning competition on the data-science website kaggle. The aim of the competition is to predict the category of a crime given several parameters such as the location, the precise datetime or the police station that investigate on it. To feed our machine-learning system we have access to 12 years police records. We have now visualized the data thanks to R language and we will use several unsupervised and supervised machine learning technics to predict the crime category including Support vectors machines, Neural Networks and Random Forrest. Find more information about the competition on the <a target=\"_blank\" href=”https://www.kaggle.com/c/sf-crime/”>Kaggle website</a>. You can also read the <a href=\"https://drive.google.com/file/d/1LkL5VjEi8jOQi6MAuvvQu5MQ66W5cu8B/view?usp=sharing\" target=\"blank\">project report online [Fr].</a>"
     },
     {
       "title": "Student Office Campaign Website",

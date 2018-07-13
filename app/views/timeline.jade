@@ -19,8 +19,7 @@ section.timeline
           | {{event.location}}
           i.mdi.mdi-map-marker(ng-if="$odd")
         p(ng-if="!event.location")
-        p(ng-if="event.details")
-          | {{event.details}}
+        p(ng-if="event.details" ng-bind-html="event.details")
         p(ng-if="event.more")
           a.more(ng-if="!event.showMore" ng-click="event.showMore=true")
             i.mdi.mdi-plus-circle
